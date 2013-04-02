@@ -1,0 +1,7323 @@
+# Swedish Chef translation of K-3D HEAD
+# Copyright (C) 2008, Timothy M. Shead
+# This file is distributed under the same license as the K-3D package.
+# Timothy M. Shead <tshead@k-3d.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: K-3D 0.8\n"
+"Report-Msgid-Bugs-To: k3d-development@lists.sourceforge.net\n"
+"POT-Creation-Date: 2010-12-22 08:46+0900\n"
+"PO-Revision-Date: 2010-12-24 17:24+0900\n"
+"Last-Translator: SUTO Shigeyoshi <suto3suto3@gmail.com>\n"
+"Language-Team: ja <suto3suto3@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-KeywordsList: LuxRender\n"
+
+msgid "Starting user interface"
+msgstr "ユーザーインターフェースを開始します。"
+
+msgid "K-3D Fatal Error"
+msgstr "K-3D Fatal Error"
+
+msgid "Input Bitmap"
+msgstr "入力ビットマップ"
+
+msgid "Input bitmap"
+msgstr "入力ビットマップ"
+
+msgid "Output Bitmap"
+msgstr "出力ビットマップ"
+
+msgid "Output bitmap"
+msgstr "出力ビットマップ"
+
+msgid "Output Color"
+msgstr "出力色"
+
+msgid "Output color"
+msgstr "出力色"
+
+msgid "Document Path"
+msgstr "ドキュメントのパス"
+
+msgid "Document Title"
+msgstr "ドキュメント名"
+
+msgid "Output Double"
+msgstr "Double型で出力"
+
+msgid "Output Int32"
+msgstr "Int32型で出力"
+
+msgid "Surface Material"
+msgstr "表面の質感"
+
+msgid "Surface material"
+msgstr "表面の質感"
+
+msgid "Output Matrix"
+msgstr "出力行列"
+
+msgid "Input Mesh"
+msgstr "入力メッシュ"
+
+msgid "Input mesh"
+msgstr "入力メッシュ"
+
+msgid "Output Mesh"
+msgstr "出力メッシュ"
+
+msgid "Output mesh"
+msgstr "出力メッシュ"
+
+msgid "Enabled"
+msgstr "有効化"
+
+msgid "Enable / disable drawing for this painter."
+msgstr "この描画の有効 / 無効"
+
+msgid "File"
+msgstr "ファイル"
+
+msgid "Input file path."
+msgstr "入力ファイルパス"
+
+msgid "Center on Origin"
+msgstr "中心"
+
+msgid "Center the output mesh around the origin."
+msgstr "中心に出力するよう調整"
+
+msgid "Scale to Size"
+msgstr "サイズ調整"
+
+msgid "Scale the output mesh to fit within a fixed-size bounding-box."
+msgstr "出力メッシュを境界ボックスに合わせて調整"
+
+msgid "Size"
+msgstr "サイズ"
+
+msgid "Output mesh size when \"Scale to Size\" is enabled."
+msgstr "拡大縮小が有効になったときの出力メッシュサイズ"
+
+msgid "Mesh Selection"
+msgstr "メッシュを選択"
+
+msgid "Input Mesh Selection"
+msgstr "入力メッシュを選択"
+
+msgid "Output file path."
+msgstr "出力ファイルパス"
+
+msgid "Reset"
+msgstr "リセット"
+
+msgid "X"
+msgstr "X"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "Z"
+msgstr "Z"
+
+msgid "Builtin Properties"
+msgstr "組込プロパティ"
+
+msgid "User Properties"
+msgstr "ユーザープロパティ"
+
+msgid "Unknown object type"
+msgstr "不明のオブジェクトタイプ"
+
+msgid "Delete user property (no undo)"
+msgstr "プロパティを削除（undoできません）"
+
+msgid "Bypass modifier"
+msgstr "バイパス修正"
+
+msgid "Display online help."
+msgstr "オンラインヘルプを表示"
+
+msgid "Add a user property."
+msgstr "ユーザープロパティに追加"
+
+msgid "Render Preview"
+msgstr "プレビューを描画"
+
+msgid "Render Frame"
+msgstr "フレームを描画"
+
+msgid "Render Animation"
+msgstr "アニメーションを描画"
+
+msgid "Reset Mesh"
+msgstr "メッシュをリセット"
+
+msgid "Reset / Reload Mesh"
+msgstr "メッシュを リセット／リロード"
+
+msgid "Disable"
+msgstr "無効化"
+
+msgid "Disable / bypass mesh modifier"
+msgstr "メッシュモデファイヤを無効化/回避"
+
+msgid "LMB-Click to expand/collapse.  RMB-Click for other options."
+msgstr "左クリックで、展開/格納。右クリックは他のオプションを表示"
+
+msgid "Expand"
+msgstr "展張"
+
+msgid "Collapse"
+msgstr "畳む"
+
+msgid "Expand All"
+msgstr "全てを展開"
+
+msgid "Collapse All"
+msgstr "すべて畳む"
+
+msgid "<b><i>Viewport:</i></b>"
+msgstr "<b><i>Viewport:</i></b>"
+
+msgid "Render Image"
+msgstr "静止画像を描画"
+
+msgid "Render"
+msgstr "描画"
+
+msgid "Set Camera ..."
+msgstr "カメラをセット ..."
+
+msgid "Set Preview Engine ..."
+msgstr "プレビューのエンジン設定 ..."
+
+msgid "Set Still Engine ..."
+msgstr "静止画のエンジン設定 ..."
+
+msgid "Set Animation Engine ..."
+msgstr "アニメーションのエンジン設定"
+
+msgid "Set OpenGL Engine ..."
+msgstr "OpenGLのエンジン設定 ..."
+
+msgid "Render Engine"
+msgstr "レンダリングエンジン"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Instantiate"
+msgstr "インスタンス化"
+
+msgid "Duplicate"
+msgstr "複製"
+
+msgid "Animate Transformation"
+msgstr "アニメ化"
+
+msgid "Mesh Modifier"
+msgstr "メッシュ修正"
+
+msgid "Transform Modifier"
+msgstr "変形修正"
+
+msgid "Mesh Sink"
+msgstr "メッシュシンク"
+
+msgid "Hide Selection"
+msgstr "選択を隠す"
+
+msgid "Show Selection"
+msgstr "選択を表示"
+
+msgid "Hide Unselected"
+msgstr "非選択部分を隠す"
+
+msgid "Show All"
+msgstr "全て表示"
+
+msgid "Delete nodes"
+msgstr "ノードを削除"
+
+msgid "Hide selection"
+msgstr "選択を隠す"
+
+msgid "Show selection"
+msgstr "選択を表示"
+
+msgid "Hide unselected"
+msgstr "非選択部分を隠す"
+
+msgid "Show all"
+msgstr "全て表示"
+
+msgid "Untitled Document %1%"
+msgstr "タイトル未定のドキュメント %1%"
+
+msgid "Document importer plugin not installed."
+msgstr "ドキュメントをインポートするプラグインがインストールされていません"
+
+msgid "Documents prior to K-3D 0.8 are unsupported."
+msgstr "残念ですが、K-3D 0.8 以前のドキュメントはサポートされません。"
+
+msgid "Due to significant changes to K-3D internals, documents from versions prior to 0.8 are unsupported and may not function correctly."
+msgstr "K-3D 内部の大がかりな仕様変更のため、バージョン0.8の以前のドキュメントは、サポートされず、正しく機能しないかもしれません。"
+
+msgid "Error reading document %1%"
+msgstr "ドキュメント読み込みエラー %1%"
+
+msgid "Nodes"
+msgstr "ノード"
+
+msgid "Select Nodes"
+msgstr "ノードを選択"
+
+msgid "Points"
+msgstr "点（ポイント）"
+
+msgid "Select Points"
+msgstr "点（ポイント）を選ぶ"
+
+msgid "Lines"
+msgstr "直線"
+
+msgid "Select Lines"
+msgstr "線（ライン）を選ぶ"
+
+msgid "Faces"
+msgstr "面（フェース）"
+
+msgid "Select Faces"
+msgstr "面（フェース）を選ぶ"
+
+msgid "Change %1% to %2%"
+msgstr "変更内容:%1% から %2%"
+
+msgid "All Files"
+msgstr "全てのファイル"
+
+msgid "Compress output file"
+msgstr "出力ファイルを圧縮"
+
+msgid "Append filename extension automatically"
+msgstr "ファイル名に拡張子を自動的に加える"
+
+msgid "A file named \"%1%\" already exists."
+msgstr "ファイル名 \"%1%\" のファイルはすでに存在します。ファイル名をご確認ください"
+
+msgid "Do you want to replace it with the one you are saving?"
+msgstr "上書きで保存しますか？"
+
+msgid "Replace"
+msgstr "置換"
+
+msgid "Maximize active panel"
+msgstr "アクティブなパネルの最大化"
+
+msgid "Maximize active panel (make it the only visible one)"
+msgstr "アクティブなパネルの最大化（可視化できるもののみ）"
+
+msgid "Hide unpinned panels"
+msgstr "ピン止めされていないパネルを隠す"
+
+msgid "Hide/show unpinned panels in main document window"
+msgstr "ピン止めされていないメインウィンドウを隠す／見せる"
+
+msgid "Fullscreen"
+msgstr "全画面"
+
+msgid "Fullscreen mode for main document window"
+msgstr "メインウィンドウのためのフルスクリーンモード"
+
+msgid "_File"
+msgstr "ファイル（_F）"
+
+msgid "_Edit"
+msgstr "編集（_E）"
+
+msgid "_Select"
+msgstr "選択（_S）"
+
+msgid "_Layout"
+msgstr "レイアウト（_L）"
+
+msgid "_View"
+msgstr "視点（_V）"
+
+msgid "Create"
+msgstr "作成"
+
+msgid "Modify"
+msgstr "修正"
+
+msgid "_Render"
+msgstr "描画（_R）"
+
+msgid "S_cripting"
+msgstr "スクリプト（_C）"
+
+msgid "_Advanced"
+msgstr "上級（_A）"
+
+msgid "_Help"
+msgstr "ヘルプ（_H）"
+
+msgid "_New"
+msgstr "新規（_N）"
+
+msgid "_Open..."
+msgstr "開く（_O）..."
+
+msgid "_Merge Nodes..."
+msgstr "ノードのマージ（_M）..."
+
+msgid "_Save"
+msgstr "保存（_S）"
+
+msgid "Save _As..."
+msgstr "名前をつけて保存（_A）..."
+
+msgid "_Revert"
+msgstr "復元（_R）"
+
+msgid "_Import ..."
+msgstr "インポート（_I）..."
+
+msgid "_Export ..."
+msgstr "エクスポート（_E）..."
+
+msgid "_Close"
+msgstr "閉じる（_C）"
+
+msgid "_Quit"
+msgstr "中止（_Q）"
+
+msgid "_Move"
+msgstr "移動（_M）"
+
+msgid "_Rotate"
+msgstr "回転（_R）"
+
+msgid "_Scale"
+msgstr "拡大縮小（_S）"
+
+msgid "_Parent"
+msgstr "親子関係（_P）"
+
+msgid "_Unparent"
+msgstr "親子関係を解消（_U）"
+
+msgid "Render R_egion"
+msgstr "領域を描画（_E）"
+
+msgid "S_nap Tool"
+msgstr "スナップ（_N）"
+
+msgid "_Undo"
+msgstr "元に戻す（_U）"
+
+msgid "Undo All"
+msgstr "全て Undo"
+
+msgid "_Redo"
+msgstr "やり直し（_R）"
+
+msgid "Redo All"
+msgstr "全て Redo"
+
+msgid "_Tools"
+msgstr "ツール（_T）"
+
+msgid "_Instantiate"
+msgstr "インスタンス化（_I）"
+
+msgid "D_uplicate"
+msgstr "複製（_U）"
+
+msgid "_Delete"
+msgstr "削除（_D）"
+
+msgid "Assign _Hotkeys"
+msgstr "ホットキーを割り当て（_H）"
+
+msgid "_All"
+msgstr "全部（_A）"
+
+msgid "_None"
+msgstr "空（_N）"
+
+msgid "_Invert"
+msgstr "反転（_I）"
+
+msgid "_Child"
+msgstr "子（_C）"
+
+msgid "_Sibling"
+msgstr "兄弟化（_S）"
+
+msgid "N_odes"
+msgstr "ノード（_O）"
+
+msgid "Poin_ts"
+msgstr "点（_T）"
+
+msgid "_Edges"
+msgstr "辺（_E）"
+
+msgid "Curves"
+msgstr "曲線"
+
+msgid "Patches"
+msgstr "パッチ"
+
+msgid "_Uniform"
+msgstr "一様（_U）"
+
+msgid "_Maximize Panel"
+msgstr "パネルの最大化（_M）"
+
+msgid "H_ide Unpinned Panels"
+msgstr "ピンを刺していないパネルを隠す（_I）"
+
+msgid "_Pin All Panels"
+msgstr "全てのパネルにピンをする（_P）"
+
+msgid "_Unpin All Panels"
+msgstr "全てのパネルのピンを外す（_U）"
+
+msgid "_Decorate Selected Panel"
+msgstr "選択したパネルの装飾（_D）"
+
+msgid "U_ndecorate Selected Panel"
+msgstr "選択したパネルの装飾解除"
+
+msgid "Split Panel _Horizontally"
+msgstr "水平方向にパネルを分割（_H）"
+
+msgid "Split Panel _Vertically"
+msgstr "垂直方向にパネルを分割（_V）"
+
+msgid "_Kill Panel"
+msgstr "パネルの消去（_K）"
+
+msgid "_Fullscreen"
+msgstr "全画面（_F）"
+
+msgid "_Save layout"
+msgstr "レイアウトを保存（_S）"
+
+msgid "_Reset layout"
+msgstr "レイアウトをリセット（_R）"
+
+msgid "+_X view"
+msgstr "+_X 視点"
+
+msgid "-X view"
+msgstr "-X 視点"
+
+msgid "+_Y view"
+msgstr "+_Y 視点"
+
+msgid "-Y view"
+msgstr "-Y 視点"
+
+msgid "+_Z view"
+msgstr "+_Z 視点"
+
+msgid "-Z view"
+msgstr "-Z 視点"
+
+msgid "_Hide Selection"
+msgstr "隠す（_H）"
+
+msgid "_Show Selection"
+msgstr "選択を表示（_S）"
+
+msgid "Hide _Unselected"
+msgstr "非選択部分を隠す（_U）"
+
+msgid "Show _All"
+msgstr "全部見る（_A）"
+
+msgid "Aim Selection"
+msgstr "照準を選択"
+
+msgid "_Frame Selection"
+msgstr "フレームの選択（_F）"
+
+msgid "Set _Camera ..."
+msgstr "カメラをセット（_C）"
+
+msgid "_Orthographic toggle"
+msgstr "垂直トグル（_O）"
+
+msgid "Set view"
+msgstr "視点をセット"
+
+msgid "Mesh"
+msgstr "メッシュ"
+
+msgid "Transform"
+msgstr "変形"
+
+msgid "_Region"
+msgstr "範囲（_R）"
+
+msgid "_Preview"
+msgstr "プレビュー（_P）"
+
+msgid "_Frame"
+msgstr "フレーム（_F）"
+
+msgid "_Animation"
+msgstr "アニメーション（_A）"
+
+msgid "_Viewport Frame"
+msgstr "ビューポートフレーム（_V）"
+
+msgid "Viewport A_nimation"
+msgstr "Viewport アニメーション（_N）"
+
+msgid "_Play ..."
+msgstr "再生（_P）..."
+
+msgid "_Editor ..."
+msgstr "編集（_E）..."
+
+msgid "Python _Shell ..."
+msgstr "Python シェル（_S）..."
+
+msgid "Actions"
+msgstr "アクション"
+
+msgid "Dialogs"
+msgstr "ダイアログ"
+
+msgid "Example documents ..."
+msgstr "使用例 ..."
+
+msgid "File _Bug Report ..."
+msgstr "バグリポート（_B）..."
+
+msgid "Open _Log Window ..."
+msgstr "ログウィンドウを開く（_L）..."
+
+msgid "_K-3D Guide"
+msgstr "K-3D ガイド（_K）"
+
+msgid "_Release Notes"
+msgstr "リリースノート（_R）"
+
+msgid "K-3D _Online"
+msgstr "K-3D オンライン（_O）"
+
+msgid "_About K-3D ..."
+msgstr "k-3Dについて（_A）..."
+
+msgid "Open K-3D Document:"
+msgstr "K-3D ドキュメントを開く : "
+
+msgid "K-3D Document (*.k3d)"
+msgstr "K-3D ドキュメント (*.k3d)"
+
+msgid "File could not be saved"
+msgstr "ファイルを保存できませんでした。"
+
+msgid "Save K-3D Document As:"
+msgstr "K-3D ドキュメントを保存:"
+
+msgid "Document reader plugin not installed."
+msgstr "ドキュメント読み込みプラグインがインストールされていません"
+
+msgid "Error reading document.  The document could not be reverted."
+msgstr "ドキュメント読み込みエラー。このドキュメントは復旧できません"
+
+msgid "Revert"
+msgstr "復元"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Revert %1% to last-saved version? Unsaved changes will be lost (No Undo)"
+msgstr "%1% を最後に保存したバージョンに戻しますか。保存されていない内容は失われます（Undoはできません）"
+
+msgid "No import file filters available"
+msgstr "利用可能なインポートファイルフィルタがありません。"
+
+msgid "Automatic file detection"
+msgstr "ファイルの自動検出"
+
+msgid "Import Document:"
+msgstr "インポートするドキュメント : "
+
+msgid "Choose import plugin:"
+msgstr "インポートプラグインを選択:"
+
+msgid ""
+"Could not detect filetype automatically.\n"
+"Try choosing a specific filter that matches the file to be imported"
+msgstr ""
+"自動的にファイルタイプを検出できませんでした。\n"
+"ファイルをインポートできるフィルタを選んでみてください。"
+
+msgid "No plugin installed that can import documents of type %1%."
+msgstr "ドキュメントタイプ %1% をインポートできるプラグインはインストールされていません"
+
+msgid "Error creating a plugin to load the document."
+msgstr "ドキュメントをロードするためにプラグインを作成するエラー"
+
+msgid "Import %1%"
+msgstr "%1% をインポート"
+
+msgid "No export file filters available"
+msgstr "利用可能なエクスポートファイルフィルタがありません"
+
+msgid "Export Document:"
+msgstr "ドキュメントをエクスポート"
+
+msgid "Choose export plugin:"
+msgstr "エクスポートプラグインを選択:"
+
+msgid "Error exporting document"
+msgstr "エクスポートドキュメントエラー"
+
+msgid "Select All"
+msgstr "すべてを選択"
+
+msgid "Select None"
+msgstr "選択を解除"
+
+msgid "Select Invert"
+msgstr "選択を反転"
+
+msgid "Select parent"
+msgstr "親を選択"
+
+msgid "Select child"
+msgstr "子を選択"
+
+msgid "Select sibling"
+msgstr "兄弟を選択"
+
+msgid "Select Curves"
+msgstr "曲線を選択"
+
+msgid "Select Patches"
+msgstr "パッチを選択"
+
+msgid "Select Polygon Faces"
+msgstr "面（フェース）を選択"
+
+msgid "Select Polygon Edges"
+msgstr "ポリゴンの辺を選択"
+
+msgid "Select Surface"
+msgstr "表面（サーフェース）を選択"
+
+msgid "Window layout saved.  Your custom layout will be used whenever you open a document."
+msgstr "ウィンドウレイアウトは保存されました。 ドキュメントを開くときはいつも、カスタムレイアウトは使用されます。"
+
+msgid "Window layout reset.  The default layout will be used the next time you open a document."
+msgstr "ウィンドウレイアウトはリセットされました。この次は初期状態のレイアウトになります。"
+
+msgid "Aim selection"
+msgstr "照準を選択"
+
+msgid "Frame selection"
+msgstr "フレームの選択"
+
+msgid "Play Script:"
+msgstr "スクリプトを再生:"
+
+msgid "Unparent selected"
+msgstr "親子関係解除を選択"
+
+msgid "Undo %1%"
+msgstr "元に戻す > %1%"
+
+msgid "Can't undo"
+msgstr "Undo できません"
+
+msgid "Undo all %1%"
+msgstr "全てUndo > %1%"
+
+msgid "Can't undo all"
+msgstr "全てUndoできません"
+
+msgid "Redo %1%"
+msgstr "やり直す>%1% "
+
+msgid "Redo all %1%"
+msgstr "全てRedo >%1%"
+
+msgid "Can't redo"
+msgstr "Redo できません"
+
+msgid "Can't redo all"
+msgstr "全てをRedoできません"
+
+msgid "<span color=\"blue\">%1% (Experimental)</span>"
+msgstr "<span color=\"blue\">%1% （実験的）</span>"
+
+msgid "<span color=\"red\" strikethrough=\"true\">%1%</span><span color=\"red\"> (Deprecated)</span>"
+msgstr "<span color=\"red\" strikethrough=\"true\">%1%</span><span color=\"red\"> （非推奨）</span>"
+
+msgid "Check All"
+msgstr "全てチェック"
+
+msgid "Clear Selection"
+msgstr "選択をクリア"
+
+msgid "Node prefix :"
+msgstr "ノードプレフィクス"
+
+msgid "Merge?"
+msgstr "取り込みますか？"
+
+msgid "Node"
+msgstr "ノード"
+
+msgid "Merge K-3D Document:"
+msgstr "K-3Dドキュメントの取り込み : "
+
+msgid "Display this message again in the future"
+msgstr "今後も、このメッセージを表示する"
+
+msgid "Use Experimental Plugin?"
+msgstr "実験的プラグインを使用しますか？"
+
+msgid "Experimental plugins are still under development and may be modified or removed at any time.  If this happens, documents that include them may become unusable."
+msgstr "実験用プラグインは、開発中のため、予告無く、変更、除外されることがあります。それらを含んでいるドキュメントは、使用不可能になるかもしれません。"
+
+msgid "Use Deprecated Plugin?"
+msgstr "非推奨プラグインを使用しますか？"
+
+msgid "Deprecated plugins are scheduled for removal in future versions of K-3D.  When this happens, documents that include them may become unusable.  We strongly recommend against using deprecated plugins, unless you plan to keep a specific version of K-3D on-hand to maintain them."
+msgstr "非推奨プラグインはK-3Dの将来のバージョンで削除される予定です。そのため、このドキュメントが使用不可能になる恐れがあります。非推奨プラグインはお使いにならないよう提案いたします。"
+
+msgid "Add Modifier %1%"
+msgstr "%1% を修正する"
+
+msgid "Move Screen XY"
+msgstr "画面移動 XY"
+
+msgid "Move X"
+msgstr "移動 X"
+
+msgid "Move Y"
+msgstr "移動 Y"
+
+msgid "Move Z"
+msgstr "移動 Z"
+
+msgid "Move XY"
+msgstr "移動 XY"
+
+msgid "Move XZ"
+msgstr "移動 XZ"
+
+msgid "Move YZ"
+msgstr "移動 YZ"
+
+msgid "Move"
+msgstr "移動"
+
+msgid "World position"
+msgstr "ワールド座標"
+
+msgid "Manipulators' world position"
+msgstr "マニピュレータのワールド座標"
+
+msgid "Track Viewport"
+msgstr "トラック"
+
+msgid "Dolly Viewport"
+msgstr "ドリー"
+
+msgid "Zoom Viewport"
+msgstr "ズーム"
+
+msgid "Pan & Tilt Viewport"
+msgstr "パン & チルト"
+
+msgid "Orbit Viewport"
+msgstr "オービット"
+
+msgid "Roll Viewport"
+msgstr "ロール"
+
+msgid "Dolly Forward"
+msgstr "ドーリー前進"
+
+msgid "Dolly Backward"
+msgstr "ドーリー後退"
+
+msgid "Pick Target"
+msgstr "ターゲットを選ぶ"
+
+msgid "--None--"
+msgstr "--None--"
+
+msgid "--New %1%"
+msgstr "--New %1%"
+
+msgid "Create %1%"
+msgstr "作成 %1%"
+
+msgid "Select %1%"
+msgstr "%1% を選択"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Selected"
+msgstr "選択済"
+
+msgid "Deselect All"
+msgstr "全ての選択解除"
+
+msgid "Toggle Selected"
+msgstr "選択を反転"
+
+msgid "Change %1%"
+msgstr "変更 %1%"
+
+msgid "Toggle Selected %1%"
+msgstr "選択トグル %1%"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "Pinned Panel"
+msgstr "ピン止めされたパネル"
+
+msgid "Works with 'Hide Unpinned Panels' action"
+msgstr "ピン止めされていないパネルを隠しす"
+
+msgid "Automagic"
+msgstr "オートマジック"
+
+msgid "Allows panel to change depending on active tool"
+msgstr "アクティブなツールによって、パネルが変化するのを許可する"
+
+msgid "Decorations"
+msgstr "装飾"
+
+msgid "Hides/shows decorations"
+msgstr "装飾を隠す／見せる"
+
+msgid "Pin Panel"
+msgstr "パネルにピン止めをする"
+
+msgid "Viewport"
+msgstr "Viewport"
+
+msgid "Browse for a file ..."
+msgstr "ファイルを閲覧 ..."
+
+msgid "Absolute"
+msgstr "絶対値"
+
+msgid "Relative"
+msgstr "相対的"
+
+msgid "Inline"
+msgstr "インライン"
+
+msgid "Choose whether to store absolute or relative filepaths"
+msgstr "絶対パスか、相対パスを選択してください"
+
+msgid "Watch"
+msgstr "見る"
+
+msgid "Watch/unwatch file for changes"
+msgstr "変更されたファイルを見る／見ない"
+
+msgid "Instantiate %1%"
+msgstr "インスタンス化 %1%"
+
+msgid "Duplicate %1%"
+msgstr " %1% を複製"
+
+msgid "Add User Property:"
+msgstr "ユーザープロパティの追加 :"
+
+msgid "Property Type"
+msgstr "プロパティタイプ"
+
+msgid "Data Type"
+msgstr "データタイプ"
+
+msgid "Attribute Name"
+msgstr "アトリビュート名"
+
+msgid "Label"
+msgstr "ラベル"
+
+msgid "Description"
+msgstr "説明"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Add a user property to %1%:"
+msgstr "%1% というユーザープロパティを追加しました"
+
+msgid "Option Name"
+msgstr "オプションの名前"
+
+msgid "You must provide a Name to create a property."
+msgstr "新たにプロパティを生成するには、名前をつけてください。"
+
+msgid "You must provide a Label to create a property."
+msgstr "新たにプロパティを生成するには、ラベルをつけてください。"
+
+msgid "You must provide an Attribute Name to create a RenderMan Attribute."
+msgstr "新たにRenderManのアトリビュート（属性）を生成するには、アトリビュート名をつけてください。"
+
+msgid "You must provide an Option Name to create a RenderMan Option."
+msgstr "新たにRenderManのオプションを生成するには、オプション名をつけてください。"
+
+msgid "Internal error creating user property."
+msgstr "ユーザープロパティを作成時に、内部エラーが発生しました。"
+
+msgid "LMB-Click to make connections with other properties. RMB-Click for context menu."
+msgstr "左クリックは他のプロパティへのコネクションの作成、右クリックはコンテキストメニューです"
+
+msgid "Show Connected"
+msgstr "接続を見る"
+
+msgid "Disconnect"
+msgstr "切断"
+
+msgid "Connect to ..."
+msgstr "Connect to ..."
+
+msgid "Connect Properties"
+msgstr "プロパティに接続"
+
+msgid "<span color=\"blue\">Create %1% (Experimental)</span>"
+msgstr "<span color=\"blue\">Create %1% (実験的)</span>"
+
+msgid "<span color=\"red\" strikethrough=\"true\">Create %1%</span><span color=\"red\"> (Deprecated)</span>"
+msgstr "<span color=\"red\" strikethrough=\"true\">Create %1%</span><span color=\"red\"> (非推奨)</span>"
+
+msgid "Choose RenderMan Implementation"
+msgstr "RenderMan の実装を選択"
+
+msgid "You must choose the specific RenderMan implementation to use with this render engine."
+msgstr "レンダリングエンジンとして、RenderManの実装を選択する必要があります"
+
+msgid "RenderMan Implementation Unavailable"
+msgstr "RenderManの実装がみつかりません"
+
+msgid "The requested RenderMan implementation could not be found.  Check to ensure that you have it installed and your PATH is up-to-date."
+msgstr "指定されたRenderManの実装がみつかりません。インストールしたパスが変更されていないか確認をお願いいたします"
+
+msgid "Could not locate the yafray executable."
+msgstr "実行可能な Yafray の場所を見つけることができませんでした。"
+
+msgid "Check to ensure that you have Yafray installed, and that the PATH environment variable points to the Yafray installation directory."
+msgstr "Yafrayが正常にインストールされているかご確認をお願います。そして、Yafrayをインストールしたディレクトリ名を環境変数 PATH に追加してください（パスを通してください）"
+
+msgid "Choose animation output files:"
+msgstr "アニメーションを出力するファイルを選択 : "
+
+msgid "Choose the format for output files:"
+msgstr "出力するファイルの種類を選択 : "
+
+msgid "Generated filenames:"
+msgstr "新規作成するファイル名 : "
+
+msgid "Document does not contain a TimeSource, cannot render animation."
+msgstr "ドキュメントはTimeSourceを含んでいないので、アニメーションを描画することができません。"
+
+msgid "Animation start time must be less-than end time."
+msgstr "アニメーションの開始時間は、終了時間より小さくなくてはなりません"
+
+msgid "Cannot render animation with zero frame rate."
+msgstr "フレームレートが0なのでアニメーションを描画ことができません。"
+
+msgid "Pick Camera:"
+msgstr "カメラを選んでください"
+
+msgid "Choose a camera"
+msgstr "カメラを選択"
+
+msgid "Pick Preview Render Engine:"
+msgstr "プレビューのレンダリングエンジンを選んでください"
+
+msgid "Choose a render engine to be used for preview image rendering"
+msgstr "プレビューのレンダリングに使用されるレンダリングエンジンを指定してください。"
+
+msgid "Pick Still Render Engine:"
+msgstr "静止画像のレンダリングエンジンを選んでください"
+
+msgid "Choose a render engine to be used for still image rendering"
+msgstr "静止画像のレンダリングに使用されるレンダリングエンジンを指定してください。"
+
+msgid "Pick Animation Render Engine:"
+msgstr "アニメーションのレンダリングエンジンを選んでください"
+
+msgid "Choose a render engine to be used for animation rendering"
+msgstr "アニメーションのレンダリングに使用されるレンダリングエンジンを指定してください。"
+
+msgid "Pick OpenGL Render Engine:"
+msgstr "OpenGLのレンダリングエンジンを選んでください"
+
+msgid "Choose an OpenGL render engine to be used for drawing"
+msgstr "OpenGLのレンダリングエンジンを指定してください"
+
+msgid "Render Frame:"
+msgstr "描画するフレーム"
+
+msgid "PNM Image (*.pnm)"
+msgstr "PNM 画像 (*.pnm)"
+
+msgid "TIFF Image (*.tiff)"
+msgstr "TIFF 画像 (*.tiff)"
+
+msgid "Targa Image (*.tga)"
+msgstr "Targa 画像 (*.tga)"
+
+msgid "Rotate Screen Z"
+msgstr "画面の回転 Z"
+
+msgid "Rotate X"
+msgstr "回転 X"
+
+msgid "Rotate Y"
+msgstr "回転 Y"
+
+msgid "Rotate Z"
+msgstr "回転 Z"
+
+msgid "Rotation"
+msgstr "回転"
+
+msgid "Center"
+msgstr "センター"
+
+msgid "Auto Center"
+msgstr "オートセンター"
+
+msgid "Save the changes to document \"%1%\" before closing?"
+msgstr "終了する前に、ドキュメント \"%1%\" を保存しますか？"
+
+msgid "If you don't save, changes will be permanently lost (no undo)."
+msgstr "保存しない場合、内容は失われます（undo はできません）"
+
+msgid "Cl_ose without Saving"
+msgstr "保存をしないで終了（_O）"
+
+msgid "There are %1% documents with unsaved changes. Save changes before closing?"
+msgstr "ドキュメント %1% はまだ保存していません。保存しましょうか？"
+
+msgid "Select the documents you want to save:"
+msgstr "保存するためのドキュメントを選択:"
+
+msgid "If you don't save, all your changes will be permanently lost (no undo)."
+msgstr "保存しない場合、全ての変更内容が失われます（Undo できません）"
+
+msgid "Scale XYZ"
+msgstr "拡大縮小 XYZ"
+
+msgid "Scale X"
+msgstr "拡大縮小 X"
+
+msgid "Scale Y"
+msgstr "拡大縮小 Y"
+
+msgid "Scale Z"
+msgstr "拡大縮小 Z"
+
+msgid "Scale XY"
+msgstr "拡大縮小 XY"
+
+msgid "Scale XZ"
+msgstr "拡大縮小 XZ"
+
+msgid "Scale YZ"
+msgstr "拡大縮小 YZ"
+
+msgid "Scaling"
+msgstr "拡大・縮小"
+
+msgid "Load"
+msgstr "ロード"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Edit Script"
+msgstr "スクリプトを編集"
+
+msgid "Load a script from disk, replacing the current script"
+msgstr "選択モードを変えるときには現在の選択を保ってください。"
+
+msgid "Save the current script to disk"
+msgstr "現在のスクリプトをディスクに保存"
+
+msgid "Open the current script for editing"
+msgstr "現在のスクリプトを編集のため開く"
+
+msgid "Load Script:"
+msgstr "スクリプトを読み込み : "
+
+msgid "Save Script:"
+msgstr "スクリプトを保存:"
+
+msgid "Yes"
+msgstr "はい（Yes）"
+
+msgid "No"
+msgstr "いいえ（No）"
+
+msgid "Halt running script?"
+msgstr "動作中のスクリプトを止めますか？"
+
+msgid "Could not determine scripting language.  K-3D supports multiple scripting languages, but the language for this script was not recognized. Most K-3D script engines use some type of \"magic token\" at the beginning of a script to recognize it, e.g. \"#python\" in the first 7 characters of a script for K-3D's Python engine.  If you are writing a K-3D script, check the documentation for the scripting language you're writing in to see how to make it recognizable."
+msgstr "スクリプト用の言語を決定できませんでした。 K3Dは、複数のスクリプティングが言語であるとサポートしますが、このスクリプトのための言語は認識されませんでした。 ほとんどのK3Dスクリプトエンジンが、スクリプトの始めにK3Dの内蔵のPythonエンジンとしてスクリプトの最初の7文字で、例えば、\"#python\"を認識するのにタイプの「魔法のトークン」を使用します。 K3Dスクリプトを書いているなら、あなたがそれを認識可能にする方法を確認するために書いているスクリプト言語がないかどうか文書をチェックしてください。"
+
+msgid "Error creating the scripting engine to run this script.  Usually this means that your system is missing appropriate libraries or that there was an error in installation."
+msgstr "このスクリプトを実行するためにスクリプト用のエンジンを作成するエラー。 通常、システムがた適切なライブラリを失ったかインストールにおける誤りがあったことを意味します。"
+
+msgid "Error executing script"
+msgstr "スクリプト実行エラー"
+
+msgid "Requested script file %1% doesn't exist."
+msgstr "スクリプトファイル %1% がありません"
+
+msgid "Split Edges"
+msgstr "辺（エッジ）を分割"
+
+msgid "Select Split Edges"
+msgstr "線（ライン）を選ぶ"
+
+msgid "Uniform"
+msgstr "ユニフォーム"
+
+msgid "Select Uniform"
+msgstr "ユニフォームを選択"
+
+msgid "Selection Type"
+msgstr "タイプを選択"
+
+msgid "Sets selection mode (nodes, faces, edges, points, etc)"
+msgstr "選択モードのセット（ノード、面、辺、点、など）"
+
+msgid "Keep Selection"
+msgstr "選択範囲を残す"
+
+msgid "Keep the current selection when changing the selection mode."
+msgstr "選択モードを変えるときには現在の選択を保ちます。"
+
+msgid "Convert Selection"
+msgstr "選択変換"
+
+msgid "Convert the current selection when changing the selection mode."
+msgstr "現在の選択モードを変えるときに使用します。"
+
+msgid "Select Adjacent Edges"
+msgstr "近傍の辺（エッジ）を選ぶ"
+
+msgid "When selecting edges, automatically expand the selection to include adjacent edges."
+msgstr "辺（エッジ）の選択時、自動的に近接する辺（エッジ）を選択します。"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "Deselect"
+msgstr "選択解除"
+
+msgid "Node Selection"
+msgstr "ノードの選択"
+
+msgid "Paint Select"
+msgstr "ペイント選択"
+
+msgid "Paint Deselect"
+msgstr "ペイント選択解除"
+
+msgid "Rubber Band Replace"
+msgstr "ラバーバンド置換"
+
+msgid "Rubber Band Select"
+msgstr "ラバーバンド選択"
+
+msgid "Rubber Band Deselect"
+msgstr "ラバーバンド選択解除"
+
+msgid "Extended Selection Mode"
+msgstr "拡張選択モード"
+
+msgid "Extended mode adds newly clicked geometry instead of replacing selection"
+msgstr ""
+
+msgid "Extended Component Selection Mode"
+msgstr "拡張コンポーネント選択モード"
+
+msgid "Extended mode adds newly clicked components instead of replacing selection"
+msgstr ""
+
+msgid "Component Paint Mode"
+msgstr "コンポーネントペイントモード"
+
+msgid "Use mouse pointer to paint-select geometry components"
+msgstr ""
+
+msgid "Double Click Mode"
+msgstr "ダブルクリックモード"
+
+msgid "Double click switches back to object selection mode when clicking on nothing"
+msgstr ""
+
+msgid "Pick Backfacing"
+msgstr "背面を選択"
+
+msgid "Select backfacing components when picking (clicking)"
+msgstr ""
+
+msgid "Paint Backfacing"
+msgstr "背面を描画"
+
+msgid "Select backfacing components when painting a selection"
+msgstr ""
+
+msgid "Rubber Band Backfacing"
+msgstr "ラバーバンドで背面を選択"
+
+msgid "Select backfacing components when rubber band selecting"
+msgstr ""
+
+msgid "Enter a new value.  Real-world units and simple math expressions are allowed."
+msgstr ""
+
+msgid "LMB-Drag to modify, LMB-Click to step, Tap Shift and Control while dragging to change sensitivity."
+msgstr ""
+
+msgid "Apply"
+msgstr "適用"
+
+msgid "Apply modifications."
+msgstr "変更を適用"
+
+msgid "Reset modifications."
+msgstr "変更をリセット"
+
+msgid "Coordinate system"
+msgstr "座標系"
+
+msgid "Coordinate system in which the transformation occurs"
+msgstr "変換時の座標系"
+
+msgid "Visible manipulators"
+msgstr "マニピュレータを可視化"
+
+msgid "Shows/hides manipulators"
+msgstr "マニピュレータを表示／非表示"
+
+msgid "Couldn't display %1%"
+msgstr "%1% を表示できませんでした。"
+
+msgid "No plugin is available to open URIs."
+msgstr "指定されたURIには、プラグインがありません"
+
+msgid "No application is configured to handle the given URI."
+msgstr "指定されたURIには、設定可能なアプリケーションがありません"
+
+msgid "Unattached"
+msgstr "切り離されました"
+
+msgid "Assign a human-readable name to identify this node."
+msgstr "識別するための（分かり易い）名前をノードにつける"
+
+msgid "Parent"
+msgstr "親"
+
+msgid "Loading plugin %1%"
+msgstr "プラグイン %1% をロードしています"
+
+msgid "Proxying plugin module %1%"
+msgstr "プロキシプラグインモジュール %1%"
+
+msgid "Proxying plugin %1%"
+msgstr "プロキシモジュール %1%"
+
+msgid "Binding plugin module %1%"
+msgstr "プラグインモジュール %1% を設定しています"
+
+msgid "Loading plugin module %1%"
+msgstr "プラグインモジュール %1% を読み込んでいます"
+
+msgid "Searching for plugins in %1%"
+msgstr "プラグインを検索中 %1% "
+
+msgid "Viewport Visible"
+msgstr "Viewport を可視化"
+
+msgid "Controls whether this node will be visibile in the viewport."
+msgstr "ビューポートでノードが見えるようになるかどうかを制御"
+
+msgid "Controls whether this node will be visible in the final rendered image."
+msgstr "最終的な画像でノードが見えるようになるかどうかを制御"
+
+msgid "Render Shadows"
+msgstr "レンダリングの影"
+
+msgid "Controls whether this node will be visible during shadow-map render passes."
+msgstr ""
+
+msgid "Motion Blur"
+msgstr "モーションブラー"
+
+msgid "Output"
+msgstr "出力"
+
+msgid "Script"
+msgstr "スクリプト"
+
+msgid "Script source code"
+msgstr "スクリプトのソースコード"
+
+msgid "Shader Path"
+msgstr "シェーダーのパス"
+
+msgid "RenderMan shader (*.sl)"
+msgstr "RenderMan シェーダー (*.sl)"
+
+msgid "Output String"
+msgstr "出力文字列"
+
+msgid "Time"
+msgstr "時間"
+
+msgid "Current simulation time."
+msgstr "現在のシミュレーション時間"
+
+msgid "Transformation"
+msgstr "変形"
+
+msgid "Input Matrix"
+msgstr "入力行列"
+
+msgid "Output Vector"
+msgstr "出力ベクトル"
+
+msgid "Mesh reader that loads external 3ds (.3ds) files into the document by reference"
+msgstr ""
+
+msgid "Point Size"
+msgstr "ポイントサイズ"
+
+msgid "Size for the points"
+msgstr "ポイントのためのサイズ"
+
+msgid "Offset"
+msgstr "オフセット"
+
+msgid "Offset factor for the point, in units of edge length"
+msgstr ""
+
+msgid "Renders selection hooks for facevarying data"
+msgstr ""
+
+msgid "Line Width"
+msgstr "線の幅"
+
+msgid "Control the rendered edge width (in pixels)."
+msgstr ""
+
+msgid "Renders meshes using a classic hidden-line effect."
+msgstr ""
+
+msgid "Draw Selected"
+msgstr "選択範囲を表示"
+
+msgid "Draw normals for selected polygons"
+msgstr "選択範囲の法線を表示"
+
+msgid "Draw Unselected"
+msgstr "選択範囲外を表示"
+
+msgid "Draw normals for unselected polygons"
+msgstr "選択範囲外の法線を表示"
+
+msgid "Selected Color"
+msgstr "選択した色"
+
+msgid "Normal color for selected polygons"
+msgstr "選択したポリゴンの法線の色"
+
+msgid "Unselected Color"
+msgstr "選択解除の色"
+
+msgid "Normal color for unselected polygons"
+msgstr "選択解除したポリゴンの法線の色"
+
+msgid "Renders polyhedron point normal vectors"
+msgstr "多面体ポイント法線ベクトルをレンダリング"
+
+msgid "Levels"
+msgstr "レベル"
+
+msgid "Number of SDS levels"
+msgstr "SDS レベルの番号"
+
+msgid "Renders mesh as SDS faces using OpenGL 1.1"
+msgstr "OpenGL 1.1でSDS facesのメッシュを描画"
+
+msgid "Renders mesh as SDS patch borders using OpenGL 1.1"
+msgstr "OpenGL 1.1でSDS patch bordersのメッシュを描画"
+
+msgid "Renders mesh as SDS patch corners using OpenGL 1.1"
+msgstr "OpenGL 1.1でSDS patch cornersのメッシュを描画"
+
+msgid "Bitmap"
+msgstr "ビットマップ"
+
+msgid "Renders textured mesh faces, after triangulating them (OpenGL 1.1)"
+msgstr "三角にした後に、テクスチャをつけたメッシュ面を描画 (OpenGL 1.1)"
+
+msgid "Renders mesh edges (OpenGL VBOs)"
+msgstr "メッシュの辺を描画 (OpenGL VBOs)"
+
+msgid "Renders mesh faces, after trianglulating them (OpenGL VBOs)"
+msgstr "三角にした後に、メッシュ面を描画 (OpenGL VBOs)"
+
+msgid "Renders mesh points (OpenGL VBOs)"
+msgstr "メッシュ点の描画 (OpenGL VBOs)"
+
+msgid "Renders mesh as SDS faces using OpenGL VBOs"
+msgstr "OpenGL VBOsでSDS facesのメッシュを描画"
+
+msgid "Renders mesh as SDS patch borders using OpenGL VBOs"
+msgstr "OpenGL VBOsでSDS patch bordersのメッシュを描画"
+
+msgid "Renders mesh as SDS patch corners using OpenGL VBOs"
+msgstr "OpenGL VBOsでSDS patch cornersのメッシュを描画"
+
+msgid "Unselected Mesh Color"
+msgstr "選択外のメッシュの色"
+
+msgid "Color the mesh is drawn in when it is unselected"
+msgstr ""
+
+msgid "Child Mesh Color"
+msgstr "子メッシュの色"
+
+msgid "Color the mesh is drawn in when its parent is selected"
+msgstr ""
+
+msgid "Selected Mesh Color"
+msgstr "選択したメッシュの色"
+
+msgid "Color unselected components are drawn in when their mesh is selected"
+msgstr "選択されたときのメッシュの色"
+
+msgid "Selected Component Color"
+msgstr "選択されたコンポーネントの色"
+
+msgid "Color selected components are drawn in"
+msgstr "選択されたときのコンポーネントの色"
+
+msgid "Normal"
+msgstr "法線"
+
+msgid "Color"
+msgstr "カラー"
+
+msgid "Displays a normal"
+msgstr "法線を表示"
+
+msgid "Font"
+msgstr "フォント"
+
+msgid "Font path"
+msgstr "フォントパス"
+
+msgid "Font Size"
+msgstr "フォントサイズ"
+
+msgid "Font size."
+msgstr "フォントサイズ"
+
+msgid "Maximum width of a single line of text.."
+msgstr "1行の最大幅"
+
+msgid "Line Spacing"
+msgstr "行送り"
+
+msgid "Controls the spacing between lines of text."
+msgstr "テキストの文字間の間隔を調整"
+
+msgid "Alignment"
+msgstr "配置"
+
+msgid "Controls the alignment of adjacent lines of text."
+msgstr "テキストの行間の間隔を調整"
+
+msgid "Text"
+msgstr "テキスト"
+
+msgid "Annotation text"
+msgstr "アノテーションテキスト"
+
+msgid "Annotation"
+msgstr "アノテーション"
+
+msgid "Annotation color"
+msgstr "アノテーションカラー"
+
+msgid "Leader"
+msgstr "リーダー"
+
+msgid "Leader line"
+msgstr "リーダー行"
+
+msgid "Leader Target"
+msgstr "リーダーターゲット"
+
+msgid "Leader line target"
+msgstr "リーダー行ターゲット"
+
+msgid "Displays text annotations in the 3D document, primarily for documentation / tutorials"
+msgstr ""
+
+msgid "X Position"
+msgstr "X 位置"
+
+msgid "Y Position"
+msgstr "Y 位置"
+
+msgid "Displays 2D text annotations, primarily for documentation / tutorials"
+msgstr ""
+
+msgid "Provides an embedded Aqsis RenderMan engine."
+msgstr "組み込みAqsis RenderManエンジンを用意"
+
+msgid "Axis1"
+msgstr "軸1"
+
+msgid "AlternateArray1D"
+msgstr "代替配列1D"
+
+msgid "Axis2"
+msgstr "軸2"
+
+msgid "AlternateArray2D"
+msgstr "代替配列2D"
+
+msgid "Axis3"
+msgstr "軸3"
+
+msgid "AlternateArray3D"
+msgstr "代替配列3D"
+
+msgid "Layout"
+msgstr "レイアウト"
+
+msgid "Angle"
+msgstr "アングル"
+
+msgid "RotateArray1D"
+msgstr "回転1次元配列"
+
+msgid "Angle 1"
+msgstr "アングル 1"
+
+msgid "Angle 2"
+msgstr "アングル 2"
+
+msgid "RotateArray2D"
+msgstr "回転2次元配列"
+
+msgid "Angle 3"
+msgstr "アングル 3"
+
+msgid "RotateArray3D"
+msgstr "回転3次元配列"
+
+msgid "TranslateArray1D"
+msgstr "変換1次元配列"
+
+msgid "Offset 1"
+msgstr "オフセット 1"
+
+msgid "Offset 2"
+msgstr "オフセット 2"
+
+msgid "TranslateArray2D"
+msgstr "変換2次元配列"
+
+msgid "Offset 3"
+msgstr "オフセット 3"
+
+msgid "TranslateArray3D"
+msgstr "変換3次元配列"
+
+msgid "Subdivisions"
+msgstr "細分"
+
+msgid "Patch subdivision number"
+msgstr "パッチ分割番号"
+
+msgid "Polygonizes bicubic patches"
+msgstr "双三次パッチのポリゴン化"
+
+msgid "Primitive"
+msgstr "プリミティブ"
+
+msgid "Primitive type (teapot, teacup or teaspoon"
+msgstr "プリミティブタイプ（teapot、teacup、teaspoon）"
+
+msgid "Primitive size (scale)"
+msgstr "プリミティブサイズ(スケール)"
+
+msgid "Generates Newell primitives using bicubic patches."
+msgstr ""
+
+
+msgid "Converts input quadrilaterals to bilinear patches."
+msgstr ""
+
+msgid "Add value"
+msgstr "値を追加"
+
+msgid "Add value to each pixel's Red, Green and Blue component"
+msgstr ""
+
+msgid "Add value to each pixel color component"
+msgstr ""
+
+msgid "Width"
+msgstr "横（X軸）"
+
+msgid "Bitmap width"
+msgstr "ビットマップ幅"
+
+msgid "Height"
+msgstr "縦（Y軸）"
+
+msgid "Bitmap height"
+msgstr "ビットマップ高"
+
+msgid "Check width"
+msgstr "幅をチェック"
+
+msgid "Check (rectangle) width"
+msgstr "長方形の幅をチェック"
+
+msgid "Check height"
+msgstr "高さをチェック"
+
+msgid "Check (rectangle) height"
+msgstr "長方形の高さをチェック"
+
+msgid "Color 1"
+msgstr "カラー 1"
+
+msgid "First check color"
+msgstr "1番目のチェック色"
+
+msgid "Color 2"
+msgstr "カラー 2"
+
+msgid "Second check color"
+msgstr "2番目のチェック色"
+
+msgid "Generates a checker-pattern bitmap"
+msgstr "チェック柄のビットマップを生成"
+
+msgid "Red weight"
+msgstr "赤の成分"
+
+msgid "Scale Red component value"
+msgstr "赤成分の増減"
+
+msgid "Green weight"
+msgstr "緑の成分"
+
+msgid "Scale Green component value"
+msgstr "緑成分の増減"
+
+msgid "Blue weight"
+msgstr "青の成分"
+
+msgid "Scale Blue component value"
+msgstr "青成分の増減"
+
+msgid "Make any image black and white"
+msgstr ""
+
+msgid "Gamma Value"
+msgstr "ガンマ値"
+
+msgid "Apply gamma value to each pixel."
+msgstr "ガンマ値を適用する。"
+
+msgid "Apply gamma value to each pixel"
+msgstr "ガンマ値を適用する"
+
+msgid "Inverts a bitmap"
+msgstr "ビットマップを反転"
+
+msgid "Threshold Value"
+msgstr "しきい値"
+
+msgid "Set alpha channel using color difference"
+msgstr "アルファチャンネルをセット"
+
+msgid "Create alpha channel using color difference"
+msgstr "アルファチャンネルを作成"
+
+msgid "Inverts a bitmap's alpha channel"
+msgstr "アルファチャンネルを反転"
+
+msgid "Multiplicand"
+msgstr "被乗数"
+
+msgid "Multiply each pixel component with this value"
+msgstr ""
+
+msgid "Multiply value of each pixel"
+msgstr "ピクセルにこれらの色を加える"
+
+msgid "Browse for an input bitmap"
+msgstr "入力ビットマップを閲覧"
+
+msgid "Loads a bitmap from the filesystem"
+msgstr "ビットマップをファイルシステムから読み込む"
+
+msgid "Opacity"
+msgstr "半透明"
+
+msgid "Camera"
+msgstr "カメラ"
+
+msgid "Aspect Ratio Type"
+msgstr "アスペクト比の種類"
+
+msgid "Aspect Ratio"
+msgstr "アスペクト比"
+
+msgid "Displays a bitmap image in the background of the viewport."
+msgstr "背景画像の表示"
+
+msgid "Image"
+msgstr "画像"
+
+msgid "Maintain the image aspect ratio"
+msgstr "画像の縦横比を修正"
+
+msgid "Stretch the image to fill the camera aspect ratio"
+msgstr "カメラに合わせて画像を調整"
+
+msgid "Orientation"
+msgstr "方位"
+
+msgid "Orientation type (forward or backward along X, Y or Z axis)"
+msgstr ""
+
+msgid "Draw Behind"
+msgstr "裏側を描画"
+
+msgid "Draw the image so that always appears behind geometry"
+msgstr ""
+
+msgid "Displays a bitmap image on a resizable plane within the viewport."
+msgstr ""
+
+msgid "Draw the image with a fixed aspect ratio, ignoring the image aspect ratio"
+msgstr ""
+
+msgid "Bitmap color"
+msgstr "ビットマップカラー"
+
+msgid "Generates a solid-color bitmap"
+msgstr ""
+
+msgid "Subtract value"
+msgstr "減少値"
+
+msgid "Subtract value to each pixel color component"
+msgstr ""
+
+msgid "Subtract value from each pixel"
+msgstr ""
+
+msgid "Red threshold"
+msgstr "赤の閾値"
+
+msgid "Clamp Red channel to threshold"
+msgstr ""
+
+msgid "Green threshold"
+msgstr "緑の閾値"
+
+msgid "Clamp Green channel to threshold"
+msgstr ""
+
+msgid "Blue threshold"
+msgstr "青の閾値"
+
+msgid "Clamp Blue channel to threshold"
+msgstr ""
+
+msgid "Alpha threshold"
+msgstr "アルファチャンネルの閾値"
+
+msgid "Clamp Alpha channel to threshold"
+msgstr ""
+
+msgid "Cut off chanels at a certain value"
+msgstr ""
+
+msgid "Combines blobbies using the Addition operator."
+msgstr ""
+
+msgid "Input A"
+msgstr "入力 A"
+
+msgid "First input mesh."
+msgstr "入力メッシュ 1"
+
+msgid "Input B"
+msgstr "入力 B"
+
+msgid "Second input mesh."
+msgstr "入力メッシュ 2"
+
+msgid "Combines blobbies using the Division operator."
+msgstr ""
+
+msgid "Radius"
+msgstr "半径"
+
+msgid "Controls the radius of each blobby segment."
+msgstr ""
+
+msgid "Operator"
+msgstr "オペレータ"
+
+msgid "Specify the mathematical operator to merge segments: addition, multiplication, minimum or maximum."
+msgstr ""
+
+msgid "Position on X axis"
+msgstr "X軸位置"
+
+msgid "Position on Y axis"
+msgstr "Y軸位置"
+
+msgid "Z Position"
+msgstr "Z 位置"
+
+msgid "Position on Z axis"
+msgstr "Z軸位置"
+
+msgid "X Size"
+msgstr "X サイズ"
+
+msgid "Size on X axis"
+msgstr "X軸サイズ"
+
+msgid "Y Size"
+msgstr "Y サイズ"
+
+msgid "Size on Y axis"
+msgstr "Y軸サイズ"
+
+msgid "Z Size"
+msgstr "Z サイズ"
+
+msgid "Size on Z axis"
+msgstr "Z軸サイズ"
+
+msgid "Ellipsoid color"
+msgstr "楕円面色"
+
+msgid "Combines blobbies using the Maximum operator."
+msgstr ""
+
+msgid "Combines blobbies using the Minimum operator."
+msgstr ""
+
+msgid "Combines blobbies using the Multiplication operator."
+msgstr ""
+
+msgid "Input mesh."
+msgstr "入力メッシュ"
+
+msgid "Combines blobbies using the Negation operator."
+msgstr ""
+
+msgid "Points radius"
+msgstr ""
+
+msgid "Segment radius"
+msgstr ""
+
+msgid "X1 Position"
+msgstr "X1位置"
+
+msgid "First segment end X position"
+msgstr ""
+
+msgid "Y1 Position"
+msgstr "Y1位置"
+
+msgid "First segment end Y position"
+msgstr ""
+
+msgid "Z1 Position"
+msgstr "Z1位置"
+
+msgid "First segment end Z position"
+msgstr ""
+
+msgid "X2 Position"
+msgstr "X2位置"
+
+msgid "Second segment end X position"
+msgstr ""
+
+msgid "Y2 Position"
+msgstr "Y2位置"
+
+msgid "Second segment end Y position"
+msgstr ""
+
+msgid "Z2 Position"
+msgstr "Z2位置"
+
+msgid "Second segment end Z position"
+msgstr ""
+
+msgid "Segment color"
+msgstr "セグメント色"
+
+msgid "Combines blobbies using the Subtraction operator."
+msgstr ""
+
+msgid "Provides render integration with a bundled copy of Aqsis, http://www.aqsis.org"
+msgstr ""
+
+msgid "Type"
+msgstr "タイプ"
+
+msgid "Boolean operation (intersection, union, difference, reverse difference)"
+msgstr ""
+
+msgid "Threshold"
+msgstr "しきい値"
+
+msgid "Controls the sensitivity for deciding when to simplify coplanar faces or collinear edges."
+msgstr ""
+
+msgid "3D mesh boolean operations"
+msgstr "3Dメッシュ ブール演算"
+
+msgid "Intersection"
+msgstr "交差"
+
+msgid "Render intersecting volumes"
+msgstr "交差部分を描画"
+
+msgid "Union"
+msgstr "結合"
+
+msgid "Render the union of two volumnes"
+msgstr "結合部分を描画"
+
+msgid "Difference"
+msgstr "差分"
+
+msgid "Render the difference of two volumes"
+msgstr "差分を描画"
+
+msgid "Reverse Difference"
+msgstr "差分を反転"
+
+msgid "Controls the current time displayed in the viewports."
+msgstr ""
+
+msgid "Damping"
+msgstr ""
+
+msgid "Damping of cloth"
+msgstr ""
+
+msgid "Gravity"
+msgstr "重力"
+
+msgid "Gravity to affect the system"
+msgstr ""
+
+msgid "Stiffness"
+msgstr "硬さ"
+
+msgid "Stiffness of cloth (k constant for spring structure)"
+msgstr ""
+
+msgid "Cloth simulation (currently for grids only)"
+msgstr "布シミュレーション(今のところ、グリッドのみ)"
+
+msgid "COLLADA ( .dae )"
+msgstr "COLLADA ( .dae )"
+
+msgid "Geometry"
+msgstr "ジオメトリ"
+
+msgid "Geometry index from file to extract mesh"
+msgstr ""
+
+msgid "Mesh reader that loads external COLLADA (.dae) files into the document by reference"
+msgstr ""
+
+msgid "Output file"
+msgstr "出力ファイル"
+
+msgid "Mesh writer that saves external COLLADA (.dae) files"
+msgstr ""
+
+msgid "Found running Compiz window manager."
+msgstr "動作中のCompizウィンドウマネージャが見つかりました"
+
+msgid "Depending on your system hardware, Compiz may interfere with rendering in K-3D and other OpenGL applications.  If you have problems (black viewport, problems with viewport updates, etc), try disabling Compiz and re-running K-3D."
+msgstr ""
+
+msgid "Warns users that the Compiz window manager may interfere with OpenGL rendering in K-3D"
+msgstr ""
+
+msgid "Axes"
+msgstr "軸"
+
+msgid "Display XYZ axes"
+msgstr " XYZ 軸を表示"
+
+msgid "XY Plane"
+msgstr "XY 平面"
+
+msgid "Display XY plane as a grid"
+msgstr "XY 平面のグリッド表示"
+
+msgid "YZ Plane"
+msgstr "YZ 平面"
+
+msgid "Display YZ plane as a grid"
+msgstr "YZ 平面のグリッド表示"
+
+msgid "XZ Plane"
+msgstr "XZ 平面"
+
+msgid "Display XZ plane as a grid"
+msgstr "XZ 平面のグリッド表示"
+
+msgid "Grid Size"
+msgstr "グリッドサイズ"
+
+msgid "The size of each grid square"
+msgstr "グリッド（格子）の大きさを指定"
+
+msgid "Grid Count"
+msgstr "グリッド数"
+
+msgid "Number of squares along each grid"
+msgstr "グリッドの数を指定"
+
+msgid "X Color"
+msgstr "X 色"
+
+msgid "X axis color"
+msgstr "X軸の色"
+
+msgid "Y Color"
+msgstr "Y 色"
+
+msgid "Y axis color"
+msgstr "Y軸の色"
+
+msgid "Z Color"
+msgstr "Z 色"
+
+msgid "Z axis color"
+msgstr "X軸の色"
+
+msgid "Grid Color"
+msgstr "グリッド色"
+
+msgid "Grid color"
+msgstr "グリッド色"
+
+msgid "Grid"
+msgstr "グリッド"
+
+msgid "Configurable set of axes to help in visualizing the 3D workspace"
+msgstr "3Dワークスペースの軸の表示の設定"
+
+msgid "Navigation Target"
+msgstr "ナビゲーションターゲット"
+
+msgid "World target"
+msgstr ""
+
+msgid "Target distance"
+msgstr "ターゲット距離"
+
+msgid "Target distance from camera position"
+msgstr ""
+
+msgid "Choose a predefined aspect ratio"
+msgstr "解像度を選んでください"
+
+msgid "Show Projection"
+msgstr "投影法"
+
+msgid "Show viewing projection"
+msgstr "投影法を見る"
+
+msgid "Orthographic"
+msgstr "正射図法"
+
+msgid "Orthographic projection"
+msgstr "正射図法"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Top"
+msgstr "トップ"
+
+msgid "Bottom"
+msgstr "ボトム"
+
+msgid "Near"
+msgstr "近く"
+
+msgid "Near Plane Distance"
+msgstr "近くの平面の距離"
+
+msgid "Far"
+msgstr "遠く"
+
+msgid "Far Plane Distance"
+msgstr "遠くの平面の距離"
+
+msgid "Crop Window Left"
+msgstr "ウィンドウの左を切り取る"
+
+msgid "Crop window left"
+msgstr "ウィンドウの左を切り取る"
+
+msgid "Crop Window Right"
+msgstr "ウィンドウの右を切り取る"
+
+msgid "Crop Window Top"
+msgstr "ウィンドウの上を切り取る"
+
+msgid "Crop Window Bottom"
+msgstr "ウィンドウの下を切り取る"
+
+msgid "Crop window bottom"
+msgstr "ウィンドウの下を切り取る"
+
+msgid "Show Reference Plane"
+msgstr "基準面を表示"
+
+msgid "Reference Plane"
+msgstr "基準面"
+
+msgid "Reference Plane Distance"
+msgstr "基準面距離"
+
+msgid "Reference Plane Color"
+msgstr "基準面色"
+
+msgid "Material"
+msgstr "マテリアル"
+
+msgid "Empty node"
+msgstr "空のノード"
+
+msgid "Add value to each pixel color component using the CUDA API"
+msgstr ""
+
+msgid "Gamma value"
+msgstr "ガンマ値"
+
+msgid "Apply gamma value to each pixel using the CUDA API"
+msgstr ""
+
+msgid "Inverts a bitmap using the CUDA API"
+msgstr ""
+
+msgid "Create alpha channel using color difference using the CUDA API"
+msgstr ""
+
+msgid "Inverts a bitmap's alpha channel using the CUDA API"
+msgstr ""
+
+msgid "Multiply each each pixel color component by a specified value using the CUDA API"
+msgstr ""
+
+msgid "Subtract value from each pixel color component using the CUDA API"
+msgstr ""
+
+msgid "Cut off chanels at a certain value using the CUDA API"
+msgstr ""
+
+msgid "Transform mesh points using input matrix"
+msgstr ""
+
+msgid "Transform mesh points using input matrix using a device mesh"
+msgstr ""
+
+msgid "Device Mesh"
+msgstr "デバイスメッシュ"
+
+msgid "Device mesh"
+msgstr "デバイスメッシュ"
+
+msgid "Convert a CUDA mesh to a k3d mesh"
+msgstr "CUDAメッシュ から k3dメッシュへ変換"
+
+msgid "Convert a k3d mesh do a CUDA mesh"
+msgstr "k3dメッシュ から CUDAメッシュへ変換"
+
+msgid "Columns"
+msgstr "行"
+
+msgid "Column number"
+msgstr "桁位置"
+
+msgid "Rows"
+msgstr "列"
+
+msgid "Row number"
+msgstr "列番号"
+
+msgid "Grid width"
+msgstr "グリッド幅"
+
+msgid "Grid height"
+msgstr "グリッド高"
+
+msgid "Output Device Mesh"
+msgstr "出力デバイスメッシュ"
+
+msgid "Pointer to device mesh"
+msgstr ""
+
+msgid "Generates a polygonal grid using the CUDA API"
+msgstr ""
+
+msgid "Input matrix"
+msgstr "入力行列"
+
+msgid "Generates a polygonal grid and applies a transform points filter using the CUDA API"
+msgstr ""
+
+msgid "Input Device Mesh"
+msgstr "入力デバイスメッシュ"
+
+msgid "Vertices"
+msgstr "頂点"
+
+msgid "Number of vertices to insert in each selected edge"
+msgstr ""
+
+msgid "Bend angle"
+msgstr "曲げ角"
+
+msgid "Tightness"
+msgstr "タイトさ"
+
+msgid "Bend tightness"
+msgstr ""
+
+msgid "Position"
+msgstr "位置"
+
+msgid "Bend position"
+msgstr "曲げ位置"
+
+msgid "Along"
+msgstr ""
+
+msgid "Axis to bend along"
+msgstr ""
+
+msgid "Around"
+msgstr ""
+
+msgid "Axis to bend around"
+msgstr ""
+
+msgid "Bends mesh points around an axis"
+msgstr ""
+
+msgid "Bulge factor"
+msgstr ""
+
+msgid "Bulge amount"
+msgstr ""
+
+msgid "Origin"
+msgstr "出身"
+
+msgid "Origin of the bulge."
+msgstr ""
+
+msgid "Displace x"
+msgstr "置換 x"
+
+msgid "Displace on X axis"
+msgstr ""
+
+msgid "Displace y"
+msgstr "置換 y"
+
+msgid "Displace on Y axis"
+msgstr ""
+
+msgid "Displace z"
+msgstr "置換 z"
+
+msgid "Displace on Z axis"
+msgstr ""
+
+msgid "Axis"
+msgstr "軸"
+
+msgid "Axis to bulge along"
+msgstr ""
+
+msgid "Bulge type"
+msgstr "ふくらみの型"
+
+msgid "Bulges mesh points around a point"
+msgstr ""
+
+msgid "Center X"
+msgstr "X軸の中心"
+
+msgid "Center X components around origin"
+msgstr ""
+
+msgid "Center Y"
+msgstr "Y軸の中心"
+
+msgid "Center Y components around origin"
+msgstr ""
+
+msgid "Center Z"
+msgstr "Z軸の中心"
+
+msgid "Center Z components around origin"
+msgstr ""
+
+msgid "Centers mesh points around the origin"
+msgstr ""
+
+msgid "Wave points along given axis"
+msgstr ""
+
+msgid "Amplitude"
+msgstr "振幅"
+
+msgid "Wave amplitude"
+msgstr ""
+
+msgid "Wavelength"
+msgstr "波長"
+
+msgid "Phase"
+msgstr "フェーズ"
+
+msgid "Wave phase"
+msgstr "波のフェーズ"
+
+msgid "Applies a wave function to points along an axis"
+msgstr ""
+
+msgid "X Function"
+msgstr "X 関数"
+
+msgid "Output X coordinate function, in terms of x, y, z, and any user-defined scalars."
+msgstr ""
+
+msgid "x"
+msgstr "x"
+
+msgid "Y Function"
+msgstr "Y 関数"
+
+msgid "Output Y coordinate function, in terms of x, y, z, and any user-defined scalars."
+msgstr ""
+
+msgid "y"
+msgstr "y"
+
+msgid "Z Function"
+msgstr "Z 関数"
+
+msgid "Output Z coordinate function, in terms of x, y, z, and any user-defined scalars."
+msgstr ""
+
+msgid "z + sin(x)"
+msgstr "z + sin(x)"
+
+msgid "Displace a mesh using functional expressions in x, y, and z."
+msgstr ""
+
+msgid "Use X"
+msgstr "X 使う"
+
+msgid "Add noise on X components"
+msgstr "Xコンポーネントにノイズを加える"
+
+msgid "Use Y"
+msgstr "Y 使う"
+
+msgid "Add noise on Y components"
+msgstr "Yコンポーネントにノイズを加える"
+
+msgid "Use Z"
+msgstr "Z 使う"
+
+msgid "Add noise on Z components"
+msgstr "Zコンポーネントにノイズを加える"
+
+msgid "Apply offset on X component"
+msgstr "Xコンポーネントにオフセットを適用"
+
+msgid "Apply offset on Y component"
+msgstr "Yコンポーネントにオフセットを適用"
+
+msgid "Apply offset on Z component"
+msgstr "Zコンポーネントにオフセットを適用"
+
+msgid "X frequency"
+msgstr "X 周波数"
+
+msgid "X Frequency"
+msgstr "X 周波数"
+
+msgid "Y frequency"
+msgstr "Y 周波数"
+
+msgid "Y Frequency"
+msgstr "Y 周波数"
+
+msgid "Z frequency"
+msgstr "Z 周波数"
+
+msgid "Z Frequency"
+msgstr "Z 周波数"
+
+msgid "X offset"
+msgstr "X オフセット"
+
+msgid "X Offset"
+msgstr "X オフセット"
+
+msgid "Y offset"
+msgstr "Y オフセット"
+
+msgid "Y Offset"
+msgstr "Y オフセット"
+
+msgid "Z offset"
+msgstr "Z オフセット"
+
+msgid "Z Offset"
+msgstr "Z オフセット"
+
+msgid "X amplitude"
+msgstr "X 振幅"
+
+msgid "X Amplitude"
+msgstr "X 振幅"
+
+msgid "Y amplitude"
+msgstr "Y 振幅"
+
+msgid "Y Amplitude"
+msgstr "Y 振幅"
+
+msgid "Z amplitude"
+msgstr "Z 振幅"
+
+msgid "Z Amplitude"
+msgstr "Z 振幅"
+
+msgid "Applies a linear noise offset to mesh points"
+msgstr "メッシュポイントまで相殺された直線的なノイズを適用"
+
+msgid "Applies morph to different targets, interpolating between target and source position"
+msgstr ""
+
+msgid "X rotation angle"
+msgstr "X 回転角度"
+
+msgid "Y rotation angle"
+msgstr "Y 回転角度:"
+
+msgid "Z rotation angle"
+msgstr "Z 回転角度"
+
+#, fuzzy
+msgid "Origin of the rotation."
+msgstr "交差"
+
+msgid "Rotates mesh points"
+msgstr ""
+
+msgid "X scale"
+msgstr "X 拡大縮小"
+
+msgid "Y scale"
+msgstr "Y 拡大縮小"
+
+msgid "Z scale"
+msgstr "Z 拡大縮小"
+
+msgid "Scales mesh points"
+msgstr ""
+
+msgid "Direction"
+msgstr "検索の方向"
+
+msgid "Shear direction"
+msgstr ""
+
+msgid "Shear axis"
+msgstr ""
+
+msgid "Shear factor"
+msgstr ""
+
+msgid "Shears mesh points along an axis"
+msgstr ""
+
+msgid "Smoothing"
+msgstr "スムージング"
+
+msgid "Smoothing factor"
+msgstr "スムージング要素"
+
+msgid "Smooths mesh points by averaging their positions with their neighbors'"
+msgstr ""
+
+msgid "Sphere factor"
+msgstr ""
+
+msgid "Constrains points to the surface of a sphere"
+msgstr ""
+
+msgid "Taper points along this axis."
+msgstr ""
+
+msgid "Taper Factor"
+msgstr ""
+
+msgid "Controls the amount of taper, 0 = no taper, 1 = taper to a point."
+msgstr ""
+
+msgid "Displace X"
+msgstr "置換 X"
+
+msgid "Enable point displacement along the X axis."
+msgstr ""
+
+msgid "Displace Y"
+msgstr "置換 Y"
+
+msgid "Enable point displacement along the Y axis."
+msgstr ""
+
+msgid "Displace Z"
+msgstr "置換 Z"
+
+msgid "Enable point displacement along the Z axis."
+msgstr ""
+
+msgid "Tapers mesh points along an axis"
+msgstr ""
+
+msgid "X translation"
+msgstr "X 変換"
+
+msgid "Y translation"
+msgstr "Y 変換"
+
+msgid "Z translation"
+msgstr "Z 変換"
+
+msgid "Translates mesh points"
+msgstr ""
+
+msgid "Tweaks"
+msgstr "ひねり"
+
+msgid "A pair of indices_t and points_t arrays, indicating which positions to set"
+msgstr ""
+
+msgid "Sets the point positions at the given indices"
+msgstr ""
+
+msgid "Twist around given axis"
+msgstr ""
+
+msgid "Twist angle"
+msgstr ""
+
+msgid "Twists mesh points along an axis"
+msgstr ""
+
+msgid "Vertex Shader"
+msgstr "頂点シェーダ"
+
+msgid "Vertex shader source code"
+msgstr "頂点シェーダソースコード"
+
+msgid "Fragment Shader"
+msgstr "フラグメントシェーダー"
+
+msgid "Fragment shader source code"
+msgstr "フラグメントシェーダーソースコード"
+
+msgid "Applies an OpenGL shader to downstream painters"
+msgstr ""
+
+msgid "Sum of inputs."
+msgstr "入力数"
+
+msgid "Input 1"
+msgstr "入力 1"
+
+msgid "First input float"
+msgstr ""
+
+msgid "Input 2"
+msgstr "入力 2"
+
+msgid "Second input float"
+msgstr ""
+
+msgid "Add two double inputs and produce their sum as output"
+msgstr ""
+
+msgid "Quotient of inputs"
+msgstr ""
+
+msgid "Divide two double inputs and produce their quotient as output"
+msgstr ""
+
+msgid "Input"
+msgstr "インプット"
+
+msgid "Float value"
+msgstr ""
+
+msgid "Format"
+msgstr "フォーマット"
+
+msgid "printf()-style format string."
+msgstr "printf()フォーマット形式文字列"
+
+msgid "Output text"
+msgstr "出力テキスト"
+
+msgid "Output string."
+msgstr "出力文字列"
+
+msgid "Converts a double to a string using printf() style double_to_stringting"
+msgstr ""
+
+msgid "Output value."
+msgstr "出力値"
+
+msgid "Expression"
+msgstr "式"
+
+msgid "Expression to be evaluated."
+msgstr ""
+
+msgid "cos(pi/2)"
+msgstr "cos(pi/2)"
+
+msgid "Calculates a C-style expression, returning a double value as output"
+msgstr ""
+
+msgid "Remainder of inputs."
+msgstr ""
+
+msgid "Modulo two double inputs and produce their remainder as output"
+msgstr ""
+
+msgid "Product of inputs."
+msgstr ""
+
+msgid "Multiply two double inputs and produce their product as output"
+msgstr ""
+
+msgid "Sine wave function applied to input."
+msgstr "正弦波関数を入力に適用"
+
+msgid "Input value"
+msgstr "入力値"
+
+msgid "Applies a sine function to its input"
+msgstr "正弦機能を入力に適用"
+
+msgid "Difference of inputs."
+msgstr "入力の差分"
+
+msgid "Subtract two double inputs and produce their difference as output"
+msgstr ""
+
+msgid "Apply the Kill Edge And Vertex (KEV) Euler operation to the selected edges"
+msgstr ""
+
+msgid "Apply the Kill Edge Make Loop (KEML) Euler operation to the selected edges"
+msgstr ""
+
+msgid "Identifies a file's MIME Type based on filename extensions"
+msgstr ""
+
+msgid "Curve subdivisions"
+msgstr "曲線による分割"
+
+msgid "Bezier curves subdivision number"
+msgstr "ベジェ曲線の分割数"
+
+msgid "Font height"
+msgstr "フォントの大きさ"
+
+msgid "Generates polygonal text using Freetype 2"
+msgstr ""
+
+msgid "Creates GLX graphics contexts."
+msgstr ""
+
+msgid "Identifies a file's MIME Type using the Gnome API"
+msgstr ""
+
+msgid "Opens a URI using the Gnome libraries"
+msgstr ""
+
+msgid "Starts CPU profiling using Google Perftools"
+msgstr ""
+
+msgid "Mesh writer that saves meshes as GraphViz (.dot) files"
+msgstr ""
+
+msgid "Visible Nodes"
+msgstr "可視ノード"
+
+msgid "Show Property Labels"
+msgstr "プロパティラベルを表示"
+
+msgid "Display property labels in the rendered image."
+msgstr ""
+
+msgid "Show Property Loops"
+msgstr "プロパティループを表示"
+
+msgid "Display property connections that originate and terminate on the same node."
+msgstr ""
+
+msgid "Render Command"
+msgstr "描画コマンド"
+
+msgid "Specify the GraphViz command to use for rendering."
+msgstr ""
+
+msgid "GraphViz Render Engine"
+msgstr "GraphViz レンダリングエンジン"
+
+msgid "Mesh area"
+msgstr "メッシュエリア"
+
+msgid "Calculates input mesh area"
+msgstr "メッシュエリアを算出"
+
+msgid "Volume"
+msgstr "ボリューム"
+
+msgid "Mesh volume"
+msgstr "メッシュボリューム"
+
+msgid "Calculates input mesh volume"
+msgstr "メッシュボリュームを算出"
+
+msgid "Mesh reader that reads external GNU Triangulated Surface (.gts) files"
+msgstr ""
+
+msgid "Border Color"
+msgstr "枠の色"
+
+msgid "Border Opacity"
+msgstr "半透明"
+
+msgid "Rectangle"
+msgstr "矩形"
+
+msgid "Displays a rubber-band box in the viewport."
+msgstr ""
+
+msgid "ImageMagick Formats ( many )"
+msgstr "ImageMagick フォーマット ( たくさん )"
+
+msgid "Indigo Background"
+msgstr "Indigo 背景色"
+
+msgid "Indigo Diffuse Material"
+msgstr ""
+
+msgid "Power"
+msgstr "べき乗"
+
+msgid "Power-drawn by the light source in Watts."
+msgstr ""
+
+msgid "Luminous Efficacy"
+msgstr ""
+
+msgid "Luminous efficacy of the light source in luminous flux per Watt."
+msgstr ""
+
+msgid "Indigo Rectangle Light"
+msgstr ""
+
+msgid "A list of nodes that will be visible in the rendered output."
+msgstr "レンダリングされた出力で目に見えるノードのリスト。"
+
+msgid "Enabled Lights"
+msgstr "有効になっている光源"
+
+msgid "A list of light sources that will contribute to the rendered output."
+msgstr "レンダリングされた出力に貢献する光源のリスト"
+
+msgid "Resolution"
+msgstr "解像度"
+
+msgid "Choose a predefined image resolution"
+msgstr "イメージを選んでください"
+
+msgid "pixel_width"
+msgstr "ピクセル幅"
+
+msgid "The horizontal size in pixels of the rendered output image."
+msgstr ""
+
+msgid "pixel_height"
+msgstr "ピクセル高"
+
+msgid "The vertical size in pixels of the rendered output image."
+msgstr ""
+
+msgid "Halt Time"
+msgstr "停止時間"
+
+msgid "Maximum rendering time in seconds."
+msgstr ""
+
+msgid "Halt Samples"
+msgstr "停止サンプル"
+
+msgid "Maximum number of samples-per-pixel."
+msgstr ""
+
+msgid "Indigo Render Engine"
+msgstr "Indigo レンダリングエンジン"
+
+msgid "Vector pointing to the sun."
+msgstr ""
+
+msgid "Turbidity"
+msgstr "濁り"
+
+msgid "Controls sky clarity / haziness."
+msgstr ""
+
+msgid "Extra-Atmospheric"
+msgstr ""
+
+msgid "Computes skylight without atmospheric scattering."
+msgstr ""
+
+msgid "Indigo Skylight"
+msgstr "Indigo 天空光"
+
+msgid "Spectrum Type"
+msgstr "スペクトラムタイプ"
+
+msgid "Spectrum type."
+msgstr "スペクトラムタイプ"
+
+msgid "Blackbody Temperature"
+msgstr "黒体温度"
+
+msgid "Blackbody Temperature of the light source in degrees kelvin."
+msgstr ""
+
+msgid "Blackbody Gain"
+msgstr ""
+
+msgid "Blackbody Temperature Gain, multiplier."
+msgstr ""
+
+msgid "Red"
+msgstr "赤"
+
+msgid "Green"
+msgstr "緑"
+
+msgid "Blue"
+msgstr "青"
+
+msgid "Gamma"
+msgstr "ガンマ"
+
+msgid "Monitors files for changes, using the Linux inotify system"
+msgstr ""
+
+msgid "JPEG (*.jpeg)"
+msgstr "JPEG (*.jpeg)"
+
+msgid "Loads a JPEG (*.jpeg) bitmap from the filesystem"
+msgstr "JPEG (*.jpeg)のビットマップ読み込み"
+
+msgid "Bitmap writer that saves JPEG (*.jpg) files"
+msgstr "JPEG (*.jpg)形式で保存"
+
+msgid "K-3D Native ( .k3d )"
+msgstr "K-3D ネイティブ ( .k3d )"
+
+msgid "Mesh reader that loads external K-3D XML (.k3d) files"
+msgstr "外部K-3D XML (.k3d) ファイルの読み込み"
+
+msgid "Mesh writer that saves K-3D XML (.k3d) files"
+msgstr "K-3D XML (.k3d)形式で保存"
+
+msgid "Edge count"
+msgstr "辺数"
+
+msgid "Number of edges building up the curve"
+msgstr ""
+
+msgid "Meridian wraps"
+msgstr ""
+
+msgid "Number of meridian wraps"
+msgstr ""
+
+msgid "Longitudinal wraps"
+msgstr ""
+
+msgid "Number of longitudinal wraps"
+msgstr ""
+
+msgid "Scale"
+msgstr "拡大縮小"
+
+msgid "Knot scale"
+msgstr ""
+
+msgid "Curve width"
+msgstr ""
+
+msgid "Closed"
+msgstr "クローズド"
+
+msgid "Closed curve (loop)"
+msgstr "曲線を閉じる（ループ化）"
+
+msgid "Generates a PQ-knot curve"
+msgstr ""
+
+msgid "Edge Count"
+msgstr "辺数"
+
+msgid "Modulation Amplitude"
+msgstr "振幅変調"
+
+msgid "Modulation amplitude"
+msgstr "振幅変調"
+
+msgid "Modulation Frequency"
+msgstr "周波数"
+
+msgid "Modulation frequency"
+msgstr "周波数"
+
+msgid "Modulation Phase"
+msgstr "位相"
+
+msgid "Modulation phase"
+msgstr "位相"
+
+msgid "X Phase"
+msgstr "X 位相"
+
+msgid "X phase"
+msgstr "X位相"
+
+msgid "Y Phase"
+msgstr "Y 位相"
+
+msgid "Y phase"
+msgstr "Y 位相"
+
+msgid "Z Phase"
+msgstr "Z 位相"
+
+msgid "Z phase"
+msgstr "Z 位相"
+
+msgid "Closed Curve"
+msgstr "曲線を閉じる"
+
+msgid "Generates a lissajous (sine-wave) curve"
+msgstr ""
+
+msgid "Papagayo File"
+msgstr "パパガヨファイル"
+
+msgid "Papagayo Lipsync File to Load"
+msgstr "リップシンクファイルの読み込み"
+
+msgid "Frame Rate"
+msgstr "フレームレート"
+
+msgid "Frame rate of the papagayo lipsync file. Frames are converted to time units according to this value."
+msgstr ""
+
+msgid "Time for the current mouths' values(should be connected to a time source)"
+msgstr ""
+
+msgid "Interpolate"
+msgstr "補間"
+
+msgid "Enables linear interpolation between mouths values."
+msgstr ""
+
+msgid "Interpolation Time"
+msgstr "反復"
+
+msgid "Time for the transition from mouth to mouth"
+msgstr ""
+
+msgid " mouth value."
+msgstr "口の形"
+
+msgid "Load a papagayo lipsync (.dat) file and output its values given a time source"
+msgstr ""
+
+msgid "File path for lsystem description"
+msgstr "L-Systemが記述されたファイルパス"
+
+msgid "Growth"
+msgstr "増加"
+
+msgid "Growth value"
+msgstr "増加量"
+
+msgid "Basic angle"
+msgstr "基本角度"
+
+msgid "Thickness"
+msgstr "厚さ"
+
+msgid "Random seed"
+msgstr "乱数種"
+
+msgid "Closed form"
+msgstr "フォームを閉じました"
+
+msgid "Mutations"
+msgstr "突然変異"
+
+msgid "Mutation seed"
+msgstr "突然変異の種"
+
+msgid "Max stack size"
+msgstr "最大スタックサイズ"
+
+msgid "Flip normals"
+msgstr ""
+
+msgid "Flip normals in case the faces are reversed"
+msgstr ""
+
+msgid "Generates an L-System object from a configuration file"
+msgstr ""
+
+msgid "V00"
+msgstr "V00"
+
+msgid "V01"
+msgstr "V01"
+
+msgid "V10"
+msgstr "V10"
+
+msgid "V11"
+msgstr "V11"
+
+msgid "LuxRender Bilinear Interpolation Texture"
+msgstr ""
+
+msgid "Paint name."
+msgstr "ペイント名"
+
+msgid "Kd"
+msgstr "Kd"
+
+msgid "Diffuse Color"
+msgstr "拡散色"
+
+msgid "Kd Texture"
+msgstr "Kd テクスチャ"
+
+msgid "Ks1"
+msgstr "Ks1"
+
+msgid "Specular Color 1"
+msgstr "反射色 1"
+
+msgid "Ks1 Texture"
+msgstr "Ks1 テクスチャ"
+
+msgid "Ks2"
+msgstr "Ks2"
+
+msgid "Specular Color 2"
+msgstr "反射色 2"
+
+msgid "Ks2 Texture"
+msgstr "Ks2 テクスチャ"
+
+msgid "Ks3"
+msgstr "Ks3"
+
+msgid "Specular Color 3"
+msgstr "反射色 3"
+
+msgid "Ks3 Texture"
+msgstr "Ks3 テクスチャ"
+
+msgid "R1"
+msgstr "R1"
+
+msgid "Fresnel Constant 1"
+msgstr "フレーネル係数 1"
+
+msgid "R1 Texture"
+msgstr "R1 テクスチャ"
+
+msgid "R2"
+msgstr "R2"
+
+msgid "Fresnel Constant 2"
+msgstr "フレーネル係数 2"
+
+msgid "R2 Texture"
+msgstr "R2 テクスチャ"
+
+msgid "R3"
+msgstr "R3"
+
+msgid "Fresnel Constant 3"
+msgstr "フレーネル係数 3"
+
+msgid "R3 Texture"
+msgstr "R3 テクスチャ"
+
+msgid "M1"
+msgstr "M1"
+
+msgid "Microfacet Roughness 1"
+msgstr ""
+
+msgid "M1 Texture"
+msgstr "M1 テクスチャ"
+
+msgid "M2"
+msgstr "M2"
+
+msgid "Microfacet Roughness 2"
+msgstr ""
+
+msgid "M2 Texture"
+msgstr "M2 テクスチャ"
+
+msgid "M3"
+msgstr "M3"
+
+msgid "Microfacet Roughness 3"
+msgstr ""
+
+msgid "M3 Texture"
+msgstr "M3 テクスチャ"
+
+msgid "LuxRender Carpaint Material"
+msgstr "LuxRender 自動車塗装 マテリアル"
+
+msgid "From"
+msgstr "From"
+
+msgid "Light origin."
+msgstr "光源の位置"
+
+msgid "To"
+msgstr "To"
+
+msgid "Light target."
+msgstr "光の向き"
+
+msgid "Light color."
+msgstr "光の色"
+
+msgid "LuxRender Distant Light"
+msgstr "LuxRender 遠方光"
+
+msgid "The color of the light."
+msgstr "光の色"
+
+msgid "Samples"
+msgstr "サンプル"
+
+msgid "Shadow samples."
+msgstr "影のサンプル"
+
+msgid "Map"
+msgstr "マップ"
+
+msgid "Path to an HDR environment map."
+msgstr ""
+
+msgid "LuxRender EnvironmentLight"
+msgstr "LuxRender 環境光"
+
+msgid "Kr"
+msgstr "Kr"
+
+msgid "Surface reflectivity."
+msgstr ""
+
+msgid "Kr Texture"
+msgstr "Kr テクスチャ"
+
+msgid "Kt"
+msgstr "Kt"
+
+msgid "Fraction of light transmitted through the surface."
+msgstr ""
+
+msgid "Kt Texture"
+msgstr "Kt テクスチャ"
+
+msgid "Index"
+msgstr "インデックス"
+
+msgid "Index of refraction."
+msgstr "交差"
+
+msgid "Index Texture"
+msgstr "インデックステクスチャ"
+
+msgid "Cauchy B"
+msgstr "コーシー B"
+
+msgid "Cauchy B coefficient."
+msgstr "コーシー B 係数"
+
+msgid "Cauchy B Texture"
+msgstr "コーシー B テクスチャ"
+
+msgid "Film"
+msgstr "フィルム"
+
+msgid "Thin film coating thickness (nanometers)."
+msgstr ""
+
+msgid "Film Texture"
+msgstr "フィルムテクスチャ"
+
+msgid "Film Index"
+msgstr "フィルムインデックス"
+
+msgid "Index of refraction of the thin film coating."
+msgstr ""
+
+msgid "Film Index Texture"
+msgstr "フィルムインデックステクスチャ"
+
+msgid "LuxRender Glass Material"
+msgstr "LuxRender ガラスマテリアル"
+
+msgid "Diffuse color."
+msgstr "拡散色"
+
+msgid "Ks"
+msgstr "Ks"
+
+msgid "Specular color."
+msgstr "反射色"
+
+msgid "Ks Texture"
+msgstr "Ks テクスチャ"
+
+msgid "Ka"
+msgstr "Ka"
+
+msgid "Absorptive color."
+msgstr "吸収性の色"
+
+msgid "Ka Texture"
+msgstr "Ka テクスチャ"
+
+msgid "U Roughness"
+msgstr "U 荒さ"
+
+msgid "Surface roughness along the u direction."
+msgstr ""
+
+msgid "U Roughness Texture"
+msgstr "U 荒さテクスチャ"
+
+msgid "V Roughness"
+msgstr "V 荒さ"
+
+msgid "Surface roughness along the v direction."
+msgstr ""
+
+msgid "V Roughness Texture"
+msgstr "V 荒さテクスチャ"
+
+msgid "D"
+msgstr "D"
+
+msgid "Depth of the coating layer for absorption effects."
+msgstr ""
+
+msgid "D Texture"
+msgstr "D テクスチャ"
+
+msgid "LuxRender Glossy Material"
+msgstr "LuxRenderの光沢のあるマテリアル"
+
+msgid "Path to goniometric file."
+msgstr ""
+
+msgid "LuxRender Goniometric Light"
+msgstr ""
+
+msgid "Path to a bitmap image."
+msgstr "ビットマップイメージへのパス"
+
+msgid "Wrap"
+msgstr "ラップ"
+
+msgid "Specifies how to wrap the texture."
+msgstr "テクスチャを貼る指定"
+
+msgid "Filter"
+msgstr "フィルタ"
+
+msgid "Specifies how to filter the texture."
+msgstr ""
+
+msgid "Gain"
+msgstr "ゲイン"
+
+msgid "Applies a gain function to the texture."
+msgstr ""
+
+msgid "Applies a gamma function to the texture."
+msgstr ""
+
+msgid "LuxRender Image Texture"
+msgstr "LuxRender イメージテクスチャ"
+
+msgid "Light Group"
+msgstr "光グループ"
+
+msgid "Light group."
+msgstr "光グループ"
+
+msgid "Bumpmap"
+msgstr "バンプマップ"
+
+msgid "Optional bumpmap texture."
+msgstr "追加のバンプマップテクスチャ"
+
+msgid "Diffuse Color."
+msgstr "拡散色"
+
+msgid "Color Texture"
+msgstr "カラーテクスチャ"
+
+msgid "Sigma"
+msgstr "シグマ"
+
+msgid "The sigma parameter in the Oren-Nayer shader in degrees.  Zero for pure Lambertian reflection."
+msgstr ""
+
+msgid "Sigma Texture"
+msgstr "シグマテクスチャ"
+
+msgid "LuxRender Matte Material"
+msgstr "LuxRender つや消しマテリアル"
+
+msgid "Transparent Color."
+msgstr "透明色"
+
+msgid "LuxRender Matte Translucent Material"
+msgstr "LuxRender つや消し半透明マテリアル"
+
+msgid "Metal name, or the path to an NK optical properties file."
+msgstr ""
+
+msgid "Roughness of the surface in the u direction."
+msgstr ""
+
+msgid "Roughness of the surface in the v direction."
+msgstr ""
+
+msgid "LuxRender Metal Material"
+msgstr "LuxRender 金属マテリアル"
+
+msgid "LuxRender Mirror Material"
+msgstr "LuxRender 鏡面マテリアル"
+
+msgid "Material 1"
+msgstr "マテリアル 1"
+
+msgid "Material 2"
+msgstr "マテリアル 2"
+
+msgid "Amount"
+msgstr ""
+
+msgid "Used to do linear interpolation between Material 1 and Material 2."
+msgstr ""
+
+msgid "Amount Texture"
+msgstr ""
+
+msgid "LuxRender Mix Material"
+msgstr "LuxRender ミックスマテリアル"
+
+msgid "LuxRender Null Material"
+msgstr "LuxRender 空マテリアル"
+
+msgid "LuxRender Point Light"
+msgstr "LuxRender ポイントライト"
+
+msgid "Pixel Width"
+msgstr "ピクセル幅"
+
+msgid "Pixel Height"
+msgstr "ピクセル高"
+
+msgid "Halt rendering once the number of samples per pixel reaches this value."
+msgstr ""
+
+msgid "LuxRender Render Engine"
+msgstr "LuxRender レンダリングエンジン"
+
+msgid "U Roughness."
+msgstr "U 変化率"
+
+msgid "V Roughness."
+msgstr "V 変化率"
+
+msgid "LuxRender Rough Glass Material"
+msgstr ""
+
+msgid "LuxRender Scalar Image Texture"
+msgstr ""
+
+msgid "Glossy color."
+msgstr ""
+
+msgid "LuxRender Shiny Metal Material"
+msgstr ""
+
+msgid "Scales light intensity."
+msgstr ""
+
+msgid "Controls sky_light clarity / haziness."
+msgstr ""
+
+msgid "LuxRender SkyLight"
+msgstr "LuxRender 天空光"
+
+msgid "Controls sun_light clarity / haziness."
+msgstr ""
+
+msgid "Relative size."
+msgstr ""
+
+msgid "LuxRender SunLight"
+msgstr "LuxRender 太陽光"
+
+msgid "Mapping"
+msgstr "マッピング"
+
+msgid "Projection mapping."
+msgstr "プロジェクションマッピング"
+
+msgid "U Scale"
+msgstr "U 拡大縮小"
+
+msgid "U Scale."
+msgstr "U 拡大縮小"
+
+msgid "V Scale"
+msgstr "V 拡大縮小"
+
+msgid "V Scale."
+msgstr "V 拡大縮小"
+
+msgid "U Delta"
+msgstr "U デルタ"
+
+msgid "U Delta."
+msgstr "U デルタ"
+
+msgid "V Delta"
+msgstr "V デルタ"
+
+msgid "V Delta."
+msgstr "V デルタ"
+
+msgid "U Axis"
+msgstr "U 軸"
+
+msgid "Specify the U axis for planar mapping."
+msgstr "平面マッピングにU軸を指定"
+
+msgid "V Axis"
+msgstr "V 軸"
+
+msgid "Specify the V axis for planar mapping."
+msgstr "平面マッピングにV軸を指定"
+
+msgid "Matrix"
+msgstr "行列"
+
+msgid "Transformation matrix"
+msgstr "変換情報行列"
+
+msgid "Output matrix (read only)"
+msgstr "出力行列（リードオンリー）"
+
+msgid "Stores an arbitrary transformation matrix"
+msgstr ""
+
+msgid "Computes the inverse of a matrix."
+msgstr ""
+
+msgid "Target matrix"
+msgstr ""
+
+msgid "Creates a transformation matrix that looks from one to another."
+msgstr ""
+
+msgid "Coordinate space"
+msgstr "スペースを調整"
+
+msgid "Creates an orientation transform matrix"
+msgstr ""
+
+msgid "Creates a position transform matrix"
+msgstr ""
+
+msgid "Coordinate space (matrix)"
+msgstr "スペースを調整 (行列)"
+
+msgid "X scaling"
+msgstr "X 拡大・縮小"
+
+msgid "Y scaling"
+msgstr "Y 拡大・縮小"
+
+msgid "Z scaling"
+msgstr "Z 拡大縮小"
+
+msgid "Creates a scale transform matrix"
+msgstr ""
+
+msgid "Source Node"
+msgstr "ソースノード"
+
+msgid "Snap Source"
+msgstr ""
+
+msgid "Target Node"
+msgstr "ターゲットノード"
+
+msgid "Snap Target"
+msgstr ""
+
+msgid "Snap Orientation"
+msgstr ""
+
+msgid "Snaps one node to another"
+msgstr ""
+
+msgid "Look Position"
+msgstr ""
+
+msgid "Up Position"
+msgstr ""
+
+msgid "Generates a viewing matrix from a position, a look vector, and an up vector"
+msgstr ""
+
+msgid "Frame"
+msgstr "フレーム"
+
+msgid "Frame of model"
+msgstr "モデルのフレーム"
+
+msgid "Reader that loads external MD2 (.md2) files into the document by reference"
+msgstr ""
+
+msgid "Count"
+msgstr "カウント"
+
+msgid "Number of mesh copies"
+msgstr ""
+
+msgid "Makes copies of a mesh along one dimension"
+msgstr ""
+
+msgid "Count 1"
+msgstr "カウント 1"
+
+msgid "Count 2"
+msgstr "カウント 2"
+
+msgid "Makes copies of a mesh along two dimensions"
+msgstr ""
+
+msgid "Count 3"
+msgstr "カウント 3"
+
+msgid "Makes copies of a mesh along three dimensions"
+msgstr ""
+
+msgid "Merges two meshes into one"
+msgstr ""
+
+msgid "Centroid"
+msgstr ""
+
+msgid "Calculated centroid"
+msgstr ""
+
+msgid "Calculates the average position (centroid) of the points, weighted by the selection value"
+msgstr ""
+
+msgid "Distance"
+msgstr "距離"
+
+msgid "Maximum distance between points"
+msgstr ""
+
+msgid "Eliminates points with duplicate 3D coordinates"
+msgstr ""
+
+msgid "Maximum Angle"
+msgstr ""
+
+msgid "Normals will not be smoothed across points sharper than this angle (only applies to Vertex Normals)."
+msgstr ""
+
+msgid "Face Normals"
+msgstr "面法線"
+
+msgid "Generate per-face normals."
+msgstr ""
+
+msgid "Vertex Normals"
+msgstr "頂点法線"
+
+msgid "Generate per-vertex normals."
+msgstr ""
+
+msgid "Point Normals"
+msgstr "法線"
+
+msgid "Generate per-point normals."
+msgstr ""
+
+msgid "Face Array Name"
+msgstr "面配列名"
+
+msgid "Face output array name."
+msgstr "面の出力配列の名前"
+
+msgid "Vertex Array Name"
+msgstr "辺配列名"
+
+msgid "Vertex output array name."
+msgstr "辺の出力配列の名前"
+
+msgid "Point Array Name"
+msgstr "点配列名"
+
+msgid "Point output array name."
+msgstr "点の出力配列の名前"
+
+msgid "Calculates a variety of polygon normals"
+msgstr ""
+
+msgid "Array Name"
+msgstr "配列名"
+
+msgid "Name of the output array"
+msgstr "出力配列の名前"
+
+msgid "Default Value"
+msgstr "デフォルトの値"
+
+msgid "Default value, associated with unselected items"
+msgstr "選ばれていない項目に関連づけられた、デフォルト値"
+
+msgid "Value"
+msgstr "値"
+
+msgid "Value, associated with selected items"
+msgstr "選択された項目に関連づけられた、値"
+
+msgid "Creates or updates a named array with string data"
+msgstr ""
+
+#, fuzzy
+msgid "Name for the color attribute array"
+msgstr "出力配列の名前"
+
+msgid "Default Color"
+msgstr "デフォルト色"
+
+msgid "Color used for unselected faces in case no previous array existed"
+msgstr ""
+
+msgid "Color to apply to selected faces"
+msgstr ""
+
+#, fuzzy
+msgid "Sets geometry color"
+msgstr "セグメント色"
+
+msgid "Sets geometry materials"
+msgstr ""
+
+msgid "Freezes its input for manual editing"
+msgstr ""
+
+msgid "OpenGL Mesh Painter"
+msgstr "OpenGLメッシュ描画"
+
+msgid "RenderMan Mesh Painter"
+msgstr "RenderManメッシュ描画"
+
+msgid "Show Component Selection"
+msgstr "コンポーネント選択を表示"
+
+msgid "Show component selection"
+msgstr "コンポーネント選択を表示します"
+
+msgid "Renders an instance of a geometric mesh"
+msgstr ""
+
+msgid "Starting K-3D ..."
+msgstr "K-3D を開始します ..."
+
+msgid "About K-3D"
+msgstr "K-3Dについて"
+
+msgid "Displays the current K-3D version and credits contributors"
+msgstr "現在のK-3Dのバージョンと、貢献された方のクレジットを表示します"
+
+msgid "Playback Mode"
+msgstr "プレイバックモード"
+
+msgid "When on, plays animation"
+msgstr "オンにすると、アニメーションを表示"
+
+msgid "Provides a panel for manipulating the current animation time"
+msgstr ""
+
+msgid "Assign Hotkeys:"
+msgstr "割り当てるキー :"
+
+msgid "<big><b>Assign Hotkeys Mode</b></big>"
+msgstr "<big><b>Assign Hotkeys Mode</b></big>"
+
+msgid "To assign hotkeys, hover the mouse over a menu item, and hit the desired hotkey combination.  Use \"delete\" to remove hotkeys.  Close this window to turn-off Assign Hotkeys Mode."
+msgstr ""
+
+msgid "Provides a user-interface for assigning menu hotkeys."
+msgstr "現在のアニメーション時間を操るためのパネルを提供します。"
+
+msgid "Record"
+msgstr "録画"
+
+msgid "Toggle the recording of actions"
+msgstr "録画（ON/OFF）"
+
+msgid "Open File:"
+msgstr "ファイルを開く"
+
+msgid "Save Script As::"
+msgstr "名前を付けてスクリプトを保存..."
+
+msgid "Unknown script language"
+msgstr "不明のスクリプト言語"
+
+msgid "Could not identify the MIME-type for this script.  K-3D supports multiple scripting languages, and the MIME-type is used to match scripts to the correct script engines. You can add a \"magic token\" at the beginning of a script to force identification of its MIME-type - for example, add \"#python\" at the beginning of a Python script."
+msgstr ""
+
+msgid "Untitled"
+msgstr "無題"
+
+msgid " [changed]"
+msgstr " [変更済]"
+
+msgid " [running]"
+msgstr " [実行中]"
+
+msgid "Sends a stream of ATK user interface events to stderr, primarily intended for troubleshooting"
+msgstr ""
+
+msgid "Provides a custom property control for NURBS knot vectors."
+msgstr ""
+
+msgid "Show examples at startup"
+msgstr "作例をスタート時に表示"
+
+msgid "K-3D Tutorials and Examples"
+msgstr "K-3D 練習と作例"
+
+msgid "<big><b>Welcome to K-3D!</b></big>"
+msgstr "<big><b>K-3Dへようこそ!</b></big>"
+
+msgid ""
+"Below are example documents you can\n"
+"use to become familiar with K-3D."
+msgstr "以下に、あなたがK3Dを使いこなすのに使用できる作例のドキュメントがあります。"
+
+msgid "Double-click to open an example document:"
+msgstr "ダブルクリックで、作例のドキュメントが開きます。"
+
+msgid "Open example document \"%1%\"?"
+msgstr "サンプルドキュメント\"%1%\"を開きますか？"
+
+msgid "Displays a menu containing sample documents"
+msgstr "サンプルドキュメントを含むメニューを表示します"
+
+msgid "K-3D Log Window"
+msgstr "K-3D ログウィンドウ"
+
+msgid "Displays the contents of the K-3D log"
+msgstr "K3Dのログの内容を表示します"
+
+msgid "Material Manager Panel"
+msgstr "マテリアルマネージャパネル"
+
+msgid "Mesh Options"
+msgstr "メッシュオプション"
+
+msgid "Save Mesh ..."
+msgstr "メッシュを保存..."
+
+msgid "Save GraphViz (.dot) file ..."
+msgstr "GraphViz (.dot) ファイルを保存 ..."
+
+msgid "Save mesh file:"
+msgstr "メッシュファイルを保存"
+
+msgid "Save Mesh as GraphViz .dot file:"
+msgstr "メッシュをGraphVizの.dotファイルとして保存"
+
+msgid "Provides a standard control for mesh properties."
+msgstr ""
+
+msgid "Provides a custom property page for the MorphPoints modifier."
+msgstr ""
+
+msgid "Displays the document nodes as a flat list"
+msgstr "ドキュメントノードのリストを表示"
+
+msgid "Rename node %1%"
+msgstr "%1% のノード名を変更"
+
+msgid "Select nodes"
+msgstr "ノードを選択"
+
+msgid "Multiple Nodes"
+msgstr "マルチノード"
+
+msgid "Displays properties for one node"
+msgstr "ノードのプロパティを表示"
+
+msgid "OpenGL Information"
+msgstr "OpenGL 情報"
+
+msgid "Displays information about the OpenGL implementation."
+msgstr "OpenGLエンジンの実装の情報を表示"
+
+msgid "Set Parent"
+msgstr "親をセット"
+
+msgid "Provides interactive controls for reparenting nodes."
+msgstr ""
+
+msgid "Input Graph"
+msgstr "入力グラフ"
+
+msgid "Output Graph"
+msgstr "出力グラフ"
+
+msgid "Save PNG Image:"
+msgstr "PNG 画像を保存:"
+
+msgid "PNG Image (*.png)"
+msgstr "PNG Image (*.png)"
+
+msgid "Save PDF Document:"
+msgstr "PDF ドキュメントとして保存:"
+
+msgid "PDF Document (*.pdf)"
+msgstr "PDF Document (*.pdf)"
+
+msgid "Save Postscript Document:"
+msgstr "Postscript ドキュメントとして保存:"
+
+msgid "Postscript Document (*.ps)"
+msgstr "Postscript Document (*.ps)"
+
+msgid "Save SVG Document:"
+msgstr "SVG ドキュメントとして保存:"
+
+msgid "SVG Document (*.svg)"
+msgstr "SVG Document (*.svg)"
+
+msgid "Displays the visualization pipeline"
+msgstr "ビジュアライゼーションパイプライン（visualization pipeline）を表示"
+
+msgid "Task"
+msgstr "タスク"
+
+msgid "%"
+msgstr "%"
+
+#, c-format
+msgid "%.2f%%"
+msgstr "%.2f%%"
+
+msgid "Provides a panel for profiling execution of the visualization pipeline"
+msgstr ""
+
+msgid "K-3D Python Shell"
+msgstr "K-3D Python Shell（_S）"
+
+msgid "Provides an interactive Python shell window"
+msgstr "インタラクティブに操作できるPythonのシェルウィンドウを提供します"
+
+msgid "X1"
+msgstr "X1"
+
+msgid "X2"
+msgstr "X2"
+
+msgid "Y1"
+msgstr "Y1"
+
+msgid "Y2"
+msgstr "Y2"
+
+msgid "Provides a custom property control for k3d::rectangle properties."
+msgstr ""
+
+msgid "Reset Camera Crop Window"
+msgstr ""
+
+msgid "Set Camera Crop Window"
+msgstr ""
+
+msgid "Provides interactive controls for cropped rendering."
+msgstr ""
+
+msgid "Selection Options"
+msgstr "オプションを選ぶ"
+
+msgid "Save selection ..."
+msgstr "選択範囲を保存"
+
+msgid "Reset Selection"
+msgstr "選択範囲を残す"
+
+msgid "Save selection file:"
+msgstr "選択したファイルを保存:"
+
+msgid "Provides a standard control for selection properties."
+msgstr ""
+
+msgid "Target"
+msgstr "ターゲット"
+
+msgid "Snap Distance"
+msgstr "スナップ距離"
+
+msgid "Match Groups"
+msgstr "マッチしたグループ"
+
+msgid "Provides interactive controls for 'snapping' nodes."
+msgstr ""
+
+msgid ""
+"Logging SpaceNavigator events to stderr ...\n"
+"Close window to cancel logging."
+msgstr ""
+"Logging SpaceNavigator events to stderr ...\n"
+"Close window to cancel logging."
+
+msgid "Sends a stream of SpaceNavigator events to stderr, intended mainly for debugging."
+msgstr ""
+
+msgid "Import File ..."
+msgstr "インポートするファイル"
+
+msgid "Export File ..."
+msgstr "ファイルのエクスポート"
+
+msgid "Commit"
+msgstr "コミット"
+
+msgid "Commit modifications to the underlying property."
+msgstr ""
+
+msgid "Import File:"
+msgstr "インポートするファイル"
+
+msgid "Export File:"
+msgstr "ファイルのエクスポート"
+
+msgid "%1% \"%2%\" property"
+msgstr "プロパティ %1% \"%2%\""
+
+msgid "%1%"
+msgstr "%1%"
+
+msgid "Line: %1% Column: %2%"
+msgstr "行番号: %1% カラム位置: %2%"
+
+msgid "Provides a general-purpose dialog for editing source-code, text, scripts, and shaders."
+msgstr ""
+
+msgid "Rewind"
+msgstr "戻す"
+
+msgid "Continuous reverse playback"
+msgstr "逆再生を続ける"
+
+msgid "Reverse playback"
+msgstr "逆再生"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Play"
+msgstr "再生"
+
+msgid "Continuous playback"
+msgstr "再生を続ける"
+
+msgid "Fast Forward"
+msgstr "送る"
+
+msgid "Provides a panel for manipulating the current time"
+msgstr ""
+
+msgid "Displays tool properties"
+msgstr "ツールプロパティを表示"
+
+msgid "Rotate"
+msgstr "回転"
+
+msgid "Snap"
+msgstr "折曲る"
+
+msgid "Unparent"
+msgstr "親子関係を解消"
+
+msgid "Render Region"
+msgstr "領域を描画"
+
+msgid "Select Polygons"
+msgstr "ポリゴンを選択"
+
+msgid "Provides the standard toolbar"
+msgstr "標準ツールバーを提供します"
+
+msgid "Can't Undo"
+msgstr "Undo できません"
+
+msgid "Can't Redo"
+msgstr "Redo できません"
+
+msgid "Provides a panel for displaying the undo tree"
+msgstr ""
+
+msgid "Used for editing of UV coordinates"
+msgstr "UV座標で編集"
+
+msgid "delete_curve"
+msgstr "曲線を削除（_C）"
+
+msgid "Delete the Curve"
+msgstr "曲線を削除"
+
+msgid "Delete the curve which was used to create the trimming curve"
+msgstr ""
+
+msgid "scale_u"
+msgstr "拡大縮小_u"
+
+msgid "Scale factor in the U direction"
+msgstr ""
+
+msgid "scale-V"
+msgstr "拡大縮小 -V"
+
+msgid "Scale factor in the V direction"
+msgstr ""
+
+msgid "offset_u"
+msgstr "オフセットu"
+
+msgid "U Offset"
+msgstr "U オフセット"
+
+msgid "U position offset on the surface"
+msgstr ""
+
+msgid "offset_v"
+msgstr "オフセットv"
+
+msgid "V Offset"
+msgstr "V オフセット"
+
+msgid "V position offset on the surface"
+msgstr ""
+
+msgid "Adds a trimming curve to the selected patch"
+msgstr ""
+
+msgid "Keep end points as CVs"
+msgstr ""
+
+msgid "If enabled, the endpoints will work as CVs and a new endpoint gets added"
+msgstr ""
+
+msgid "Connects the 2 end points of the selected curve"
+msgstr ""
+
+msgid "Connects a set of NURBS curves"
+msgstr ""
+
+msgid "delete_original"
+msgstr "オリジナルを削除"
+
+msgid "Delete the curve which was used to create the cap"
+msgstr ""
+
+msgid "u_offset"
+msgstr "u オフセット"
+
+msgid "Shift the capped curve U range by this amount, useful to rotate the UV-system on the cap"
+msgstr ""
+
+msgid "coons"
+msgstr "円錐"
+
+msgid "Coons"
+msgstr "円錐"
+
+msgid "Use a Coons surface to fill the curve if true, use a trimmed bilinear patch otherwise"
+msgstr ""
+
+msgid "Creates a NURBS surface filling out the selected closed curves"
+msgstr ""
+
+msgid "The degree which will be added to the curve"
+msgstr ""
+
+msgid "The curve degree gets elevated by the amount you specify here"
+msgstr ""
+
+msgid "Takes a curve of degree p and turns it into a curve with degree p+degree"
+msgstr ""
+
+msgid "Delete the Curves"
+msgstr "曲線を削除"
+
+msgid "Delete the curves used to construct the surface"
+msgstr ""
+
+msgid "Creates a NURBS surface while traversing one NURBS curve along another"
+msgstr ""
+
+msgid "Knot Vector"
+msgstr "節点ベクトル"
+
+msgid "Enter a new knot vector containing knot values separated with spaces."
+msgstr ""
+
+msgid "Edit the knot vector of a NURBS curve"
+msgstr ""
+
+msgid "parameter"
+msgstr "パラメータ"
+
+msgid "Parameter Value"
+msgstr "パラメータ値"
+
+msgid "Parameter value at which the point will be extracted"
+msgstr ""
+
+msgid "Extract the point at the given parameter value"
+msgstr ""
+
+msgid "Parameter value (u or v) for which a curve will be extracted"
+msgstr ""
+
+msgid "extract_v_curve"
+msgstr ""
+
+msgid "Extract V curve"
+msgstr ""
+
+msgid "If true, a curve in the V direction is extracted (iso-U curve), otherwise it's a U-curve"
+msgstr ""
+
+msgid "Extract a curve from a patch at a given parameter in  given direction"
+msgstr ""
+
+msgid "samples"
+msgstr "サンプル"
+
+msgid "Samples per knot interval of the trim curves. More is better"
+msgstr ""
+
+msgid "Extracts patch trim curves as 3D NURBS curve approximations"
+msgstr ""
+
+msgid "distance"
+msgstr "距離"
+
+msgid "How far to extrude the curve"
+msgstr ""
+
+msgid "segments"
+msgstr "セグメント"
+
+msgid "Segments"
+msgstr "セグメント"
+
+msgid "Extrude along"
+msgstr ""
+
+msgid "Axis along which the curve gets extruded"
+msgstr ""
+
+msgid "Delete the original curve"
+msgstr "元の曲線を削除"
+
+msgid "Extrudes the selected curve along a coordinate axis and lets you create caps if one of the curves is closed"
+msgstr ""
+
+msgid "Extrudes the selected patch along a coordinate axis"
+msgstr ""
+
+msgid "Flips the order of the points for the selected curves"
+msgstr ""
+
+msgid "u_value"
+msgstr "u_value"
+
+msgid "Insert knot at [0,1]"
+msgstr ""
+
+msgid "multiplicity"
+msgstr "多重度"
+
+msgid "Multiplicity"
+msgstr "多重度"
+
+msgid "Inserts a new Knot with the specified u-value"
+msgstr ""
+
+msgid "Join selected curves with common endpoints into a single NURBS curve"
+msgstr ""
+
+msgid "degree"
+msgstr "度"
+
+msgid "Degree"
+msgstr "度"
+
+msgid "The current degree will be increased by the amount you specified here"
+msgstr ""
+
+msgid "insert_to_v"
+msgstr ""
+
+msgid "Elevate v? Otherwise u"
+msgstr ""
+
+msgid "By default the u direction gets elevated, by checking this box you choose to elevate v"
+msgstr ""
+
+msgid "Elevates the selected patches in either u or v direction"
+msgstr ""
+
+msgid "u/v value of new knot"
+msgstr ""
+
+msgid "Insert knot in v? Otherwise u"
+msgstr ""
+
+msgid "By default the knot gets inserted into the patch in u direction, by checking this box you choose to insert it to v"
+msgstr ""
+
+msgid "Adds a new knot in either u or v direction to all selected patches"
+msgstr ""
+
+msgid "Segments per knot interval. The more segments the better the result"
+msgstr ""
+
+msgid "Delete original?"
+msgstr "オリジナルを削除しますか？"
+
+msgid "Delete original NURBS curve?"
+msgstr "オリジナルのNURBS曲線を削除しますか？"
+
+msgid "Creates a LinearCurve representation of the selected NURBS curve"
+msgstr ""
+
+msgid "u_samples"
+msgstr "u サンプル"
+
+msgid "U Samples"
+msgstr "U サンプル"
+
+msgid "Samples per knot interval in the U direction. More is better"
+msgstr ""
+
+msgid "v_samples"
+msgstr "v サンプル"
+
+msgid "V Samples"
+msgstr "V サンプル"
+
+msgid "Samples per knot interval in the V direction. More is better"
+msgstr ""
+
+msgid "delete_orig"
+msgstr ""
+
+msgid "Creates a Polyhedron representation of the selected NURBS patch"
+msgstr ""
+
+msgid "angle"
+msgstr "アングル"
+
+msgid "The curve will be rotated to this angle, specify 360 for a closed shape"
+msgstr ""
+
+msgid "Axis to revolve around"
+msgstr ""
+
+msgid "Take a NURBS curve and rotate it around one of the coordinate system axis"
+msgstr ""
+
+msgid "flip"
+msgstr "裏返す"
+
+msgid "Flip one of the curves before creating the surface"
+msgstr ""
+
+msgid "Delete the original curves"
+msgstr "元の曲線を削除"
+
+msgid "Order"
+msgstr "順番"
+
+msgid "Order in the linear direction"
+msgstr ""
+
+msgid "Number of segments for the linear direction"
+msgstr ""
+
+msgid "Creates a NURBS surface stretched between the 2 curves"
+msgstr ""
+
+msgid "Weight"
+msgstr "重さ"
+
+msgid "The new weight for the selected points"
+msgstr ""
+
+msgid "Sets the weight of the selected Control Points"
+msgstr ""
+
+msgid "Order in the direction normal to the curves (V)"
+msgstr ""
+
+msgid "Creates a NURBS surface stretched along all selected curves"
+msgstr ""
+
+msgid "U value (in [0,1])"
+msgstr ""
+
+msgid "Split Curve at u in ]0,1["
+msgstr ""
+
+msgid "Breaks a NURBS curve at a given u value (0...1)"
+msgstr ""
+
+msgid "Splits a patch at the selected u/v value"
+msgstr ""
+
+msgid "The number of samples per span"
+msgstr ""
+
+msgid "align_normal"
+msgstr ""
+
+#, fuzzy
+msgid "Align Normal"
+msgstr "法線"
+
+msgid "Align the curve normal, insted of preserving the start alignment"
+msgstr ""
+
+msgid "Create a Surface by traversing one curve along another and orienting it tangential to the traverse curve"
+msgstr ""
+
+msgid "radius"
+msgstr "半径"
+
+msgid "thetamax"
+msgstr "回転角度"
+
+msgid "End angle"
+msgstr ""
+
+msgid "u_segments"
+msgstr "u セグメント"
+
+msgid "Generates a NURBS circle"
+msgstr ""
+
+msgid "height"
+msgstr "高さ"
+
+msgid "Radial Segments"
+msgstr ""
+
+msgid "v_segments"
+msgstr "v セグメント"
+
+msgid "Generates a NURBS cone"
+msgstr ""
+
+msgid "Order of the curve (2-linear - 4-cubic)"
+msgstr ""
+
+msgid "Point Count"
+msgstr "位置"
+
+msgid "Number of control points"
+msgstr ""
+
+msgid "Point Spacing"
+msgstr "行送り:"
+
+msgid "Space between points"
+msgstr ""
+
+msgid "Generates a NURBS curve"
+msgstr "NURBS 曲線を作成"
+
+msgid "zmax"
+msgstr "z最大"
+
+msgid "ZMax"
+msgstr "Z最大"
+
+msgid "zmin"
+msgstr "z最小"
+
+msgid "ZMin"
+msgstr "Z最小"
+
+msgid "Generates a NURBS cylinder"
+msgstr "NURBS 円柱を作成"
+
+msgid "Generates a NURBS disk"
+msgstr "NURBS 円盤を作成"
+
+msgid "u_order"
+msgstr "u順番"
+
+msgid "U Order"
+msgstr "U順番"
+
+msgid "v_order"
+msgstr "v順番"
+
+msgid "V Order"
+msgstr "V順番"
+
+msgid "width"
+msgstr "幅"
+
+msgid "Generates a NURBS grid"
+msgstr "NURBS グリッドを作成"
+
+msgid "x1"
+msgstr "x1"
+
+msgid "y1"
+msgstr "y1"
+
+msgid "z1"
+msgstr "z1"
+
+msgid "x2"
+msgstr "x2"
+
+msgid "y2"
+msgstr "y2"
+
+msgid "z2"
+msgstr "z2"
+
+msgid "Generates a NURBS hyperboloid"
+msgstr "NURBS双曲面 を作成"
+
+msgid "Z max"
+msgstr "Z 最大"
+
+msgid "Maximum point position"
+msgstr ""
+
+msgid "Z min"
+msgstr "Z 最小"
+
+msgid "Origin position"
+msgstr ""
+
+msgid "Theta max"
+msgstr ""
+
+msgid "From RenderMan specification"
+msgstr ""
+
+msgid "Generates a NURBS paraboloid"
+msgstr ""
+
+msgid "Sides"
+msgstr "サイド"
+
+msgid "Generates a NURBS polygon"
+msgstr "NURBS ポリゴンの作成"
+
+msgid "Generates a NURBS sphere"
+msgstr "NURBS球 の作成"
+
+msgid "majorradius"
+msgstr "外径"
+
+msgid "Major Radius"
+msgstr "外径"
+
+msgid "minorradius"
+msgstr "内径"
+
+msgid "Minor Radius"
+msgstr "内径"
+
+msgid "phimin"
+msgstr ""
+
+msgid "Phi Minimum"
+msgstr ""
+
+msgid "phimax"
+msgstr ""
+
+msgid "Phi Maximum"
+msgstr ""
+
+msgid "Theta Maximum"
+msgstr ""
+
+msgid "U Segments"
+msgstr "U セグメント"
+
+msgid "V Segments"
+msgstr "V セグメント"
+
+msgid "Generates a NURBS torus"
+msgstr ""
+
+msgid "Mesh reader that loads external Wavefront (.obj) files into the document by reference"
+msgstr ""
+
+msgid "Mesh writer that saves external Wavefront (.obj) files"
+msgstr ""
+
+msgid "Simulation"
+msgstr "シミュレーション"
+
+msgid "ODE simulation node."
+msgstr "ODE シミュレーションノード"
+
+msgid "Mass"
+msgstr "質量"
+
+msgid "Mass."
+msgstr "質量"
+
+msgid "Linear Velocity"
+msgstr ""
+
+msgid "Defines the initial linear velocity (if any)."
+msgstr ""
+
+msgid "Rigid-body dynamics object."
+msgstr ""
+
+msgid "Defines the gravity direction and magnitude (if any)."
+msgstr ""
+
+msgid "Rigid-body dynamics simulation."
+msgstr ""
+
+msgid "Mesh writer that saves external Ogre XML Mesh files"
+msgstr ""
+
+msgid "OpenCascade ( .step, .iges, .brep )"
+msgstr "OpenCascade ( .step, .iges, .brep )"
+
+msgid "Mesh reader that loads external STEP (.stp, .step) files into the document by reference"
+msgstr ""
+
+msgid "OpenEXR (*.exr)"
+msgstr "OpenEXR (*.exr)"
+
+msgid "OpengGL point size"
+msgstr "OpengGL ポイントサイズ"
+
+msgid "Background Color"
+msgstr "背景色"
+
+msgid "Background color"
+msgstr "背景色"
+
+msgid "Fog"
+msgstr "フォグ"
+
+msgid "Fog Near"
+msgstr "フォグ近"
+
+msgid "Fog near distance"
+msgstr "フォグ近距離"
+
+msgid "Fog Far"
+msgstr "フォグ遠"
+
+msgid "Fog far distance"
+msgstr "フォグ遠距離"
+
+msgid "Headlight"
+msgstr "ヘッドライト"
+
+msgid "Show Lights"
+msgstr "ライトを表示"
+
+msgid "Show lights (on/off)"
+msgstr "ライトを表示 (on/off)"
+
+msgid "Draw Two Sided"
+msgstr ""
+
+msgid "Draw two sided"
+msgstr ""
+
+msgid "Draw Safe Zone"
+msgstr ""
+
+msgid "Draw Aim Point"
+msgstr ""
+
+msgid "Draw center screen cross"
+msgstr ""
+
+msgid "Draw Crop Window"
+msgstr ""
+
+msgid "Draw bounding rectangle for output rendering"
+msgstr ""
+
+msgid "Draw Frustum"
+msgstr ""
+
+msgid "Draw Camera Frustum"
+msgstr ""
+
+msgid "Node storing the currently selected nodes"
+msgstr ""
+
+msgid "OpenGL Render Engine"
+msgstr "OpenGL レンダーエンジン"
+
+msgid "Your OpenGL version is %1%."
+msgstr "OpenGL の Version は %1%です"
+
+msgid "On your platform, Mesa versions earlier than 7.5.1 are known to cause problems with face selection. If you experience this, please upgrade your Mesa library. See http://bugs.freedesktop.org/show_bug.cgi?id=16866 for detailed information."
+msgstr ""
+
+msgid "Checks OpenGL version and warns if it is known to contain bugs affecting K-3D"
+msgstr ""
+
+msgid "Creates OSMesa graphics contexts."
+msgstr ""
+
+msgid "Opens a URI using the Mac OSX API"
+msgstr ""
+
+msgid "Controls the width of the output points."
+msgstr ""
+
+msgid "Converts input geometric points into a single group of particles."
+msgstr ""
+
+msgid "A input bitmap"
+msgstr "ビットマップを入力してください"
+
+msgid "B input bitmap"
+msgstr "B ビットマップを入力してください"
+
+msgid "Field-of-view"
+msgstr "Field-of-view"
+
+msgid "Field-of-view (degrees)"
+msgstr "Field-of-view (degrees)"
+
+msgid "Luminance"
+msgstr "輝度"
+
+msgid "Display Luminance (candela per square meter)"
+msgstr "輝度を表示 (カンデラ／平方メートル)"
+
+msgid "The count of perceivably-different pixels"
+msgstr ""
+
+msgid "Calculate a perceptual difference metric between two bitmap images"
+msgstr ""
+
+msgid "Dummy shadow map source for raytracing with Pixie"
+msgstr ""
+
+msgid "Points to approximate"
+msgstr "近似するポイント"
+
+msgid "Rename u v"
+msgstr "名前変更 u v"
+
+msgid "Renames the u,v variables to suit the variables from your function. Could be x,y for example"
+msgstr ""
+
+msgid "u,v"
+msgstr "u,v"
+
+msgid "Coefficients"
+msgstr "係数"
+
+msgid "Output Values of the coficients"
+msgstr ""
+
+msgid "Aproximates points with a surface given a set of equations."
+msgstr ""
+
+msgid "Function"
+msgstr "機能"
+
+msgid "Function to be plotted, in terms of u, v, and any scalar user properties added to the node."
+msgstr ""
+
+msgid "cos(sqrt(u^2+v^2))"
+msgstr "cos(sqrt(u^2+v^2))"
+
+msgid "Number of samples along the u dimension."
+msgstr ""
+
+msgid "Number of samples along the v dimension."
+msgstr ""
+
+msgid "U Size"
+msgstr "U サイズ"
+
+msgid "Plot size along the u dimension."
+msgstr ""
+
+msgid "V Size"
+msgstr "V サイズ"
+
+msgid "Plot size along the v dimension."
+msgstr ""
+
+msgid "Plot orientation (positive or negative along the X, Y or Z axis)."
+msgstr ""
+
+msgid "Creates a 3D surface plot."
+msgstr ""
+
+msgid "Mesh source that reads external Stanford PLY (.ply) files"
+msgstr ""
+
+msgid "Mesh writer that saves external Stanford PLY (.ply) files"
+msgstr ""
+
+msgid "PNG (*.png)"
+msgstr "PNG (*.png)"
+
+msgid "Loads a PNG (*.png) bitmap from the filesystem"
+msgstr "PNG (*.png) を読み込みます。"
+
+msgid "Bitmap writer that saves PNG (*.png) files"
+msgstr ""
+
+msgid "Offset along external edges"
+msgstr ""
+
+msgid "Inset"
+msgstr "挿入"
+
+msgid "Inset of bevelled face"
+msgstr ""
+
+msgid "Use distance instead of edge offset"
+msgstr ""
+
+msgid "Select side faces"
+msgstr ""
+
+msgid "Select side faces on output, doesn't change selection if off"
+msgstr ""
+
+msgid "Offset distance along edges."
+msgstr ""
+
+#, fuzzy
+msgid "Fraction"
+msgstr "端数"
+
+msgid "Offset position as a fraction of edge length."
+msgstr ""
+
+#, fuzzy
+msgid "Cap"
+msgstr "端"
+
+msgid "Cap each bevelled point with a new face."
+msgstr ""
+
+msgid "Cap polyhedra"
+msgstr ""
+
+msgid "Cap holes (missing faces) in polyhedra"
+msgstr ""
+
+msgid "Cap faces"
+msgstr "面をふさぐ"
+
+msgid "Cap holes in faces"
+msgstr ""
+
+msgid "Caps (fills) holes in a polyhedron"
+msgstr ""
+
+msgid "Segment number between original and new faces."
+msgstr ""
+
+msgid "Group Faces"
+msgstr "グループ面"
+
+msgid "Group neighboring faces together."
+msgstr ""
+
+msgid "Group Normals"
+msgstr "グループ法線"
+
+msgid "When grouping neighboring faces together, use the same (averaged) normal vector for every face in the group."
+msgstr ""
+
+msgid "Select New Faces"
+msgstr "新しい面（フェース）を選ぶ"
+
+msgid "Select newly-created faces."
+msgstr ""
+
+msgid "Distance between original and new faces"
+msgstr ""
+
+msgid "Inset value for the new faces"
+msgstr ""
+
+msgid "Extrudes selected faces along their normals"
+msgstr ""
+
+msgid "Segment number"
+msgstr "セグメント番号"
+
+msgid "Fillet radius"
+msgstr ""
+
+msgid "Reverses the orientation of selected polygons and bicubic or bilinear patches"
+msgstr ""
+
+msgid "Interpolate boundary"
+msgstr ""
+
+msgid "Render sharp boundaries on the resulting subdivision surface"
+msgstr ""
+
+msgid "Converts input polyhedra to SDS surfaces"
+msgstr "Cunferts inpoot pulyhedra tu SDS soorffeces"
+
+msgid "Controls the sensitivity for deciding when two edges are collinear."
+msgstr ""
+
+msgid "Merges edges that are collinear, up to a threshold"
+msgstr ""
+
+msgid "Merges faces that are coplanar, up to a given threshold"
+msgstr ""
+
+msgid "Face distance"
+msgstr ""
+
+msgid "Changes the first edge for selected polygons"
+msgstr ""
+
+msgid "Sharpness"
+msgstr "シャープネス"
+
+msgid "Controls the sharpness of subdivision surface corners"
+msgstr ""
+
+msgid "Adds variable-sharpness corners to SDS surfaces"
+msgstr ""
+
+msgid "Controls the sharpness of subdivision surface creases"
+msgstr ""
+
+msgid "Adds variable-sharpness creases to SDS surfaces"
+msgstr ""
+
+msgid "Inserts holes into a subdivision surface mesh"
+msgstr ""
+
+msgid "Subdivision type"
+msgstr "分割のタイプ"
+
+msgid "Join : center to midpoints, midpoints, center to points"
+msgstr ""
+
+#, fuzzy
+msgid "Converts input faces into triangles"
+msgstr "Cunferts inpoot feces intu treeungles"
+
+msgid "U segments"
+msgstr "U セグメント"
+
+msgid "V segments"
+msgstr "V セグメント"
+
+msgid "Cap cone bottom"
+msgstr "円錐の底面を閉じる"
+
+msgid "Bottom radius"
+msgstr "底面の半径"
+
+msgid "Z Max (RenderMan convention)"
+msgstr ""
+
+msgid "U power"
+msgstr "U power"
+
+msgid "Radial power"
+msgstr ""
+
+msgid "V power"
+msgstr "V power"
+
+msgid "Length power"
+msgstr ""
+
+msgid "Generates a polygonal cone with optional endcap"
+msgstr ""
+
+msgid "Column number (X axis)"
+msgstr "桁数（X軸）"
+
+msgid "Row number (Y axis)"
+msgstr "行数（Y軸）"
+
+msgid "Slices"
+msgstr "スライス"
+
+msgid "Slice number (Z axis)"
+msgstr "スライス数（Z軸）"
+
+msgid "Cube width"
+msgstr "立方体の横"
+
+msgid "Cube height"
+msgstr "立方体の縦"
+
+msgid "Depth"
+msgstr "高さ（Z軸）"
+
+msgid "Cube depth"
+msgstr "立方体の高さ"
+
+msgid "Generates a polygonal cube"
+msgstr "ポリゴンのキューブ（立方体）を作成する"
+
+msgid "Length segments"
+msgstr ""
+
+msgid "Radial segments"
+msgstr ""
+
+msgid "Diameter"
+msgstr "直径"
+
+msgid "Rounded parts diameter"
+msgstr ""
+
+msgid "Original cube width"
+msgstr ""
+
+msgid "Original cube height"
+msgstr ""
+
+msgid "Original cube depth"
+msgstr ""
+
+msgid "Generates a polygonal cushion (a cube with rounded edges)"
+msgstr ""
+
+msgid "Cap cylinder top"
+msgstr ""
+
+msgid "Cap cylinder bottom"
+msgstr ""
+
+msgid "Cylinder radius"
+msgstr "円柱半径"
+
+msgid "Z max (RenderMan convention)"
+msgstr ""
+
+msgid "Z min (RenderMan convention)"
+msgstr ""
+
+msgid "Top segments"
+msgstr "トップセグメント"
+
+msgid "0 : single face, >= 1 : segments"
+msgstr "0 : single face, >= 1 : segments"
+
+msgid "Bottom segments"
+msgstr "ボトムセグメント"
+
+msgid "Generates a polygonal cylinder with optional endcaps"
+msgstr ""
+
+msgid "Generates a polygonal disk"
+msgstr ""
+
+msgid "Generates a polygonal grid"
+msgstr "ポリゴンの平面を作成する"
+
+msgid "Sphere radius"
+msgstr "球の半径"
+
+msgid "Generates a polygonal sphere by recursive subdivision of an isocahedron"
+msgstr ""
+
+msgid "Radial Power"
+msgstr ""
+
+msgid "Length Power"
+msgstr ""
+
+msgid "Primitive type (sphere, quad only sphere or sphereized cylinder"
+msgstr ""
+
+msgid "Generates a polygonal sphere"
+msgstr ""
+
+msgid "Major radius"
+msgstr "外径"
+
+msgid "Minor radius"
+msgstr "内径"
+
+msgid "Major Power"
+msgstr ""
+
+msgid "Minor Power"
+msgstr ""
+
+msgid "Generates a polygonal torus"
+msgstr "ポリゴンのトーラスを作成"
+
+msgid "Python scripting engine"
+msgstr "Python スクリプト エンジン"
+
+msgid "Face Count"
+msgstr "面数"
+
+msgid "Desired number of outputs faces."
+msgstr ""
+
+msgid "Contraction type"
+msgstr "圧縮タイプ"
+
+msgid "Stop function"
+msgstr ""
+
+msgid "Placement policy"
+msgstr ""
+
+msgid "Placement policy (optimal, line, endpoint or midpoint, endpoints)"
+msgstr ""
+
+msgid "Quadric weighting"
+msgstr ""
+
+msgid "Quadric weighting policy (uniform, area, angle)"
+msgstr ""
+
+msgid "Boundary weight"
+msgstr ""
+
+msgid "Use boundary preservation planes with given weight"
+msgstr ""
+
+msgid "Compactness ratio"
+msgstr "圧縮率"
+
+msgid "Meshing penalty"
+msgstr ""
+
+msgid "Penalty for bad meshes"
+msgstr ""
+
+#, fuzzy
+msgid "Error reading document."
+msgstr "ドキュメント読み込みエラー %1%"
+
+msgid "Displays output from an embedded Aqsis RenderMan engine."
+msgstr ""
+
+msgid "Provides an edit mode that automatically previews using the Aqsis render engine."
+msgstr ""
+
+msgid "Provides a custom property widget for k3d::bool_t properties."
+msgstr ""
+
+msgid "Provides a custom property widget for k3d::color properties."
+msgstr ""
+
+msgid "Provides default behavior when no other mode is in-use."
+msgstr ""
+
+#, fuzzy
+msgid "Provides an interactive JavaScript shell."
+msgstr "インタラクティブに操作できるPythonのシェルウィンドウを提供します"
+
+msgid "Provides a custom property widget for k3d::matrix4 properties."
+msgstr ""
+
+#, fuzzy
+msgid "Displays document nodes as a flat list."
+msgstr "ドキュメントノードのリストを表示"
+
+#, fuzzy
+msgid "Displays document node properties."
+msgstr "ツールプロパティを表示"
+
+msgid "Used to test OpenGL development."
+msgstr ""
+
+msgid "Provides a custom property widget for k3d::filesystem::path properties."
+msgstr ""
+
+msgid "Provides an edit-mode with programmable behavior."
+msgstr ""
+
+msgid "Provides a custom property widget for k3d::string_t properties."
+msgstr ""
+
+msgid "Provides a general-purpose editor for editing source-code, text, scripts, and shaders."
+msgstr ""
+
+msgid "Transformation matrix used to position / orient / scale the output cone."
+msgstr ""
+
+msgid "Defines the cone height along the +Z axis."
+msgstr ""
+
+msgid "Controls the radius of the output cone."
+msgstr ""
+
+msgid "Sweep Angle"
+msgstr "掃引角度"
+
+msgid "Optionally limits the sweep angle of the cone to less-than 360 degrees."
+msgstr ""
+
+msgid "Transformation matrix used to position / orient / scale the output cylinder."
+msgstr ""
+
+msgid "Controls the radius of the output cylinder."
+msgstr ""
+
+msgid "Z Min"
+msgstr "Z 最小"
+
+msgid "Defines the cylinder length along the -Z axis."
+msgstr ""
+
+msgid "Z Max"
+msgstr "Z 最大"
+
+msgid "Defines the cylinder length along the +Z axis."
+msgstr ""
+
+msgid "Optionally limits the sweep angle of the cylinder to less-than 360 degrees."
+msgstr ""
+
+msgid "Transformation matrix used to position / orient / scale the output disk."
+msgstr ""
+
+msgid "Defines the disk height along the +Z axis."
+msgstr ""
+
+msgid "Controls the radius of the output disk."
+msgstr "出力するファイルの種類を選択 : "
+
+msgid "Optionally limits the sweep angle of the disk to less-than 360 degrees."
+msgstr ""
+
+msgid "Transformation matrix used to position / orient / scale the output hyperboloid."
+msgstr ""
+
+msgid "Start Point"
+msgstr "開始点"
+
+msgid "First point in the swept line segment that defines the output hyperboloid."
+msgstr ""
+
+msgid "End Point"
+msgstr "終了点"
+
+msgid "Second point in the swept line segment that defines the output hyperboloid."
+msgstr ""
+
+msgid "Optionally limits the sweep angle of the hyperboloid to less-than 360 degrees."
+msgstr ""
+
+msgid "Controls the radius of the output logo."
+msgstr ""
+
+msgid "Transformation matrix used to position / orient / scale the output paraboloid."
+msgstr ""
+
+msgid "Controls the radius of the output paraboloid."
+msgstr ""
+
+msgid "Defines the paraboloid length along the -Z axis."
+msgstr ""
+
+msgid "Defines the paraboloid length along the +Z axis."
+msgstr ""
+
+msgid "Optionally limits the sweep angle of the paraboloid to less-than 360 degrees."
+msgstr ""
+
+msgid "Transformation matrix used to position / orient / scale the output sphere."
+msgstr ""
+
+msgid "Controls the radius the output sphere."
+msgstr ""
+
+msgid "Optionally truncates the sphere along the -Z axis."
+msgstr ""
+
+msgid "Optionally truncates the sphere along the +Z axis."
+msgstr ""
+
+msgid "Optionally limits the sweep angle of the sphere to less-than 360 degrees."
+msgstr ""
+
+msgid "Transformation matrix used to position / orient / scale the output teapot."
+msgstr ""
+
+msgid "Transformation matrix used to position / orient / scale the output torus."
+msgstr ""
+
+msgid "Controls the major radius of the output torus."
+msgstr ""
+
+msgid "Controls the minor radius of the output torus."
+msgstr ""
+
+#, fuzzy
+msgid "Phi Min"
+msgstr "Z 最小"
+
+#, fuzzy
+msgid "Phi Min."
+msgstr "Z 最小"
+
+#, fuzzy
+msgid "Phi Max"
+msgstr "Z 最大"
+
+#, fuzzy
+msgid "Phi Max."
+msgstr "Z 最大"
+
+msgid "Optionally limits the sweep angle of the torus to less-than 360 degrees."
+msgstr ""
+
+msgid "Renders Bezier triangle patches"
+msgstr ""
+
+msgid "Renders bicubic patches"
+msgstr "バイキュービックを描画"
+
+msgid "Renders bilinear patches"
+msgstr "バイリニアを描画"
+
+msgid "Renders blobby primitives using points and lines"
+msgstr ""
+
+msgid "Color Array"
+msgstr "色配列"
+
+msgid "Specifies the array name to be used for face colors"
+msgstr ""
+
+msgid "Array Type"
+msgstr "配列タイプ"
+
+msgid "Type of array to use"
+msgstr ""
+
+msgid "Renders mesh faces using a per-face color array"
+msgstr ""
+
+msgid "Renders cone primitives using OpenGL"
+msgstr ""
+
+msgid "Renders cubic curves"
+msgstr ""
+
+msgid "Renders cylinder primitives using OpoenGL"
+msgstr ""
+
+msgid "Renders disk primitives using OpenGL"
+msgstr ""
+
+msgid "Font Antialiasing"
+msgstr "フォントのアンチエイリアス"
+
+msgid "Render antialiased text."
+msgstr ""
+
+#, fuzzy
+msgid "Draw normals for selected polygons."
+msgstr "選択範囲の法線を表示"
+
+#, fuzzy
+msgid "Draw normals for unselected polygons."
+msgstr "選択範囲外の法線を表示"
+
+#, fuzzy
+msgid "Normal color for selected polygons."
+msgstr "選択したポリゴンの法線の色"
+
+#, fuzzy
+msgid "Normal color for unselected polygons."
+msgstr "選択解除したポリゴンの法線の色"
+
+msgid "Edge Offset"
+msgstr ""
+
+msgid "Offsets numbers away from their edges."
+msgstr ""
+
+msgid "Face Offset"
+msgstr ""
+
+msgid "Offsets numbers away from their polygons."
+msgstr ""
+
+msgid "Numbers polyhedron edges"
+msgstr ""
+
+msgid "Renders mesh edges (OpenGL 1.1)"
+msgstr ""
+
+msgid "Renders polyhedron face normal vectors"
+msgstr ""
+
+msgid "Offsets numbers away from their polygons"
+msgstr ""
+
+msgid "Numbers polyhedron faces"
+msgstr ""
+
+msgid "Draws arrows to show polyhedron face orientation"
+msgstr ""
+
+msgid "Renders mesh faces, after trianglulating them (OpenGL 1.1)"
+msgstr ""
+
+msgid "Offset from edge"
+msgstr ""
+
+msgid "Arrow size"
+msgstr "矢印の大きさ"
+
+msgid "Size for the arrow"
+msgstr ""
+
+msgid "Draws arrows to show polyhedron half edge orientation"
+msgstr ""
+
+msgid "Renders hyperboloid primitives using OpenGL"
+msgstr ""
+
+msgid "Renders linear curves"
+msgstr ""
+
+msgid "Distributes rendering across multiple mesh painters"
+msgstr ""
+
+msgid "Storage Class"
+msgstr ""
+
+msgid "Array storage class"
+msgstr ""
+
+msgid "Name of the array to visualize."
+msgstr ""
+
+msgid "Normalize"
+msgstr "正規化"
+
+msgid "Normalize vectors for display"
+msgstr ""
+
+msgid "Scale vectors for display"
+msgstr ""
+
+msgid "Visualizes normal-vector arrays"
+msgstr ""
+
+msgid "Draw normals for selected curves."
+msgstr ""
+
+msgid "Draw normals for unselected curves."
+msgstr ""
+
+msgid "Normal color for selected curves."
+msgstr ""
+
+msgid "Normal color for unselected curves."
+msgstr ""
+
+msgid "X-Offset"
+msgstr "X オフセット"
+
+msgid "Offsets numbers away from their curve."
+msgstr ""
+
+msgid "Y-Offset"
+msgstr "Y オフセット"
+
+msgid "Z-Offset"
+msgstr "Z オフセット"
+
+msgid "Numbers NURBS curves"
+msgstr "NURBS 曲線番号"
+
+msgid "Renders NURBS curves"
+msgstr "NURBS曲線を描画"
+
+msgid "Draw normals for selected patches."
+msgstr ""
+
+msgid "Draw normals for unselected patches."
+msgstr ""
+
+msgid "Normal color for selected patches."
+msgstr ""
+
+msgid "Normal color for unselected patches."
+msgstr ""
+
+msgid "Offsets numbers away from their patches."
+msgstr ""
+
+msgid "Offsets numbers away from their patches.."
+msgstr ""
+
+msgid "Numbers NURBS patches"
+msgstr ""
+
+msgid "Renders NURBS patches"
+msgstr ""
+
+msgid "Renders paraboloid primitives using OpoenGL"
+msgstr ""
+
+msgid "Numbers points"
+msgstr ""
+
+msgid "Renders mesh points"
+msgstr ""
+
+msgid "Renders sphere primitives using OpoenGL"
+msgstr ""
+
+msgid "Renders teapot primitives using OpoenGL"
+msgstr "OpoenGLを使い、（お約束の）ティーポットを描画"
+
+msgid "Renders torus primitives using OpenGL"
+msgstr ""
+
+msgid "Color of the text"
+msgstr "テキスト色"
+
+msgid "Specifies the array to draw"
+msgstr ""
+
+msgid "Prints associated varying data near each edge, for debugging purposes"
+msgstr ""
+
+msgid "Color of the numbers"
+msgstr "桁位置"
+
+msgid "Prints vertex data near each corresponding vertex"
+msgstr ""
+
+msgid "Welcome to K-3D Version 0.8!"
+msgstr "ようこそ K-3D Version 0.8 へ!"
+
+msgid "Welcomes users running K-3D for the first time."
+msgstr ""
+
+msgid "Shader"
+msgstr "シェーダ"
+
+msgid "Light shader"
+msgstr "ライトシェーダ"
+
+msgid "RenderMan area light source"
+msgstr ""
+
+msgid "Source"
+msgstr "元ファイル"
+
+msgid "count"
+msgstr "数える"
+
+msgid "Renders a one-dimensional array of geometric object instances"
+msgstr ""
+
+msgid "Dimension 1 Count"
+msgstr "長さ 1 カウント"
+
+msgid "Dimension 2 Count"
+msgstr "長さ 2 カウント"
+
+msgid "Renders a two-dimensional array of geometric object instances"
+msgstr ""
+
+msgid "Dimension 3 Count"
+msgstr "長さ 3 カウント"
+
+msgid "Renders a three-dimensional array of geometric object instances"
+msgstr ""
+
+msgid "Places a shader on a bilinear patch, aligned with the farplane"
+msgstr ""
+
+msgid "type"
+msgstr "タイプ"
+
+msgid "Operation"
+msgstr "操作"
+
+msgid "instance1"
+msgstr "インスタンス 1"
+
+msgid "Instance1"
+msgstr "インスタンス 1"
+
+msgid "instance2"
+msgstr "インスタンス 2"
+
+msgid "Instance2"
+msgstr "インスタンス 2"
+
+msgid "Combines solids using boolean operators at render-time"
+msgstr ""
+
+msgid "instance"
+msgstr "インスタンス"
+
+msgid "Instance"
+msgstr "インスタンス"
+
+msgid "Designates a solid volume at render-time"
+msgstr ""
+
+msgid "file"
+msgstr "ファイル"
+
+msgid "RIB archive to be inserted in output"
+msgstr ""
+
+msgid "bounding_box"
+msgstr "境界枠"
+
+msgid "Visibility bounding box"
+msgstr ""
+
+msgid "Inserts a RenderMan DelayedReadArchive call into rendered output"
+msgstr ""
+
+msgid "Texture File"
+msgstr "テクスチャファイル"
+
+msgid "Links a RenderMan Texture Map directly to a file"
+msgstr ""
+
+msgid "filter"
+msgstr "フィルタ"
+
+msgid "swidth"
+msgstr "s幅"
+
+msgid "Filter S Width"
+msgstr ""
+
+msgid "twidth"
+msgstr "t幅"
+
+msgid "Filter T Width"
+msgstr ""
+
+msgid "Converts a bitmap into a RenderMan LatLong Environment Map"
+msgstr ""
+
+msgid "RenderMan light source"
+msgstr "RenderMan 光源"
+
+msgid "Surface Shader"
+msgstr "面シェーダー"
+
+msgid "Surface shader"
+msgstr "サーフェスシェーダー（Surface shader）"
+
+msgid "Displacement Shader"
+msgstr "変位シェーダー"
+
+msgid "Displacement shader"
+msgstr "ディスプレースメントシェーダー（Displacement shader）"
+
+msgid "Atmosphere Shader"
+msgstr "周囲シェーダー"
+
+msgid "Atmosphere shader"
+msgstr "周囲シェーダー（Atmosphere shader）"
+
+msgid "Interior Shader"
+msgstr "内部シェーダー"
+
+msgid "Interior shader"
+msgstr "内部シェーダー（Interior shader）"
+
+msgid "Exterior Shader"
+msgstr "外部シェーダー"
+
+msgid "Exterior shader"
+msgstr "外部シェーダー（Exterior shader）"
+
+msgid "Matte"
+msgstr "つや消し"
+
+msgid "Render geometry as a matte"
+msgstr ""
+
+msgid "Displacement Bounds"
+msgstr ""
+
+msgid "Displacement bounds"
+msgstr ""
+
+msgid "A RenderMan surface / displacement material"
+msgstr "RenderMan表面/置換えのマテリアル"
+
+msgid "Inserts a RenderMan ReadArchive call into rendered output"
+msgstr ""
+
+msgid "Choose an installed RenderMan engine to be used for rendering."
+msgstr ""
+
+msgid "Hider"
+msgstr ""
+
+msgid "Hider Algorithm"
+msgstr ""
+
+msgid "Output pixel width"
+msgstr "出力画像の横幅"
+
+msgid "Output pixel height"
+msgstr "出力画像の縦幅"
+
+msgid "Pixel Aspect Ratio"
+msgstr "アスペクト比"
+
+msgid "Output pixel aspect ratio"
+msgstr ""
+
+msgid "Default Atmosphere Shader"
+msgstr ""
+
+msgid "Default atmosphere shader"
+msgstr ""
+
+msgid "Default Interior Shader"
+msgstr ""
+
+msgid "Default interior shader"
+msgstr ""
+
+msgid "Default Exterior Shader"
+msgstr ""
+
+msgid "Default exterior shader"
+msgstr ""
+
+msgid "Imager Shader"
+msgstr ""
+
+msgid "Imager shader"
+msgstr ""
+
+msgid "Bucket Width"
+msgstr ""
+
+msgid "Bucket Height"
+msgstr ""
+
+msgid "Eye Splits"
+msgstr ""
+
+msgid "Texture Memory"
+msgstr "テクスチャメモリ"
+
+msgid "Render Alpha"
+msgstr ""
+
+msgid "Pixel X Samples"
+msgstr ""
+
+msgid "The smaller the faster, the higher the better (anti-aliasing)"
+msgstr ""
+
+msgid "Pixel Y Samples"
+msgstr ""
+
+msgid "Pixel Filter"
+msgstr ""
+
+msgid "Anti-aliasing type"
+msgstr "アンチエイリアスの種類"
+
+msgid "Pixel Filter Width"
+msgstr ""
+
+msgid "Filter width in X"
+msgstr ""
+
+msgid "Pixel Filter Height"
+msgstr ""
+
+msgid "Filter width in Y"
+msgstr ""
+
+msgid "Exposure"
+msgstr "露出"
+
+msgid "DOF"
+msgstr "DOF"
+
+msgid "Depth of Field"
+msgstr "被写界深度（Depth of Field）"
+
+msgid "f-Stop"
+msgstr "f-Stop"
+
+#, fuzzy
+msgid "Focal Length"
+msgstr "焦点距離"
+
+msgid "Focus Plane"
+msgstr ""
+
+msgid "Shading Rate"
+msgstr ""
+
+msgid "Shading Interpolation"
+msgstr ""
+
+msgid "Two-Sided"
+msgstr "両面印刷"
+
+msgid "Two Sided"
+msgstr "両面印刷"
+
+msgid "Render Motion Blur"
+msgstr ""
+
+msgid "RenderMan Render Engine"
+msgstr "RenderManエンジン"
+
+msgid "Error compiling shader %1%"
+msgstr "Error compiling shader %1% （シェーダーコンパイル時にエラーが発生）"
+
+msgid "Creates RenderMan output under script control"
+msgstr ""
+
+msgid "Encapsulates a RenderMan displacement shader instance"
+msgstr ""
+
+msgid "Shadow Map Camera"
+msgstr ""
+
+msgid "create"
+msgstr "作成"
+
+msgid "Create shadow map during rendering"
+msgstr ""
+
+msgid "view"
+msgstr "視点"
+
+msgid "View shadow map creation during rendering"
+msgstr ""
+
+msgid "pixel_aspect_ratio"
+msgstr "アスペクト比"
+
+msgid "A shadow_map source within the 3D workspace"
+msgstr "3Dワークスペースの中のシャドウマップソース"
+
+msgid "swrap"
+msgstr "sラップ"
+
+msgid "S Wrap"
+msgstr "S ラップ"
+
+msgid "twrap"
+msgstr "tラップ"
+
+msgid "T Wrap"
+msgstr "T ラップ"
+
+msgid "Converts a bitmap into a RenderMan Texture Map"
+msgstr ""
+
+msgid "Provides render integration with AIR, http://www.sitexgraphics.com/html/air.html"
+msgstr "AIRと統合, http://www.sitexgraphics.com/html/air.html"
+
+msgid "Provides render integration with Aqsis, http://www.aqsis.org"
+msgstr "Aqsisと統合, http://www.aqsis.org"
+
+msgid "Provides render integration with BMRT, may it rest in peace."
+msgstr ""
+
+msgid "Provides render integration with 3Delight, http://www.3delight.com/"
+msgstr "3Delightと統合, http://www.3delight.com/"
+
+msgid "Provides render integration with networked PRMan, https://renderman.pixar.com"
+msgstr "networked PRManと統合, https://renderman.pixar.com"
+
+msgid "Provides render integration with Pixie, http://www.renderpixie.com"
+msgstr "Pixieと統合, http://www.renderpixie.com"
+
+msgid "Provides render integration with POVMan"
+msgstr "POVManと統合"
+
+msgid "Provides render integration with PRMan, http://renderman.pixar.com"
+msgstr "PRManと統合, http://renderman.pixar.com"
+
+msgid "Provides render integration with RenderDotC, http://www.dotcsw.com/rdc.html"
+msgstr "RenderDotCと統合, http://www.dotcsw.com/rdc.html"
+
+msgid "Renders blobbies (implicit surfaces)"
+msgstr ""
+
+msgid "Renders cone primitives"
+msgstr "円錐のプリミティブをレンダリング"
+
+msgid "Renders cylinder primitives"
+msgstr "円柱のプリミティブをレンダリング"
+
+msgid "Renders disk primitives"
+msgstr "円盤のプリミティブをレンダリング"
+
+msgid "Renders hyperboloid primitives"
+msgstr "双曲面のプリミティブをレンダリング"
+
+msgid "Renders paraboloid primitives"
+msgstr "放物面のプリミティブをレンダリング"
+
+msgid "Renders particle primitives."
+msgstr "パーティクルをレンダリング"
+
+msgid "Renders mesh polyhedra"
+msgstr ""
+
+msgid "Uses a script to render meshes"
+msgstr ""
+
+msgid "Renders sphere primitives"
+msgstr "球のプリミティブをレンダリング"
+
+msgid "Renders mesh subdivision surfaces"
+msgstr ""
+
+msgid "Renders teapot primitives"
+msgstr "ティーポットのプリミティブをレンダリング"
+
+msgid "Renders torus primitives"
+msgstr "トーラス（円環）のプリミティブをレンダリング"
+
+msgid "Scripted Plugin."
+msgstr ""
+
+msgid "Executes a script on-demand"
+msgstr ""
+
+msgid "Bitmap modifier that uses a script to modify an input bitmap"
+msgstr ""
+
+msgid "Bitmap source that uses a script to generate images"
+msgstr ""
+
+msgid "Color source that uses a script to create the output value"
+msgstr ""
+
+msgid "Data source that uses a script to create a k3d::double_t output value"
+msgstr ""
+
+msgid "Uses a script to generate an output k3d::int32_t value."
+msgstr ""
+
+msgid "Matrix modifier that uses a script to modify a transformation matrix"
+msgstr ""
+
+msgid "Matrix source that uses a script to create the output value"
+msgstr ""
+
+msgid "Mesh modifier that uses a script to modify geometry"
+msgstr ""
+
+msgid "Mesh source that uses a script to create geometry"
+msgstr ""
+
+msgid "Scripted node that acts as a meta-object (provides dynamic runtime execution of arbitrary commands)."
+msgstr ""
+
+msgid "Script node that executes whenever one of its inputs changes"
+msgstr ""
+
+msgid "Scripted Mesh Painter"
+msgstr ""
+
+msgid "Scriped node that can do arbitrary rendering using OpenGL."
+msgstr ""
+
+msgid "Script node that acts as a render engine"
+msgstr ""
+
+msgid "String source that uses a script to create the output value"
+msgstr ""
+
+msgid "Vector3 source that uses a script to create the output value"
+msgstr ""
+
+msgid "Keep Point Selection"
+msgstr "点の選択範囲を残す"
+
+msgid "Keep the original point selection, just adding points of selected faces."
+msgstr ""
+
+msgid "Keep Face Selection"
+msgstr "面の選択範囲を残す"
+
+msgid "Keep the original face selection."
+msgstr "元の面の選択範囲を残す"
+
+msgid "Selects the points belonging to selected faces"
+msgstr ""
+
+msgid "Grows the selection to include adjacent vertices, edges and faces"
+msgstr ""
+
+msgid "Converts primitive selections to curve selections."
+msgstr ""
+
+msgid "Converts primitive selections to edge selections."
+msgstr ""
+
+msgid "Converts primitive selections to face selections."
+msgstr ""
+
+msgid "Converts point selections to patch selections."
+msgstr ""
+
+msgid "Converts primitive selections to point selections."
+msgstr ""
+
+#, fuzzy
+msgid "Applies a selection to a mesh."
+msgstr "正弦機能を入力に適用"
+
+msgid "Selection Weights"
+msgstr "「重み」を選択"
+
+msgid "Selection weight for all nodes"
+msgstr ""
+
+msgid "Stores the document node selection state"
+msgstr ""
+
+msgid "Primitive Number"
+msgstr "プリミティブ番号"
+
+msgid "Primitive Number."
+msgstr "プリミティブ番号"
+
+msgid "Patch Number"
+msgstr "パッチ番号"
+
+msgid "Selects a bicubic patch from the input mesh by its index number"
+msgstr ""
+
+msgid "Selects a bilinear patch from the input mesh by its index number"
+msgstr ""
+
+msgid "Selects edges that are on the boundary of the mesh"
+msgstr ""
+
+msgid "Keep Original Selection"
+msgstr "元の選択範囲を残す"
+
+msgid "Keep the original selection, rather than selecting only the companions"
+msgstr ""
+
+#, fuzzy
+msgid "Select connected faces"
+msgstr "新しい面（フェース）を選ぶ"
+
+#, fuzzy
+msgid "Select Edges"
+msgstr "ノードを選択"
+
+#, fuzzy
+msgid "Select connected edges"
+msgstr "近傍の辺（エッジ）を選ぶ"
+
+#, fuzzy
+msgid "Select Vertices"
+msgstr "パッチを選択"
+
+#, fuzzy
+msgid "Select connected vertices"
+msgstr "選択を反転"
+
+#, fuzzy
+msgid "Select connected points"
+msgstr "点を選択"
+
+msgid "Select all components that are directly or indirectly connected to the selected component"
+msgstr ""
+
+msgid "X coordinate of cube's min corner"
+msgstr ""
+
+msgid "Y coordinate of cube's min corner"
+msgstr ""
+
+msgid "Z1"
+msgstr "Z1"
+
+msgid "Z coordinate of cube's min corner"
+msgstr ""
+
+msgid "X coordinate of cube's max corner"
+msgstr ""
+
+msgid "Y coordinate of cube's max corner"
+msgstr ""
+
+msgid "Z2"
+msgstr "Z2"
+
+msgid "Z coordinate of cube's max corner"
+msgstr ""
+
+msgid "Selects portions of the input mesh that intersect a cube"
+msgstr ""
+
+msgid "Curve Number"
+msgstr "曲線番号"
+
+msgid "Curve Number."
+msgstr "曲線番号"
+
+msgid "Selects a cubic curve from based on its index number."
+msgstr ""
+
+msgid "Selects all faces with a zero-length normal"
+msgstr ""
+
+msgid "Face Index"
+msgstr "面インデックス"
+
+msgid "Selects an edge from the input mesh by its index number"
+msgstr ""
+
+msgid "Ring Side A"
+msgstr ""
+
+msgid "Find loop using the edgering on one side of the selected edge(s)"
+msgstr ""
+
+msgid "Ring Side B"
+msgstr ""
+
+msgid "Find loop using the edgering on the other side of the selected edge(s)"
+msgstr ""
+
+msgid "Selects edge loops containing selected egdes"
+msgstr ""
+
+msgid "Selects edge rings containing selected egdes"
+msgstr ""
+
+msgid "Selects a face from the input mesh by its index number"
+msgstr ""
+
+msgid "Selects a linear curve from the input mesh by its index number"
+msgstr ""
+
+msgid "Side number"
+msgstr "サイド番号"
+
+msgid "Gives chosen side number"
+msgstr ""
+
+msgid "Selection operator comparing with side number"
+msgstr ""
+
+msgid "Selects points or faces that have numbers of sides within a specified range"
+msgstr ""
+
+msgid "Curve Index"
+msgstr "カーブインデックス"
+
+msgid "Controls the curve to be selected."
+msgstr ""
+
+msgid "Selects a NURBS curve from the input mesh by its index number"
+msgstr ""
+
+msgid "Patch Index"
+msgstr "パッチインデックス"
+
+msgid "Selects a NURBS patch from the input mesh by its index number"
+msgstr ""
+
+msgid "Point Index"
+msgstr "点インデックス"
+
+msgid "Latitude"
+msgstr "緯度"
+
+msgid "Observer latitude (decimal degrees)."
+msgstr ""
+
+msgid "Longitude"
+msgstr "経度"
+
+msgid "Observer longitude (decimal degrees)."
+msgstr ""
+
+msgid "Time since 1970-1-1, in seconds."
+msgstr "1970年1月1日からの経過秒数"
+
+msgid "Time Zone Offset"
+msgstr "タイムゾーンオフセット"
+
+msgid "Time zone offset in minutes, [-720, +720].  Note that you must adjust the timezone manually to account for daylight savings time."
+msgstr ""
+
+msgid "North"
+msgstr "北緯"
+
+msgid "Specifies which direction will be treated as 'North'."
+msgstr ""
+
+msgid "East"
+msgstr "東経"
+
+msgid "Specifies which direction will be treated as 'East'."
+msgstr ""
+
+msgid "Up"
+msgstr "上へ"
+
+msgid "Specifies which direction will be treated as 'up'."
+msgstr ""
+
+msgid "Solar Position"
+msgstr "太陽の位置"
+
+msgid "Solar position."
+msgstr "太陽の位置"
+
+msgid "Calculates the position of the Sun based on observer position, date, and time."
+msgstr ""
+
+#, fuzzy
+msgid "Store Normals"
+msgstr "ノーマル"
+
+msgid "If true, the normals from the STL file are read into a face attribute array"
+msgstr ""
+
+msgid "Name of the array containing face colors (for binary, colored STL only)"
+msgstr ""
+
+msgid "Mesh reader that loads external Wavefront (.stl) files into the document by reference"
+msgstr ""
+
+msgid "Group Solids"
+msgstr ""
+
+msgid "Group solids using a per-face array."
+msgstr ""
+
+msgid "Group Array"
+msgstr "グループ配列"
+
+msgid "Name of a per-face array containing solid labels (as used in OpenFOAM)."
+msgstr ""
+
+#, fuzzy
+msgid "File Type"
+msgstr "ファイルタイプ"
+
+#, fuzzy
+msgid "STL file type"
+msgstr "ふくらみの型"
+
+msgid "Mesh writer that saves external Stereo Triangulation Lithograph (.stl) files"
+msgstr ""
+
+msgid "Level"
+msgstr "レベル"
+
+msgid "Subdivision level"
+msgstr "分割レベル"
+
+msgid "Generates a Catmull-Clark subdivision mesh"
+msgstr ""
+
+msgid "Reader that loads external Scalable Vector Graphics (.svg) files into the document by reference"
+msgstr ""
+
+msgid "Component"
+msgstr "コンポーネント"
+
+msgid "Mesh component to receive a new color attribute."
+msgstr ""
+
+msgid "New attribute name."
+msgstr "新アトリビュート名"
+
+msgid "Adds a color attribute to a mesh component, primarily for testing purposes."
+msgstr ""
+
+msgid "Adds an color attribute to every table in a mesh, primarily for testing purposes."
+msgstr ""
+
+msgid "Adds an integer 'index' attribute to every table in a mesh, primarily for testing purposes."
+msgstr ""
+
+msgid "Add point attributes"
+msgstr "点に属性を追加"
+
+msgid "Add point data to the points attribute array"
+msgstr ""
+
+msgid "Add vertex attributes"
+msgstr "線に属性を追加"
+
+msgid "Add point data to the vertex attribute arrays"
+msgstr ""
+
+msgid "Add parameter attributes"
+msgstr "パラメータ属性を追加"
+
+msgid "Add point data to the parameter attribute arrays"
+msgstr ""
+
+msgid "Copies point coordinates to the relevant attribute tables in a mesh, primarily for testing purposes."
+msgstr ""
+
+msgid "Prints mesh information to stdout"
+msgstr "標準出力に表示する情報の選択"
+
+msgid "Records"
+msgstr "記録"
+
+msgid "Contains records storing the execution time for individual node tasks."
+msgstr ""
+
+msgid "Records data profiling execution of the visualization pipeline"
+msgstr ""
+
+msgid "Prints selection information to stdout"
+msgstr ""
+
+msgid "Prints input string to console's stdout"
+msgstr ""
+
+msgid "Prints an input string value to stdout"
+msgstr ""
+
+#, fuzzy
+msgid "Valid"
+msgstr "値"
+
+msgid "True iff every every input mesh can be validated."
+msgstr ""
+
+msgid "Tests to see that every every primitive and mesh in a collection of meshes can be validated."
+msgstr ""
+
+msgid "TIFF (*.tiff)"
+msgstr "TIFF (*.tiff)"
+
+msgid "Loads a TIFF (*.tif) bitmap from the filesystem"
+msgstr ""
+
+msgid "Bitmap writer that saves TIFF (*.tiff) files"
+msgstr ""
+
+msgid "Year"
+msgstr "年"
+
+msgid "Year."
+msgstr "年"
+
+msgid "Month"
+msgstr "月"
+
+msgid "Month."
+msgstr "月"
+
+msgid "Day"
+msgstr "日"
+
+msgid "Day."
+msgstr "日"
+
+msgid "Hour"
+msgstr "時間"
+
+msgid "Hour."
+msgstr "時間"
+
+msgid "Minute"
+msgstr "分"
+
+msgid "Minute."
+msgstr "分"
+
+msgid "Second"
+msgstr "秒"
+
+msgid "Second."
+msgstr "秒"
+
+msgid "Provides a time source for a K-3D document"
+msgstr ""
+
+msgid "Frame rate"
+msgstr "フレームレート"
+
+msgid "Provides a realtime time source for a K-3D document"
+msgstr ""
+
+msgid "Start Time"
+msgstr "開始時間"
+
+msgid "Controls the start time (in seconds) for rendering animations."
+msgstr ""
+
+msgid "End Time"
+msgstr "終了時間"
+
+msgid "Controls the end time (in seconds) for rendering animations."
+msgstr ""
+
+msgid "Controls the frame rate (in frames-per-second) for rendering animations."
+msgstr ""
+
+msgid "Timestamp value, or 0 to use current system time"
+msgstr "タイムスタンプ（0 でシステム時刻）"
+
+msgid "strftime() time_to_string string"
+msgstr ""
+
+msgid "Output string"
+msgstr "出力文字列"
+
+msgid "strftime() output string (read only)"
+msgstr ""
+
+msgid "Converts a scalar to a string using strftime()-style formatting"
+msgstr ""
+
+msgid "Polyhedron type."
+msgstr "多面体の種類"
+
+msgid "Polyhedron size."
+msgstr "多面体のサイズ"
+
+msgid "Generates a uniform polyhedron"
+msgstr ""
+
+msgid "Renders the scene to a bitmap using OpenGL"
+msgstr ""
+
+msgid "Renders mesh edges"
+msgstr ""
+
+msgid "Renders mesh faces"
+msgstr ""
+
+msgid "Renders mesh subdivision surface edges"
+msgstr ""
+
+msgid "Renders mesh subdivision surface faces"
+msgstr ""
+
+msgid "Renders mesh subdivision surface points"
+msgstr ""
+
+msgid "Renders the scene to a bitmap using WGL"
+msgstr ""
+
+msgid "Disables Desktop Composition on Vista"
+msgstr ""
+
+msgid "Opens a URI using the Windows API"
+msgstr ""
+
+msgid "XTrackCAD Tracks File ( .xtc )"
+msgstr "XTrackCAD Tracks File ( .xtc )"
+
+msgid "power"
+msgstr "法線"
+
+msgid "psamples"
+msgstr ""
+
+msgid "PSamples"
+msgstr ""
+
+msgid "dummy"
+msgstr "ダミー"
+
+msgid "Dummy (global photon)"
+msgstr ""
+
+msgid "Yafray Area Light"
+msgstr ""
+
+msgid "Yafray Global Photon Light"
+msgstr ""
+
+msgid "use_QMC"
+msgstr ""
+
+msgid "Use QMC"
+msgstr ""
+
+msgid "maxdistance"
+msgstr ""
+
+msgid "Max. distance"
+msgstr ""
+
+msgid "Yafray Hemi Light"
+msgstr "Yafrayヘミ光源"
+
+msgid "emit"
+msgstr ""
+
+msgid "Emit Light"
+msgstr "発光ライト"
+
+msgid "color"
+msgstr "色"
+
+msgid "Light color"
+msgstr "ライトの色"
+
+msgid "cast_shadows"
+msgstr ""
+
+msgid "Cast shadows"
+msgstr ""
+
+msgid "photons"
+msgstr "フォトン"
+
+msgid "Photons"
+msgstr "フォトン"
+
+msgid "depth"
+msgstr "奥行き"
+
+msgid "search"
+msgstr "検索"
+
+msgid "Search"
+msgstr "検索"
+
+msgid "specular_color"
+msgstr "鏡面反射色"
+
+msgid "Specular Color"
+msgstr "鏡面反射色"
+
+msgid "reflected_color"
+msgstr "反射色"
+
+msgid "Reflected Color"
+msgstr "反射色"
+
+msgid "transmitted_color"
+msgstr "透過色"
+
+msgid "Transmitted Color"
+msgstr "透過色"
+
+#, fuzzy
+msgid "hardness"
+msgstr "強度"
+
+#, fuzzy
+msgid "Hardness"
+msgstr "強度"
+
+#, fuzzy
+msgid "index_of_refraction"
+msgstr "交差"
+
+#, fuzzy
+msgid "Index of Refraction"
+msgstr "交差"
+
+msgid "minimum_reflection"
+msgstr ""
+
+msgid "Minimum Reflection"
+msgstr ""
+
+msgid "fast_fresnel"
+msgstr ""
+
+msgid "Fast fresnel"
+msgstr ""
+
+msgid "shadow"
+msgstr "影"
+
+msgid "Shadow"
+msgstr "影"
+
+msgid "emit_rad"
+msgstr ""
+
+msgid "recv_rad"
+msgstr ""
+
+msgid "caustics"
+msgstr ""
+
+msgid "Caustics"
+msgstr ""
+
+msgid "caus_IOR"
+msgstr ""
+
+msgid "caus_rcolor"
+msgstr ""
+
+msgid "caus_tcolor"
+msgstr ""
+
+msgid "mesh_autosmooth"
+msgstr ""
+
+msgid "Mesh autosmooth"
+msgstr ""
+
+msgid "mesh_autosmooth_value"
+msgstr ""
+
+msgid "Mesh autosmooth value"
+msgstr ""
+
+msgid "has_orco"
+msgstr ""
+
+msgid "Has orco"
+msgstr ""
+
+msgid "Yafray Material"
+msgstr "Yafrayマテリアル"
+
+msgid "mode"
+msgstr "モード"
+
+msgid "Mode"
+msgstr "モード"
+
+msgid "fixedradius"
+msgstr ""
+
+msgid "Fixed Radius"
+msgstr ""
+
+msgid "cluster"
+msgstr "クラスタ"
+
+msgid "Cluster"
+msgstr "クラスタ"
+
+msgid "mindepth"
+msgstr ""
+
+msgid "Min. depth"
+msgstr ""
+
+msgid "bias"
+msgstr "バイアス"
+
+msgid "Bias"
+msgstr "バイアス"
+
+msgid "Yafray Photon Light"
+msgstr "Yafray フォトンライト"
+
+msgid "Yafray Point Light"
+msgstr "Yafray 点光源"
+
+msgid "AA_passes"
+msgstr ""
+
+msgid "AA passes"
+msgstr ""
+
+msgid "AA_minsamples"
+msgstr ""
+
+msgid "AA min samples"
+msgstr ""
+
+msgid "AA_pixelwidth"
+msgstr ""
+
+msgid "AA pixelwidth"
+msgstr ""
+
+msgid "AA_threshold"
+msgstr ""
+
+msgid "AA threshold"
+msgstr ""
+
+msgid "raydepth"
+msgstr ""
+
+msgid "save_alpha"
+msgstr "アルファ値を保存"
+
+msgid "Save alpha"
+msgstr "アルファ値を保存"
+
+#, fuzzy
+msgid "exposure"
+msgstr "Exposure"
+
+msgid "gamma"
+msgstr "ガンマ"
+
+msgid "fog_density"
+msgstr "フォッグの密度"
+
+msgid "fog_color"
+msgstr "フォッグの色"
+
+msgid "Fog color"
+msgstr "フォッグの色"
+
+msgid "Preview SDS"
+msgstr ""
+
+msgid "Show SDS Surfaces"
+msgstr ""
+
+msgid "Executable"
+msgstr "実行可能"
+
+msgid "Choose the name of the executable that will be run to render YAFRAY scene files."
+msgstr ""
+
+msgid "Yafray Render Engine"
+msgstr "Yafrayレンダリングエンジン"
+
+msgid "Softness"
+msgstr ""
+
+msgid "resolution"
+msgstr "解像度"
+
+msgid "Shadowmap resolution"
+msgstr ""
+
+msgid "Shadowmap bias"
+msgstr ""
+
+msgid "glow_intensity"
+msgstr ""
+
+msgid "Glow intensity"
+msgstr ""
+
+msgid "glow_type"
+msgstr ""
+
+msgid "Glow type"
+msgstr ""
+
+msgid "glow_offset"
+msgstr ""
+
+msgid "Glow offset"
+msgstr ""
+
+msgid "Yafray Soft Light"
+msgstr ""
+
+msgid "size"
+msgstr "サイズ"
+
+msgid "nblend"
+msgstr ""
+
+msgid "Edge softness"
+msgstr ""
+
+msgid "beam_falloff"
+msgstr ""
+
+msgid "Beam falloff"
+msgstr ""
+
+msgid "Yafray Spot Light"
+msgstr "Yafrayスポットライト"
+
+msgid "Yafray Sun Light"
+msgstr "Yafray太陽光"
+
+#~ msgid "_Manual"
+#~ msgstr "マニュアル（_M）"
+
+#, fuzzy
+#~ msgid "Constant"
+#~ msgstr "定数"
+
+#, fuzzy
+#~ msgid "Face"
+#~ msgstr "フェイス"
+
+#, fuzzy
+#~ msgid "Varying"
+#~ msgstr "警告（Warning）"
+#~ msgid "Vertex"
+#~ msgstr "頂点"
+
+#, fuzzy
+#~ msgid "Relative Error"
+#~ msgstr "相対的"
+#~ msgid "x,y,z"
+#~ msgstr "x,y,z"
+#~ msgid "x + x/sqrt(x^2+y^2+z^2) * exp(-(x^2+y^2+z^2))"
+#~ msgstr "x + x/sqrt(x^2+y^2+z^2) * exp(-(x^2+y^2+z^2))"
+#~ msgid "y + y/sqrt(x^2+y^2+z^2) * exp(-(x^2+y^2+z^2))"
+#~ msgstr "y + y/sqrt(x^2+y^2+z^2) * exp(-(x^2+y^2+z^2))"
+#~ msgid "z + z/sqrt(x^2+y^2+z^2) * exp(-(x^2+y^2+z^2))"
+#~ msgstr "z + z/sqrt(x^2+y^2+z^2) * exp(-(x^2+y^2+z^2))"
+#~ msgid "K3DScript scripting engine"
+#~ msgstr "K3DScript スクリプティングエンジン"
+#~ msgid "cap"
+#~ msgstr "端"
+#~ msgid ""
+#~ "A face is only visible if its vertices are ordered counter-clockwise. If "
+#~ "you don't see the side of the mesh you need, just check this to make all "
+#~ "faces look to the other side"
+#~ msgstr ""
+#~ "反時計回りに頭頂を指定する場合にだけ、表面は目に見えます。 あなたが必要と"
+#~ "するメッシュの側面を見ないなら、これをチェックして、すべての表面に反対側を"
+#~ "当てにさせてください。"
+#~ msgid "swap"
+#~ msgstr "スワップ"
+#~ msgid "Region"
+#~ msgstr "範囲"
+#~ msgid "Back face"
+#~ msgstr "背景面"
+#~ msgid "Number"
+#~ msgstr "番号"
+#~ msgid "Dual"
+#~ msgstr "双数形"
+#~ msgid ""
+#~ "Converts an input mesh to the legacy mesh format, then back, for "
+#~ "regression testing"
+#~ msgstr ""
+#~ "Cunferts un inpoot mesh tu zee legecy mesh furmet, zeen beck, fur "
+#~ "regresseeun testeeng"
+#~ msgid " [recording]"
+#~ msgstr " [recording]"
+#~ msgid "-- Enter a message to be recorded --"
+#~ msgstr "-- Enter a message to be recorded --"
+#~ msgid ""
+#~ "<span size=\"xx-large\" weight=\"heavy\">Welcome to K-3D Bug Buddy</span>"
+#~ msgstr ""
+#~ "<span size=\"xx-large\" weight=\"heavy\">Welcome to K-3D Bug Buddy</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\">Required</span> - describe what happened in detail:"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Required</span> - describe what happened in detail:"
+#~ msgid ""
+#~ "<span weight=\"bold\">Required</span> - enter a one-line summary of what "
+#~ "happened:"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Required</span> - enter a one-line summary of what "
+#~ "happened:"
+#~ msgid ""
+#~ "<span weight=\"bold\">Required</span> - enter your contact <span weight="
+#~ "\"bold\">e-mail</span> address:"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Required</span> - enter your contact <span weight="
+#~ "\"bold\">e-mail</span> address:"
+#~ msgid "Active Tool"
+#~ msgstr "アクティブツール"
+#~ msgid "All components are deselected"
+#~ msgstr "すべてのコンポーネントが選択解除されました"
+#~ msgid "All components are selected"
+#~ msgstr "すべてのコンポーネントが選択されました"
+#~ msgid "Alpha"
+#~ msgstr "アルファ"
+#~ msgid "Ambient Color"
+#~ msgstr "周囲の色"
+#~ msgid "Are you sure?  The only way to get a bug fixed is to report it ..."
+#~ msgstr ""
+#~ "よろしいでしょうか？バグを修理させている唯一の方法は、それを報告することで"
+#~ "す ..."
+#~ msgid ""
+#~ "Below are interactive tutorials and example documents you can\n"
+#~ "use to become familiar with K-3D.\n"
+#~ "\n"
+#~ "If this is the first time you've used the program, we recommend\n"
+#~ "you begin with the \"Getting Started\" tutorial."
+#~ msgstr ""
+#~ "以下に、あなたがK3Dを使いこなすのに使用できる教材（チュートリアル）と作例"
+#~ "のドキュメントがあります。 \n"
+#~ "\n"
+#~ "K3Dを使用したのが、これが初めてであれば、私たちは、「Getting Started」"
+#~ "チュートリアルで始めることをお勧めいたします。"
+#~ msgid "Cancel Tutorial"
+#~ msgstr "チュートリアルをやめる"
+#~ msgid "Choose a file to open:"
+#~ msgstr "オープンするファイル名を選択 : "
+#~ msgid "Clear"
+#~ msgstr "クリア"
+#~ msgid "Close"
+#~ msgstr "閉じる"
+#~ msgid "Cone height"
+#~ msgstr "コーンの高さ"
+#~ msgid "Continue Tutorial"
+#~ msgstr "チュートリアルを進めます。"
+#~ msgid "Default T"
+#~ msgstr "デフォルト T"
+#~ msgid "Default color"
+#~ msgstr "デフォルト色"
+#~ msgid "Default s"
+#~ msgstr "デフォルト s"
+#~ msgid "Default t"
+#~ msgstr "デフォルト t"
+#~ msgid "Dimension"
+#~ msgstr "長さ"
+#~ msgid "Double-click to play a tutorial:"
+#~ msgstr ""
+#~ "(マウスポインタを文字の上に合わせ)ダブルクリックで、練習教材（チュートリア"
+#~ "ル）が開始します。"
+#~ msgid "Error"
+#~ msgstr "エラー"
+
+#, fuzzy
+#~ msgid "Frequency"
+#~ msgstr "周波数"
+#~ msgid "Input mesh 1"
+#~ msgstr "入力メッシュ 1"
+#~ msgid "Input mesh 2"
+#~ msgstr "入力メッシュ 2"
+#~ msgid "K-3D Bug Buddy"
+#~ msgstr "K-3D Bug Buddy"
+#~ msgid "K-3D Documents (*.k3d)"
+#~ msgstr "K-3D Documents (*.k3d)"
+#~ msgid "K-3D Script (*.k3dscript)"
+#~ msgstr "K-3D スクリプト (*.k3dscript)"
+#~ msgid "Line1"
+#~ msgstr "線文 1"
+#~ msgid "Line2"
+#~ msgstr "線分 2"
+#~ msgid "Line3"
+#~ msgstr "線分 3"
+#~ msgid "Line4"
+#~ msgstr "線分 4"
+#~ msgid "New Color"
+#~ msgstr "新しい色"
+#~ msgid "New color"
+#~ msgstr "新しい色"
+#~ msgid "Node List"
+#~ msgstr "ノードリスト"
+#~ msgid "Node History"
+#~ msgstr "ノード履歴"
+#~ msgid "Node Properties"
+#~ msgstr "ノードプロパティ"
+
+#, fuzzy
+#~ msgid "Octaves"
+#~ msgstr "オクターブ:"
+#~ msgid "Open Script:"
+#~ msgstr "スクリプトファイルを開く : "
+#~ msgid "OpenGL Material"
+#~ msgstr "OpenGL マテリアル"
+#~ msgid "Pipe Line"
+#~ msgstr "パイプライン"
+
+#, fuzzy
+#~ msgid "Polygonal"
+#~ msgstr "多角形"
+#~ msgid "Python Script (*.py)"
+#~ msgstr "Python Script (*.py)"
+#~ msgid "Read only"
+#~ msgstr "読み取り専用"
+#~ msgid "Record _Test Case..."
+#~ msgstr "テストケースを記録（_T）"
+#~ msgid "S0"
+#~ msgstr "S0"
+#~ msgid "S1"
+#~ msgstr "S1"
+#~ msgid "Select Objects"
+#~ msgstr "オブジェクトを選択"
+#~ msgid "Stop Recording"
+#~ msgstr "記録を止める"
+#~ msgid "Surface"
+#~ msgstr "表面"
+#~ msgid "T0"
+#~ msgstr "T0"
+#~ msgid "T1"
+#~ msgstr "T1"
+#~ msgid "Texture V"
+#~ msgstr "テクスチャ V"
+#~ msgid "Texture W"
+#~ msgstr "テクスチャ W"
+#~ msgid "Timeline"
+#~ msgstr "タイムライン"
+#~ msgid "Tip"
+#~ msgstr "Tip"
+#~ msgid "Toolbar"
+#~ msgstr "ツールバー"
+#~ msgid "_Cancel"
+#~ msgstr "キャンセル（_C）"
+#~ msgid "_Faces"
+#~ msgstr "面（_F）"
+#~ msgid "_Knife Tool"
+#~ msgstr "ナイフツール（_K）"
+#~ msgid "_Lines"
+#~ msgstr "線（_L）"
+#~ msgid "_Record Tutorial..."
+#~ msgstr "チュートリアルとして記録（_R）..."
+#~ msgid "_Tutorials and Examples ..."
+#~ msgstr "練習と作例（_T） ..."
+
+#, fuzzy
+#~ msgid "number"
+#~ msgstr "数字"
+
+#, fuzzy
+#~ msgid "order"
+#~ msgstr "順番"
+#~ msgid "s0"
+#~ msgstr "s0"
+#~ msgid "t0"
+#~ msgstr "t0"
+#~ msgid "t1"
+#~ msgstr "t1"
+#~ msgid "User"
+#~ msgstr "ユーザー"
+#~ msgid "3D Studio Max ( .3ds )"
+#~ msgstr "3D Stoodeeu Mex ( .3ds )"
+#~ msgid "Add a user property to this node"
+#~ msgstr "Edd a user pruperty tu thees nude-a"
+#~ msgid "Aqsis Displacement Layer"
+#~ msgstr "Eqsees Deesplecement Leyer"
+#~ msgid "Aqsis Surface Layer"
+#~ msgstr "Eqsees Soorffece-a Leyer"
+#~ msgid "Choose property type"
+#~ msgstr "Chuuse-a pruperty type-a"
+#~ msgid "Choose value type"
+#~ msgstr "Chuuse-a felooe-a type-a"
+#~ msgid "Coarsens polygonal surfaces"
+#~ msgstr "Cuersens pulygunel soorffeces"
+#~ msgid "Color number in the virtual color list"
+#~ msgstr "Culur noomber in zee furtooel culur leest"
+#~ msgid "Cost function (length, optimized, angle)"
+#~ msgstr "Cust fooncshun (lengt, oopteemized, ungle-a)"
+#~ msgid "Could not locate the aqsis executable."
+#~ msgstr "Cuoold nut lucete-a zee eqsees ixecooteble-a."
+#~ msgid "Could not locate the aqsl executable."
+#~ msgstr "Cuoold nut lucete-a zee eqsl ixecooteble-a."
+#~ msgid "Could not locate the rndr executable."
+#~ msgstr "Cuoold nut lucete-a zee rndr ixecooteble-a."
+#~ msgid "Could not locate the sdrc executable."
+#~ msgstr "Cuoold nut lucete-a zee sdrc ixecooteble-a."
+#~ msgid "Extended mode"
+#~ msgstr "Ixtended mude-a"
+#~ msgid "Extended mode follows quads instead of edgeloops"
+#~ msgstr "Ixtended mude-a fulloos qooeds insteed ooff idgeluups"
+#~ msgid "Filter faces by color"
+#~ msgstr "Feelter feces by culur"
+#~ msgid "Final edge number"
+#~ msgstr "Feenel idge-a noomber"
+#~ msgid "First mesh to merge"
+#~ msgstr "Furst mesh tu merge-a"
+#~ msgid "Freezes the defined parameter"
+#~ msgstr "Freezes zee deffeened peremeter"
+#~ msgid "GL Material"
+#~ msgstr "GL Metereeel"
+#~ msgid "GNU Triangulated Surface ( .gts )"
+#~ msgstr "GNOo Treeungooleted Soorffece-a ( .gts )"
+#~ msgid "HPoint"
+#~ msgstr "HPueent"
+#~ msgid "Input transformation matrix"
+#~ msgstr "Inpoot trunsffurmeshun metreex"
+#~ msgid "Integer"
+#~ msgstr "Integer"
+#~ msgid "LightWave 6 ( .lwo )"
+#~ msgstr "LeeghtVefe-a 6 ( .lvu )"
+#~ msgid "List with edge indices that are marked as sharp by this node"
+#~ msgstr ""
+#~ "Leest veet idge-a indeeces thet ere-a merked es sherp by thees nude-a"
+#~ msgid "Make selected edges sharp"
+#~ msgstr "Meke-a selected idges sherp"
+#~ msgid "Maps values to geometry using a planar projection map"
+#~ msgstr "Meps felooes tu geumetry useeng a pluner prujecshun mep"
+#~ msgid "Max edge cost"
+#~ msgstr "Mex idge-a cust"
+#~ msgid "Max fold angle"
+#~ msgstr "Mex fuld ungle-a"
+#~ msgid "Merges polygonal surfaces using boolean operations"
+#~ msgstr "Merges pulygunel soorffeces useeng buuleun oopereshuns"
+#~ msgid "Mid-vertex  or volume optimized"
+#~ msgstr "Meed-fertex  oor fuloome-a oopteemized"
+#~ msgid "Mid-vertex function"
+#~ msgstr "Meed-fertex fooncshun"
+#~ msgid "Node selection state, 1 = selected, 0 = unselected."
+#~ msgstr "Nude-a selecshun stete-a, 1 = selected, 0 = unselected."
+#~ msgid "Output Scalar"
+#~ msgstr "Ooootpoot Sceler"
+#~ msgid "Output matrix generated by the script"
+#~ msgstr "Ooootpoot metreex genereted by zee screept"
+#~ msgid "P_lug"
+#~ msgstr "P_loog"
+#~ msgid "Parameter List"
+#~ msgstr "Peremeter Leest"
+#~ msgid "Pipeline Profiler"
+#~ msgstr "Peepeline-a Pruffeeler"
+#~ msgid ""
+#~ "Places a shader on a sphere, centered on the camera and aligned with "
+#~ "world coordinates"
+#~ msgstr ""
+#~ "Pleces a sheder oon a sphere-a, centered oon zee cemera und eleegned veet "
+#~ "vurld cuurdeenetes"
+#~ msgid "Plug"
+#~ msgstr "Ploog"
+#~ msgid "Point"
+#~ msgstr "Pueent"
+#~ msgid "Raw ( .raw )"
+#~ msgstr "Rev ( .rev )"
+#~ msgid "Real"
+#~ msgstr "Reel"
+#~ msgid "Render engine"
+#~ msgstr "Render ingeene-a"
+#~ msgid "Render engine name"
+#~ msgstr "Render ingeene-a neme-a"
+#~ msgid "RenderMan Option"
+#~ msgstr "RenderMun Oopshun"
+#~ msgid ""
+#~ "Renders mesh faces, determining flat or smooth shading based on edge "
+#~ "sharpness"
+#~ msgstr ""
+#~ "Renders mesh feces, determeening flet oor smuut shedeeng besed oon idge-a "
+#~ "sherpness"
+#~ msgid "Second mesh to merge"
+#~ msgstr "Secund mesh tu merge-a"
+#~ msgid "Segments radius"
+#~ msgstr "Segments redeeoos"
+#~ msgid "Shape weight"
+#~ msgstr "Shepe-a veeeght"
+#~ msgid "Stop function (edge number or cost)"
+#~ msgstr "Stup fooncshun (idge-a noomber oor cust)"
+#~ msgid "String"
+#~ msgstr "Streeng"
+#~ msgid "Tessellation Level"
+#~ msgstr "Tesselleshun Lefel"
+#~ msgid "Tessellation level"
+#~ msgstr "Tesselleshun lefel"
+#~ msgid "Undo Tree"
+#~ msgstr "Undu Tree-a"
+#~ msgid "Volume weight"
+#~ msgstr "Fuloome-a veeeght"
+#~ msgid "Weight used for boundary optimization"
+#~ msgstr "Veeeght used fur buoondery oopteemizeshun"
+#~ msgid "Weight used for shape optimization"
+#~ msgstr "Veeeght used fur shepe-a oopteemizeshun"
+#~ msgid "Weight used for volume optimization"
+#~ msgstr "Veeeght used fur fuloome-a oopteemizeshun"
+#~ msgid ""
+#~ "Without it, RIB files cannot be rendered.  Check to ensure that you have "
+#~ "Aqsis installed, and that the PATH envrionment variable points to the "
+#~ "Aqsis binary installation directory."
+#~ msgstr ""
+#~ "Veethuoot it, RIB feeles cunnut be-a rendered.  Check tu insoore-a thet "
+#~ "yuoo hefe-a Eqsees instelled, und thet zee PETH infreeunment fereeeble-a "
+#~ "pueents tu zee Eqsees beenery instelleshun durectury."
+#~ msgid ""
+#~ "Without it, RIB files cannot be rendered.  Check to ensure that you have "
+#~ "Pixie installed, and that the PATH environment variable points to the "
+#~ "Pixie binary installation directory."
+#~ msgstr ""
+#~ "Veethuoot it, RIB feeles cunnut be-a rendered.  Check tu insoore-a thet "
+#~ "yuoo hefe-a Peexie-a instelled, und thet zee PETH infurunment fereeeble-a "
+#~ "pueents tu zee Peexie-a beenery instelleshun durectury."
+#~ msgid ""
+#~ "Without it, shaders cannot be compiled.  Check to ensure that you have "
+#~ "Aqsis installed, and that the PATH envrionment variable points to the "
+#~ "Aqsis binary installation directory."
+#~ msgstr ""
+#~ "Veethuoot it, sheders cunnut be-a cumpeeled.  Check tu insoore-a thet "
+#~ "yuoo hefe-a Eqsees instelled, und thet zee PETH infreeunment fereeeble-a "
+#~ "pueents tu zee Eqsees beenery instelleshun durectury."
+#~ msgid ""
+#~ "Without it, shaders cannot be compiled.  Check to ensure that you have "
+#~ "Pixie installed, and that the PATH environment variable points to the "
+#~ "Pixie binary installation directory."
+#~ msgstr ""
+#~ "Veethuoot it, sheders cunnut be-a cumpeeled.  Check tu insoore-a thet "
+#~ "yuoo hefe-a Peexie-a instelled, und thet zee PETH infurunment fereeeble-a "
+#~ "pueents tu zee Peexie-a beenery instelleshun durectury."
+#~ msgid "_Nodes"
+#~ msgstr "_Nudes"
+#~ msgid "_Points"
+#~ msgstr "_Pueents"
+#~ msgid "axis"
+#~ msgstr "exees"
+#~ msgid "default_s"
+#~ msgstr "deffoolt_s"
+#~ msgid "default_t"
+#~ msgstr "deffoolt_t"
+#~ msgid "raw ASCII format ( .raw )"
+#~ msgstr "rev ESCII furmet ( .rev )"
+#~ msgid "render_final"
+#~ msgstr "render_feenel"
+#~ msgid "tag_edges"
+#~ msgstr "teg_idges"
+
