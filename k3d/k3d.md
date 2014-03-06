@@ -7,8 +7,8 @@ K-3D
 
 細々とK-3Dの日本語を使うこころみをやっています。
 
-![Alt text](k3d-en.png)
+![Alt text](k3d-en.PNG)
 
 日本語化するとこのように表示されます。
 
-![Alt text](./k3d-ja.png)
+![Alt text](k3d-ja.PNG)
