@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ObisidianのMarkdown記法.md",
+                "file": "2023-11-01.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ObisidianのMarkdown記法.md",
+                "file": "2023-11-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ObisidianのMarkdown記法.md",
+                "file": "2023-11-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ObisidianのMarkdown記法.md"
+                "file": "2023-11-01.md"
               }
             }
           }
@@ -161,10 +161,19 @@
   },
   "active": "e363347b47addb2a",
   "lastOpenFiles": [
-    "Obisidian100ページの壁.md",
-    "ObisidianのMarkdown記法.md",
+    "にゃーん.md",
+    "2023-11-01.md",
+    "第二の脳.md",
     "Obsidian.md",
-    "Obisidianについての説明.md",
-    "hello, world.md"
+    "Obsidianについての説明.md",
+    "エバーグリーンノート.md",
+    "メモソフト.md",
+    "ノートテイキングソフトウェア.md",
+    "パーソナルナレッジベース.md",
+    "Markdown.md",
+    "マークダウンエディタ.md",
+    "ObsidianのMarkdown記法.md",
+    "hello, world.md",
+    "Obsidian100ページの壁.md"
   ]
 }
