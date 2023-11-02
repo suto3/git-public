@@ -3,7 +3,7 @@
 [[エバーグリーンノート]]（[[evergreen notes]]）
 [[Electron]]
 
-[[Obsidian100ページの壁]]
+[[Obsidianの100ページの壁]]
 
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED.svg?logo=Obsidian&style=for-the-badge&logoColor=lightgray)
 
