@@ -5,7 +5,6 @@
 
 [[Obsidianの100ページの壁]]
 
-![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED.svg?logo=Obsidian&style=for-the-badge&logoColor=lightgray)
 
 keywords
 
@@ -14,4 +13,9 @@ keywords
 3. インデックス
 4. エイリアス
 5. オーディオレコーダー
-6. 
+
+
+[Obsidian - suto3の大福帳](https://scrapbox.io/suto3/Obsidian)
+
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED.svg?logo=Obsidian&style=for-the-badge&logoColor=lightgray)
+

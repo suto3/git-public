@@ -1,3 +1,4 @@
+
 # 見出し1
  ## 見出し2
  ### 見出し3
@@ -64,3 +65,9 @@ $$ x=\frac{\sqrt2}{3} $$
 
 
 これは`インラインコード`だよ
+
+
+[ObsidianのMarkdown記法](https://scrapbox.io/suto3/ObsidianのMarkdown記法)
+
+#Markdown
+#Obisidian
