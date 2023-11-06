@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "デイリーノート.md",
+                "file": "2023-11-06.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,24 +53,12 @@
         "dimension": 57.654966392830474,
         "children": [
           {
-            "id": "b499f0cb304c8810",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidianの100ページの壁.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2465309f5c145970",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "suto3の大福帳.md",
+                "file": "Obsidianの100ページの壁.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,8 +87,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7e842a735fa67274",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "suto3の大福帳.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidianの100ページの壁.md",
+                "file": "suto3の大福帳.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidianの100ページの壁.md",
+                "file": "suto3の大福帳.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidianの100ページの壁.md"
+                "file": "suto3の大福帳.md"
               }
             }
           }
@@ -227,33 +228,33 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "b499f0cb304c8810",
+  "active": "7e842a735fa67274",
   "lastOpenFiles": [
-    "デイリーノート.md",
-    "2023-11-04.md",
-    "アープラノート.md",
-    "suto3の大福帳.md",
     "井戸端.md",
-    "GitHub.md",
+    "アープラノート.md",
     "Obsidianの100ページの壁.md",
+    "2023-11-06.md",
+    "カテゴリー.md",
+    "Obsidianでのタグ管理.md",
+    "Obsidianでのファイル管理.md",
+    "suto3の大福帳.md",
+    "Obsidianの間違った使い方.md",
+    "にゃーん.md",
+    "デイリーノート.md",
+    "2023-11-05.md",
+    "2023-11-04.md",
+    "GitHub.md",
     "ナレッジ.md",
     "GitHub Gist.md",
     "Obsidianのデイリーノートの使い方.md",
     "第二の脳.md",
     "Scrapbox.md",
-    "Obsidianの間違った使い方.md",
     "README.md",
     "Obsidianについての説明.md",
     "Obsidian.md",
     "ObsidianのMarkdown記法.md",
     "大福帳.md",
     "Markdown.md",
-    "Electron.md",
-    "2023-11-03.md",
-    "にゃーん.md",
-    "エバーグリーンノート.md",
-    "2023-11-02.md",
-    "2023-11-01.md",
-    "メモソフト.md"
+    "Electron.md"
   ]
 }
