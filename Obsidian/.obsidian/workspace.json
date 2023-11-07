@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-11-06.md",
+                "file": "2023-11-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,8 +100,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "suto3の大福帳.md",
+                "file": "Obsidianの100ページの壁.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "suto3の大福帳.md",
+                "file": "Obsidianの100ページの壁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "suto3の大福帳.md"
+                "file": "Obsidianの100ページの壁.md"
               }
             }
           }
@@ -228,16 +227,18 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "7e842a735fa67274",
+  "active": "6a87adc0b3b499b2",
   "lastOpenFiles": [
+    "Obsidianのデイリーノートの使い方.md",
+    "Obsidianの100ページの壁.md",
+    "2023-11-07.md",
+    "2023-11-06.md",
+    "suto3の大福帳.md",
     "井戸端.md",
     "アープラノート.md",
-    "Obsidianの100ページの壁.md",
-    "2023-11-06.md",
     "カテゴリー.md",
     "Obsidianでのタグ管理.md",
     "Obsidianでのファイル管理.md",
-    "suto3の大福帳.md",
     "Obsidianの間違った使い方.md",
     "にゃーん.md",
     "デイリーノート.md",
@@ -246,7 +247,6 @@
     "GitHub.md",
     "ナレッジ.md",
     "GitHub Gist.md",
-    "Obsidianのデイリーノートの使い方.md",
     "第二の脳.md",
     "Scrapbox.md",
     "README.md",
@@ -254,7 +254,6 @@
     "Obsidian.md",
     "ObsidianのMarkdown記法.md",
     "大福帳.md",
-    "Markdown.md",
-    "Electron.md"
+    "Markdown.md"
   ]
 }
