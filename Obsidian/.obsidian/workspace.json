@@ -20,43 +20,19 @@
             }
           },
           {
-            "id": "f2fee6e84fa08146",
+            "id": "3ace024f5532c96f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "アープラノート.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02e9c8855e0316df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-11-13.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e842a735fa67274",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "suto3の大福帳.md",
+                "file": "Zettelkasten.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-11-13.md",
+                "file": "Zettelkasten.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-11-13.md",
+                "file": "Zettelkasten.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-11-13.md"
+                "file": "Zettelkasten.md"
               }
             }
           }
@@ -183,16 +159,24 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "02e9c8855e0316df",
+  "active": "3ace024f5532c96f",
   "lastOpenFiles": [
-    "チュートリアル.md",
+    "Obsidianの100ページの壁.md",
+    "Obsidian.md",
+    "Zettelkasten.md",
+    "2023-11-18.md",
+    "2023-11-17.md",
+    "2023-11-15.md",
+    "アープラノート.md",
+    "ObsidianのことはObsidianに書く.md",
+    "2023-11-14.md",
+    "suto3の大福帳.md",
     "2023-11-13.md",
+    "チュートリアル.md",
     "github flow.md",
     "井戸端.md",
-    "Obsidianの100ページの壁.md",
     "2023-11-11.md",
     "Markdown.md",
-    "Obsidian.md",
     "Scrapbox.md",
     "2023-11-10.md",
     "Obsidianについての説明.md",
@@ -201,15 +185,7 @@
     "2023-11-07.md",
     "Obsidianのデイリーノートの使い方.md",
     "2023-11-06.md",
-    "suto3の大福帳.md",
-    "アープラノート.md",
     "カテゴリー.md",
-    "Obsidianでのタグ管理.md",
-    "Obsidianでのファイル管理.md",
-    "Obsidianの間違った使い方.md",
-    "にゃーん.md",
-    "デイリーノート.md",
-    "2023-11-05.md",
-    "GitHub.md"
+    "Obsidianでのタグ管理.md"
   ]
 }
