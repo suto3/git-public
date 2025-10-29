@@ -6,4 +6,7 @@
 
 [Markdown](https://scrapbox.io/suto3/Markdown)
 
+[[Markdown-用語集]]
+[[Markdown-Glossary]]
+
 ![](https://img.shields.io/badge/Markdown-000000.svg?style=for-the-badge&logo=Markdown)
