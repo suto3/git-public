@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ObsidianのことはObsidianに書く.md",
+                "file": "Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ObsidianのことはObsidianに書く"
+              "title": "Obsidian"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,7 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "ファイルエクスプローラ"
@@ -168,6 +170,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
@@ -176,33 +179,33 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "2465309f5c145970",
+  "active": "50cf6222fec6dfad",
   "lastOpenFiles": [
-    "ナレッジ.md",
+    "D2の使い方.md",
+    "D2.md",
+    "情報共有.md",
+    "Wiki.md",
+    "Cosenseとは.md",
+    "mermaid.js-基本図形.md",
+    "エバーグリーンノート.md",
+    "evergreen notes.md",
+    "Obsidian.md",
+    "Obsidian-用語集.md",
+    "Scrapbox.md",
+    "Obsidianの間違った使い方.md",
+    "2025-10-30.md",
+    "ObsidianのことはObsidianに書く.md",
     "ナレッジベース.md",
+    "ナレッジ.md",
     "パーソナルナレッジベース.md",
     "パーソナルナレッジマネジメント.md",
     "個人知識管理.md",
-    "ObsidianのことはObsidianに書く.md",
     "チュートリアル.md",
     "カテゴリー.md",
     "セカンドブレイン.md",
     "第二の脳.md",
     "Obsidianについての説明.md",
     "Obsidianの100ページの壁.md",
-    "Obsidian.md",
-    "Graphviz.md",
-    "2025-10-28.md",
-    "__front_page__.md",
-    "D2.md",
-    "D2-Glossary.md",
-    "D2-用語集.md",
-    "mermaid.js.md",
-    "hello, world.md",
-    "mermaid.js-基本図形.md",
-    "mermaid.jsの使い方.md",
-    "2023-11-17.md",
-    "2023-11-18.md",
-    "mermaid.js-バージョン確認.md"
+    "Graphviz.md"
   ]
 }
